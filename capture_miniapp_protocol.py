@@ -14,6 +14,7 @@ PROJECT_ROOT = Path(__file__).resolve().parent
 DEFAULT_API_INDEX = PROJECT_ROOT / "wechat-miniapp" / "api-cg-index.csv"
 DEFAULT_FLUE_WRITE_RVA = 0x573550
 DEFAULT_FLUE_READ_RVA = 0x4C06990
+DEFAULT_MACOS_MODULE = "WeChatAppEx Framework"
 
 WINHTTP_AGENT = r"""
 'use strict';
@@ -97,6 +98,185 @@ send({
 });
 """
 
+# macOS 微信 4.x 的 WeChatAppEx 是带 Hardened Runtime 的 Chromium/Flue
+# 宿主。与 Windows flue.dll 的固定 RVA 不同，macOS 版本的内部符号和地址
+# 随构建变化，因此只接受显式配置的已核对符号，或从目标 Framework 的符号
+# 表中找到完整的 HTTP 与 WebSocket 四个方向入口。缺少任何一个方向时，
+# agent 直接报告 attach-failure，不把单一边界伪装成完整采集。
+MACOS_AGENT = r"""
+'use strict';
+
+const moduleName = __MACOS_MODULE__;
+const maxBytes = __MAX_BYTES__;
+const configured = {
+  httpWrite: __MACOS_HTTP_WRITE__,
+  httpRead: __MACOS_HTTP_READ__,
+  websocketWrite: __MACOS_WEBSOCKET_WRITE__,
+  websocketRead: __MACOS_WEBSOCKET_READ__
+};
+
+const DEFAULT_SYMBOLS = {
+  httpWrite: [
+    'XWebHttpWrite', 'XWebHTTPWrite', 'xweb_http_write',
+    'flue_http_write', 'FlueHttpWrite', 'HttpWrite'
+  ],
+  httpRead: [
+    'XWebHttpRead', 'XWebHTTPRead', 'xweb_http_read',
+    'flue_http_read', 'FlueHttpRead', 'HttpRead'
+  ],
+  websocketWrite: [
+    'XWebWebSocketWrite', 'XWebWebsocketWrite', 'xweb_websocket_write',
+    'flue_websocket_write', 'FlueWebSocketWrite', 'WebSocketWrite'
+  ],
+  websocketRead: [
+    'XWebWebSocketRead', 'XWebWebsocketRead', 'xweb_websocket_read',
+    'flue_websocket_read', 'FlueWebSocketRead', 'WebSocketRead'
+  ]
+};
+
+function stringList(value, fallback) {
+  if (typeof value !== 'string' || value.trim().length === 0) return fallback;
+  return value.split('|').map((item) => item.trim()).filter((item) => item.length > 0);
+}
+
+function findModule() {
+  const modules = Process.enumerateModules();
+  const wanted = (moduleName || '').toLowerCase();
+  const exact = modules.find((item) => item.name.toLowerCase() === wanted);
+  if (exact) return exact;
+  const byPath = modules.find((item) => {
+    const value = `${item.name} ${item.path}`.toLowerCase();
+    return wanted.length > 0 && value.includes(wanted);
+  });
+  if (byPath) return byPath;
+  return modules.find((item) => {
+    const value = `${item.name} ${item.path}`.toLowerCase();
+    return value.includes('wechatappex framework') || value.includes('flue') || value.includes('xweb');
+  });
+}
+
+function symbolName(symbol) {
+  return (symbol.name || '').replace(/^_/, '').toLowerCase();
+}
+
+function findSymbol(module, configuredName, fallbackNames) {
+  const names = stringList(configuredName, fallbackNames);
+  for (const name of names) {
+    try {
+      const exported = module.findExportByName(name);
+      if (exported) return { address: exported, name, source: 'export' };
+    } catch (_) {
+      // Some Frida versions expose getExportByName but not findExportByName.
+      try {
+        const exported = module.getExportByName(name);
+        if (exported) return { address: exported, name, source: 'export' };
+      } catch (_) {
+        // Continue with the complete symbol table below.
+      }
+    }
+  }
+
+  let symbols = [];
+  try {
+    symbols = module.enumerateSymbols();
+  } catch (_) {
+    return null;
+  }
+  for (const name of names) {
+    const wanted = name.replace(/^_/, '').toLowerCase();
+    const exact = symbols.find((item) => symbolName(item) === wanted && item.type === 'function');
+    if (exact) return { address: exact.address, name: exact.name, source: 'symbol' };
+  }
+  return null;
+}
+
+function pointerString(value) {
+  try { return value.toString(); } catch (_) { return 'unknown'; }
+}
+
+function boundedLength(value) {
+  try {
+    const length = value.toInt32();
+    return length > 0 && length <= maxBytes ? length : 0;
+  } catch (_) {
+    return 0;
+  }
+}
+
+function emitBuffer(transport, direction, connection, buffer, length, boundary) {
+  const bounded = boundedLength(length);
+  if (buffer.isNull() || bounded <= 0) return;
+  send({
+    kind: 'plaintext-buffer', transport, direction,
+    connection: pointerString(connection), boundary, length: bounded
+  }, buffer.readByteArray(bounded));
+}
+
+function attachWrite(hook, transport, boundary) {
+  Interceptor.attach(hook.address, {
+    onEnter(args) {
+      // 统一约定为 (connection, buffer, length)，与既有 flue 采集器相同。
+      emitBuffer(transport, 'request', args[0], args[1], args[2], boundary);
+    }
+  });
+}
+
+function attachRead(hook, transport, boundary) {
+  Interceptor.attach(hook.address, {
+    onEnter(args) {
+      this.connection = args[0];
+      this.buffer = args[1];
+      this.capacity = boundedLength(args[2]);
+    },
+    onLeave(retval) {
+      const length = boundedLength(retval);
+      if (length > 0 && length <= this.capacity) {
+        emitBuffer(transport, 'response', this.connection, this.buffer, length, boundary);
+      }
+    }
+  });
+}
+
+const module = findModule();
+if (!module) {
+  send({
+    kind: 'attach-failure', code: 'plaintext-boundary-module-not-found',
+    message: `未找到 macOS 明文边界模块：${moduleName || 'WeChatAppEx Framework / Flue / XWeb'}`
+  });
+  throw new Error('macOS 明文边界模块未加载');
+}
+
+const hooks = {
+  httpWrite: findSymbol(module, configured.httpWrite, DEFAULT_SYMBOLS.httpWrite),
+  httpRead: findSymbol(module, configured.httpRead, DEFAULT_SYMBOLS.httpRead),
+  websocketWrite: findSymbol(module, configured.websocketWrite, DEFAULT_SYMBOLS.websocketWrite),
+  websocketRead: findSymbol(module, configured.websocketRead, DEFAULT_SYMBOLS.websocketRead)
+};
+const missing = Object.keys(hooks).filter((key) => !hooks[key]);
+if (missing.length > 0) {
+  send({
+    kind: 'attach-failure', code: 'plaintext-boundary-hook-not-found',
+    module: module.name, missing,
+    message: `macOS HTTP/WebSocket 明文边界入口不完整，缺少：${missing.join(', ')}`
+  });
+  throw new Error(`缺少 macOS 明文边界入口：${missing.join(', ')}`);
+}
+
+attachWrite(hooks.httpWrite, 'http', 'xweb-http');
+attachRead(hooks.httpRead, 'http', 'xweb-http');
+attachWrite(hooks.websocketWrite, 'websocket', 'xweb-websocket');
+attachRead(hooks.websocketRead, 'websocket', 'xweb-websocket');
+
+send({
+  kind: 'ready', pid: Process.id, arch: Process.arch, module: module.name,
+  modulePath: module.path, strategy: 'macos-symbols',
+  coverage: { http: true, websocket: true, request: true, response: true },
+  hooks: Object.fromEntries(Object.entries(hooks).map(([key, value]) => [key, {
+    name: value.name, address: pointerString(value.address), source: value.source
+  }]))
+});
+"""
+
 
 def utc_now() -> str:
     return datetime.now(timezone.utc).isoformat(timespec="milliseconds")
@@ -109,6 +289,15 @@ def parse_integer(value: str) -> int:
 def build_agent(args: argparse.Namespace) -> str:
     if args.transport == "winhttp":
         return WINHTTP_AGENT.replace("__MAX_BYTES__", str(args.max_bytes))
+    if args.transport == "macos":
+        return (
+            MACOS_AGENT.replace("__MACOS_MODULE__", json.dumps(args.macos_module))
+            .replace("__MACOS_HTTP_WRITE__", json.dumps(args.macos_http_write_symbol or ""))
+            .replace("__MACOS_HTTP_READ__", json.dumps(args.macos_http_read_symbol or ""))
+            .replace("__MACOS_WEBSOCKET_WRITE__", json.dumps(args.macos_websocket_write_symbol or ""))
+            .replace("__MACOS_WEBSOCKET_READ__", json.dumps(args.macos_websocket_read_symbol or ""))
+            .replace("__MAX_BYTES__", str(args.max_bytes))
+        )
     return (
         FLUE_AGENT.replace("__MODULE__", json.dumps(args.flue_module))
         .replace("__WRITE_RVA__", hex(args.flue_write_rva))
@@ -198,6 +387,13 @@ class WinHttpReassembler:
         return [(2 if buffer_type == 0 else 1, payload)]
 
 
+class HttpReassembler:
+    """保存 XWeb/Flue 已解密的 HTTP 片段，不把它误套成 WebSocket 帧。"""
+
+    def feed(self, _direction: str, _connection: str, data: bytes) -> list[tuple[int | None, bytes]]:
+        return [(None, data)] if data else []
+
+
 def split_game_frames(payload: bytes) -> tuple[list[bytes], bytes]:
     frames = []
     offset = 0
@@ -210,12 +406,12 @@ def split_game_frames(payload: bytes) -> tuple[list[bytes], bytes]:
     return frames, payload[offset:]
 
 
-def resolve_output_dir(path: Path | None) -> Path:
+def resolve_output_dir(path: Path | None, *, allow_external: bool = False) -> Path:
     if path is None:
         stamp = datetime.now().strftime("session-%Y%m%d-%H%M%S")
         return PROJECT_ROOT / "captures" / "miniapp-protocol" / stamp
     resolved = (PROJECT_ROOT / path).resolve() if not path.is_absolute() else path.resolve()
-    if not resolved.is_relative_to(PROJECT_ROOT):
+    if not allow_external and not resolved.is_relative_to(PROJECT_ROOT):
         raise ValueError("输出目录必须位于项目内")
     return resolved
 
@@ -229,11 +425,13 @@ def self_check() -> None:
     assert winhttp.feed("request", 0, frame[3:]) == [(2, frame)]
     websocket = WebSocketReassembler()
     assert websocket.feed("response", "1", b"\x82\x06" + frame) == [(2, frame)]
+    http = HttpReassembler()
+    assert http.feed("response", "http-1", b"HTTP/2 plaintext") == [(None, b"HTTP/2 plaintext")]
 
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="记录微信小游戏运行时明文游戏协议。")
-    parser.add_argument("--transport", choices=("winhttp", "flue"), default="winhttp")
+    parser.add_argument("--transport", choices=("winhttp", "flue", "macos"), default="winhttp")
     parser.add_argument("--pid", type=int)
     parser.add_argument("--output-dir", type=Path)
     parser.add_argument("--duration", type=int, default=3600)
@@ -242,6 +440,21 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--flue-module", default="flue.dll")
     parser.add_argument("--flue-write-rva", type=parse_integer, default=DEFAULT_FLUE_WRITE_RVA)
     parser.add_argument("--flue-read-rva", type=parse_integer, default=DEFAULT_FLUE_READ_RVA)
+    parser.add_argument("--macos-module", default=DEFAULT_MACOS_MODULE)
+    parser.add_argument("--macos-http-write-symbol")
+    parser.add_argument("--macos-http-read-symbol")
+    parser.add_argument("--macos-websocket-write-symbol")
+    parser.add_argument("--macos-websocket-read-symbol")
+    parser.add_argument(
+        "--allow-external-output",
+        action="store_true",
+        help="允许桌面端把会话临时证据写入工作区；仅由 MiniTrace 后端使用",
+    )
+    parser.add_argument(
+        "--stop-file",
+        type=Path,
+        help="存在该文件时请求采集器正常停止并写出 summary.json",
+    )
     parser.add_argument("--self-check", action="store_true")
     return parser.parse_args()
 
@@ -257,7 +470,10 @@ def main() -> int:
     if args.duration <= 0 or args.max_bytes <= 0:
         raise SystemExit("--duration 和 --max-bytes 必须大于 0")
 
-    output_dir = resolve_output_dir(args.output_dir)
+    output_dir = resolve_output_dir(
+        args.output_dir,
+        allow_external=args.allow_external_output,
+    )
     frames_dir = output_dir / "frames"
     payloads_dir = output_dir / "unparsed-payloads"
     frames_dir.mkdir(parents=True, exist_ok=True)
@@ -269,10 +485,14 @@ def main() -> int:
     summary_path = output_dir / "summary.json"
     websocket = WebSocketReassembler()
     winhttp = WinHttpReassembler()
+    http = HttpReassembler()
     stop_requested = False
+    target_detached = False
+    detach_detail = None
     fatal_error = None
     frame_sequence = 0
     payload_sequence = 0
+    observation_sequence = 0
     counts = {"request": 0, "response": 0}
     type_counts = defaultdict(int)
 
@@ -280,7 +500,16 @@ def main() -> int:
         with path.open("a", encoding="utf-8") as output:
             output.write(json.dumps(value, ensure_ascii=False) + "\n")
 
-    def save_payload(direction: str, connection: str, opcode: int, payload: bytes, timestamp: str) -> None:
+    def save_payload(
+        direction: str,
+        connection: str,
+        opcode: int | None,
+        payload: bytes,
+        timestamp: str,
+        observed_at_ms: int,
+        transport: str,
+        observation_key: str,
+    ) -> bool:
         nonlocal frame_sequence, payload_sequence
         frames, remainder = split_game_frames(payload)
         for frame in frames:
@@ -291,8 +520,11 @@ def main() -> int:
             counts[direction] += 1
             type_counts[f"{direction}:{message_type}"] += 1
             append_jsonl(timeline_path, {
+                "kind": "protocol_frame",
                 "sequence": frame_sequence, "timestamp": timestamp, "direction": direction,
                 "connection": connection, "webSocketOpcode": opcode, "messageType": message_type,
+                "transport": transport, "observedAtMs": observed_at_ms,
+                "observationKey": observation_key,
                 "protocolName": names.get(message_type), "declaredLength": declared_length,
                 "actualLength": len(frame), "sha256": hashlib.sha256(frame).hexdigest(),
                 "rawFile": f"frames/{filename}",
@@ -302,14 +534,18 @@ def main() -> int:
             filename = f"{payload_sequence:06d}-{direction}-unparsed.bin"
             (payloads_dir / filename).write_bytes(remainder)
             append_jsonl(timeline_path, {
+                "kind": "unparsed_payload",
                 "timestamp": timestamp, "direction": direction, "connection": connection,
-                "webSocketOpcode": opcode, "unparsedLength": len(remainder),
+                "webSocketOpcode": opcode, "transport": transport,
+                "observedAtMs": observed_at_ms, "observationKey": observation_key,
+                "unparsedLength": len(remainder),
                 "sha256": hashlib.sha256(remainder).hexdigest(),
                 "rawFile": f"unparsed-payloads/{filename}",
             })
+        return bool(remainder)
 
     def on_message(message, data) -> None:
-        nonlocal fatal_error, stop_requested
+        nonlocal fatal_error, stop_requested, observation_sequence
         timestamp = utc_now()
         if message.get("type") != "send":
             fatal_error = message
@@ -319,27 +555,84 @@ def main() -> int:
         payload = message.get("payload", {})
         if payload.get("kind") == "ready":
             ready_path.write_text(json.dumps({"timestamp": timestamp, **payload}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        if payload.get("kind") == "attach-failure":
+            append_jsonl(transport_path, {"timestamp": timestamp, **payload})
+            fatal_error = payload
+            stop_requested = True
+            return
         if payload.get("kind") != "plaintext-buffer" or data is None:
             append_jsonl(transport_path, {"timestamp": timestamp, **payload})
             return
         direction = payload["direction"]
         connection = payload["connection"]
+        transport = payload.get("transport") or ("websocket" if args.transport == "flue" else "http")
         raw = bytes(data)
+        observed_at_ms = int(time.time() * 1000)
+        observation_key = ""
+        observation_sha256 = hashlib.sha256(raw).hexdigest()
+        if args.transport == "macos":
+            observation_sequence += 1
+            observation_key = f"{observation_sequence:06d}-{direction}-{transport}-{connection}"
+            observation_filename = f"{observation_sequence:06d}-{direction}-{transport}.bin"
+            observation_path = output_dir / "observations" / observation_filename
+            observation_path.parent.mkdir(parents=True, exist_ok=True)
+            observation_path.write_bytes(raw)
         append_jsonl(transport_path, {
             "timestamp": timestamp, "kind": "plaintext-buffer", "direction": direction,
-            "connection": connection, "bufferType": payload.get("bufferType"),
-            "length": len(raw), "previewHex": raw[:16].hex(),
+            "connection": connection, "transport": transport,
+            "boundary": payload.get("boundary"), "bufferType": payload.get("bufferType"),
+            "length": len(raw), "sha256": observation_sha256,
+            "previewHex": raw[:16].hex(),
         })
         if args.transport == "flue":
             messages = websocket.feed(direction, connection, raw)
+        elif args.transport == "macos" and transport == "websocket":
+            messages = websocket.feed(direction, connection, raw)
+        elif args.transport == "macos":
+            messages = http.feed(direction, connection, raw)
         else:
             messages = winhttp.feed(direction, payload.get("bufferType"), raw)
+        unparsed = any(
+            split_game_frames(message_payload)[1]
+            for _opcode, message_payload in messages
+        )
+        if args.transport == "macos":
+            # 先归档完整明文边界，再归档其协议帧/未分类投影。Rust 侧通过
+            # observationKey 建立父子关系；顺序稳定也让 JSONL 可直接审计。
+            append_jsonl(timeline_path, {
+                "kind": "raw_observation", "timestamp": timestamp,
+                "observedAtMs": observed_at_ms, "direction": direction,
+                "connection": connection, "transport": transport,
+                "boundary": payload.get("boundary"), "observationKey": observation_key,
+                "classification": "unparsed_payload" if unparsed else None,
+                "length": len(raw), "actualLength": len(raw),
+                "sha256": observation_sha256,
+                "rawFile": f"observations/{observation_filename}",
+            })
         for opcode, message_payload in messages:
-            save_payload(direction, connection, opcode, message_payload, timestamp)
+            save_payload(
+                direction,
+                connection,
+                opcode,
+                message_payload,
+                timestamp,
+                observed_at_ms,
+                transport,
+                observation_key,
+            )
 
     def request_stop(_signum, _frame) -> None:
         nonlocal stop_requested
         stop_requested = True
+
+    def on_detached(reason, crash=None) -> None:
+        """Frida 在目标进程退出或会话失效时唤醒采集主循环。"""
+        nonlocal target_detached, detach_detail
+        target_detached = True
+        detach_detail = {
+            "reason": str(reason),
+            "crash": str(crash) if crash is not None else None,
+        }
 
     signal.signal(signal.SIGINT, request_stop)
     signal.signal(signal.SIGTERM, request_stop)
@@ -349,20 +642,54 @@ def main() -> int:
         import frida
 
         session = frida.get_local_device().attach(args.pid)
+        session.on("detached", on_detached)
         script = session.create_script(build_agent(args))
         script.on("message", on_message)
         script.load()
         deadline = time.monotonic() + args.duration
-        while not stop_requested and time.monotonic() < deadline:
+        stop_file = args.stop_file.resolve() if args.stop_file else None
+        while not stop_requested and not target_detached and time.monotonic() < deadline:
+            if stop_file is not None and stop_file.is_file():
+                stop_requested = True
+                break
             time.sleep(0.1)
+        if target_detached and not stop_requested:
+            fatal_error = {
+                "type": "TargetDetached",
+                "message": f"目标进程已断开：{detach_detail}",
+                "diagnosticCode": "target-process-terminated",
+                "detail": detach_detail,
+            }
+            append_jsonl(
+                transport_path,
+                {"timestamp": utc_now(), "kind": "target-detached", **fatal_error},
+            )
     except Exception as error:
-        fatal_error = {"type": type(error).__name__, "message": str(error)}
+        message = str(error)
+        lowered = message.lower()
+        if "permission" in lowered or "access" in lowered or "attach" in lowered or "hardened" in lowered:
+            diagnostic_code = "standard-frida-attach-unavailable"
+        elif "frida" in lowered or "no module named" in lowered:
+            diagnostic_code = "frida-runtime-unavailable"
+        else:
+            diagnostic_code = "collector-start-failed"
+        fatal_error = {
+            "type": type(error).__name__,
+            "message": message,
+            "diagnosticCode": diagnostic_code,
+            "hint": "不关闭 SIP、不修改或重签微信；请确认标准 Frida 授权和目标进程仍在运行",
+        }
+        append_jsonl(
+            transport_path,
+            {"timestamp": utc_now(), "kind": "attach-failure", **fatal_error},
+        )
     finally:
         summary = {
             "finishedAt": utc_now(), "pid": args.pid, "transport": args.transport,
             "counts": counts, "typeCounts": dict(sorted(type_counts.items())),
             "fatalError": fatal_error, "timedOut": not stop_requested,
             "frameCount": frame_sequence, "unparsedPayloadCount": payload_sequence,
+            "observationCount": observation_sequence,
         }
         summary_path.write_text(json.dumps(summary, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         print(json.dumps(summary, ensure_ascii=False))

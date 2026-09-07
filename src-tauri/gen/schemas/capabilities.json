@@ -1,0 +1,1 @@
+{"main-capability":{"identifier":"main-capability","description":"MiniTrace 主窗口所需权限","local":true,"windows":["main"],"permissions":["core:default","dialog:default"]}}

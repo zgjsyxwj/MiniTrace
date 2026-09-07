@@ -1,0 +1,31 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "MiniTrace",
+  "version": "0.1.0",
+  "identifier": "com.zgjsyxwj.minitrace",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://127.0.0.1:1420",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "MiniTrace · 世界 Online 明文采集",
+        "width": 1380,
+        "height": 900,
+        "minWidth": 1080,
+        "minHeight": 720,
+        "resizable": true
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": false,
+    "icon": []
+  }
+}
