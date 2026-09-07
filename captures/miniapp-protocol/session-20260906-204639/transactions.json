@@ -1,0 +1,93 @@
+[
+  {
+    "sequence": 71,
+    "timestamp": "2026-09-06T12:48:45.152+00:00",
+    "direction": "request",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 12005,
+    "protocolName": "CG_ITEMSHOP_BUY",
+    "declaredLength": 12,
+    "actualLength": 12,
+    "sha256": "8d4cce93b256fb4942463b3d1f7f99086fb5b4450b34626de9be659be60d5bcf",
+    "rawFile": "frames/000071-request-12005.bin",
+    "classification": "parsed",
+    "fields": {
+      "shopId": 207,
+      "itemId": 20803,
+      "quantity": 1,
+      "countryShop": false
+    },
+    "unparsedOffset": 12,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 73,
+    "timestamp": "2026-09-06T12:48:45.211+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 12005,
+    "protocolName": "CG_ITEMSHOP_BUY",
+    "declaredLength": 28,
+    "actualLength": 28,
+    "sha256": "faf3da91c016f6f0cae1480309c4cb6683952f54c4257270047a83372361d88e",
+    "rawFile": "frames/000073-response-12005.bin",
+    "classification": "parsed",
+    "fields": {
+      "result": 0,
+      "itemId": 20803,
+      "shortWire": 42,
+      "quantity": 1,
+      "money1": 0,
+      "money2": 0,
+      "money3": 5334,
+      "maxBuy": -1,
+      "allCount": -1
+    },
+    "unparsedOffset": 28,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 79,
+    "timestamp": "2026-09-06T12:48:50.949+00:00",
+    "direction": "request",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 12006,
+    "protocolName": "CG_ITEMSHOP_SELL",
+    "declaredLength": 13,
+    "actualLength": 13,
+    "sha256": "67c164729e2ef05dcf889425ec95822001ebb259e8e55eddf6c4901f7d654d99",
+    "rawFile": "frames/000079-request-12006.bin",
+    "classification": "parsed",
+    "fields": {
+      "shopId": 207,
+      "itemId": 20803,
+      "slotPos": 42,
+      "quantity": 1
+    },
+    "unparsedOffset": 13,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 81,
+    "timestamp": "2026-09-06T12:48:51.003+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 12006,
+    "protocolName": "CG_ITEMSHOP_SELL",
+    "declaredLength": 9,
+    "actualLength": 9,
+    "sha256": "779e12f5776fc1e0bfac6e814be21b2d07cf7bdb309f8449ae655ffd4af90ad9",
+    "rawFile": "frames/000081-response-12006.bin",
+    "classification": "parsed",
+    "fields": {
+      "result": 0,
+      "money3": 5834
+    },
+    "unparsedOffset": 9,
+    "unparsedHex": ""
+  }
+]

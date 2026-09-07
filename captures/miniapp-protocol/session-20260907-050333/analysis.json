@@ -1,0 +1,795 @@
+{
+  "summary": {
+    "finishedAt": "2026-09-06T21:08:43.301Z",
+    "pid": 19804,
+    "transport": "flue",
+    "counts": {
+      "request": 12,
+      "response": 29
+    },
+    "typeCounts": {
+      "request:11002": 2,
+      "request:12001": 2,
+      "request:16001": 6,
+      "request:16021": 2,
+      "response:11002": 2,
+      "response:11014": 2,
+      "response:12001": 2,
+      "response:12049": 2,
+      "response:13510": 1,
+      "response:14563": 1,
+      "response:16001": 6,
+      "response:16021": 2,
+      "response:20401": 2,
+      "response:27403": 9
+    },
+    "fatalError": null,
+    "timedOut": false,
+    "frameCount": 41,
+    "unparsedPayloadCount": 0,
+    "recoveredAfterForcedPtyInterrupt": true,
+    "recoveryEvidence": "timeline.jsonl、transport-events.jsonl 与 41 个原始帧一致；未出现 frida-error。Ctrl+C 结束了 PTY 宿主，采集器 finally 未执行。"
+  },
+  "classifications": {
+    "ignored": 28,
+    "parsed": 6,
+    "ancillary": 7
+  },
+  "frames": [
+    {
+      "sequence": 1,
+      "timestamp": "2026-09-06T21:03:35.400+00:00",
+      "direction": "request",
+      "connection": "0x355c000bcd48",
+      "webSocketOpcode": 2,
+      "messageType": 16001,
+      "protocolName": "CG_SYSTEM_HEART",
+      "declaredLength": 4,
+      "actualLength": 4,
+      "sha256": "a9e30a7ad0a4b2dd8bd7aca64139cbe9ccf0b6e1b91a3b9a5581cf804063ebfa",
+      "rawFile": "frames/000001-request-16001.bin",
+      "classification": "ignored"
+    },
+    {
+      "sequence": 2,
+      "timestamp": "2026-09-06T21:03:35.440+00:00",
+      "direction": "response",
+      "connection": "0x355c000bcd48",
+      "webSocketOpcode": 2,
+      "messageType": 16001,
+      "protocolName": "CG_SYSTEM_HEART",
+      "declaredLength": 4,
+      "actualLength": 4,
+      "sha256": "a9e30a7ad0a4b2dd8bd7aca64139cbe9ccf0b6e1b91a3b9a5581cf804063ebfa",
+      "rawFile": "frames/000002-response-16001.bin",
+      "classification": "ignored"
+    },
+    {
+      "sequence": 3,
+      "timestamp": "2026-09-06T21:03:46.410+00:00",
+      "direction": "request",
+      "connection": "0x355c000bcd48",
+      "webSocketOpcode": 2,
+      "messageType": 16001,
+      "protocolName": "CG_SYSTEM_HEART",
+      "declaredLength": 4,
+      "actualLength": 4,
+      "sha256": "a9e30a7ad0a4b2dd8bd7aca64139cbe9ccf0b6e1b91a3b9a5581cf804063ebfa",
+      "rawFile": "frames/000003-request-16001.bin",
+      "classification": "ignored"
+    },
+    {
+      "sequence": 4,
+      "timestamp": "2026-09-06T21:03:46.453+00:00",
+      "direction": "response",
+      "connection": "0x355c000bcd48",
+      "webSocketOpcode": 2,
+      "messageType": 16001,
+      "protocolName": "CG_SYSTEM_HEART",
+      "declaredLength": 4,
+      "actualLength": 4,
+      "sha256": "a9e30a7ad0a4b2dd8bd7aca64139cbe9ccf0b6e1b91a3b9a5581cf804063ebfa",
+      "rawFile": "frames/000004-response-16001.bin",
+      "classification": "ignored"
+    },
+    {
+      "sequence": 5,
+      "timestamp": "2026-09-06T21:03:52.414+00:00",
+      "direction": "request",
+      "connection": "0x355c000bcd48",
+      "webSocketOpcode": 2,
+      "messageType": 16021,
+      "protocolName": "CG_SYSTEM_TIME",
+      "declaredLength": 4,
+      "actualLength": 4,
+      "sha256": "771267b53c891ac897b42190e9ed05900aedbffa289dc7c24cf713dba4467557",
+      "rawFile": "frames/000005-request-16021.bin",
+      "classification": "ignored"
+    },
+    {
+      "sequence": 6,
+      "timestamp": "2026-09-06T21:03:52.452+00:00",
+      "direction": "response",
+      "connection": "0x355c000bcd48",
+      "webSocketOpcode": 2,
+      "messageType": 16021,
+      "protocolName": "CG_SYSTEM_TIME",
+      "declaredLength": 12,
+      "actualLength": 12,
+      "sha256": "d27ad951ee0206e4eccf30b8b1bb2f5c358aa932013e583a38469d328349d223",
+      "rawFile": "frames/000006-response-16021.bin",
+      "classification": "ignored"
+    },
+    {
+      "sequence": 7,
+      "timestamp": "2026-09-06T21:03:57.420+00:00",
+      "direction": "request",
+      "connection": "0x355c000bcd48",
+      "webSocketOpcode": 2,
+      "messageType": 16001,
+      "protocolName": "CG_SYSTEM_HEART",
+      "declaredLength": 4,
+      "actualLength": 4,
+      "sha256": "a9e30a7ad0a4b2dd8bd7aca64139cbe9ccf0b6e1b91a3b9a5581cf804063ebfa",
+      "rawFile": "frames/000007-request-16001.bin",
+      "classification": "ignored"
+    },
+    {
+      "sequence": 8,
+      "timestamp": "2026-09-06T21:03:57.466+00:00",
+      "direction": "response",
+      "connection": "0x355c000bcd48",
+      "webSocketOpcode": 2,
+      "messageType": 16001,
+      "protocolName": "CG_SYSTEM_HEART",
+      "declaredLength": 4,
+      "actualLength": 4,
+      "sha256": "a9e30a7ad0a4b2dd8bd7aca64139cbe9ccf0b6e1b91a3b9a5581cf804063ebfa",
+      "rawFile": "frames/000008-response-16001.bin",
+      "classification": "ignored"
+    },
+    {
+      "sequence": 9,
+      "timestamp": "2026-09-06T21:04:08.428+00:00",
+      "direction": "request",
+      "connection": "0x355c000bcd48",
+      "webSocketOpcode": 2,
+      "messageType": 16001,
+      "protocolName": "CG_SYSTEM_HEART",
+      "declaredLength": 4,
+      "actualLength": 4,
+      "sha256": "a9e30a7ad0a4b2dd8bd7aca64139cbe9ccf0b6e1b91a3b9a5581cf804063ebfa",
+      "rawFile": "frames/000009-request-16001.bin",
+      "classification": "ignored"
+    },
+    {
+      "sequence": 10,
+      "timestamp": "2026-09-06T21:04:08.472+00:00",
+      "direction": "response",
+      "connection": "0x355c000bcd48",
+      "webSocketOpcode": 2,
+      "messageType": 16001,
+      "protocolName": "CG_SYSTEM_HEART",
+      "declaredLength": 4,
+      "actualLength": 4,
+      "sha256": "a9e30a7ad0a4b2dd8bd7aca64139cbe9ccf0b6e1b91a3b9a5581cf804063ebfa",
+      "rawFile": "frames/000010-response-16001.bin",
+      "classification": "ignored"
+    },
+    {
+      "sequence": 11,
+      "timestamp": "2026-09-06T21:04:14.410+00:00",
+      "direction": "response",
+      "connection": "0x355c000bcd48",
+      "webSocketOpcode": 2,
+      "messageType": 13510,
+      "protocolName": "CG_CHAT_DOWN_WORLD",
+      "declaredLength": 227,
+      "actualLength": 227,
+      "sha256": "6c8a6fed9ca87c2424dfa232378f0d9c0c1b9edc1f537e6536642670e12cc71b",
+      "rawFile": "frames/000011-response-13510.bin",
+      "classification": "ignored"
+    },
+    {
+      "sequence": 12,
+      "timestamp": "2026-09-06T21:04:15.413+00:00",
+      "direction": "request",
+      "connection": "0x355c000bcd48",
+      "webSocketOpcode": 2,
+      "messageType": 12001,
+      "protocolName": "CG_ACTOR_PLAYERBAG",
+      "declaredLength": 14,
+      "actualLength": 14,
+      "sha256": "fbc0f1178b8aad5cd42ae15b32ff735860765f1ed31a87ac61b5e45e4feee462",
+      "rawFile": "frames/000012-request-12001.bin",
+      "fields": {
+        "bagMode": 11,
+        "operation": 3,
+        "slotPos": 44,
+        "quantity": 1,
+        "confirm": false,
+        "itemType": 28
+      },
+      "classification": "parsed"
+    },
+    {
+      "sequence": 13,
+      "timestamp": "2026-09-06T21:04:15.497+00:00",
+      "direction": "response",
+      "connection": "0x355c000bcd48",
+      "webSocketOpcode": 2,
+      "messageType": 11014,
+      "protocolName": "CG_MAIL_NOTIFY",
+      "declaredLength": 19,
+      "actualLength": 19,
+      "sha256": "e9e93d718cde6440e0682d4826429804e8558a2757f806adb47d179549d978a0",
+      "rawFile": "frames/000013-response-11014.bin",
+      "fields": {
+        "mailId": 1445358561931893459,
+        "sender": "系统"
+      },
+      "classification": "ancillary"
+    },
+    {
+      "sequence": 14,
+      "timestamp": "2026-09-06T21:04:15.501+00:00",
+      "direction": "request",
+      "connection": "0x355c000bcd48",
+      "webSocketOpcode": 2,
+      "messageType": 11002,
+      "protocolName": "CG_MAIL_STATISTICS",
+      "declaredLength": 4,
+      "actualLength": 4,
+      "sha256": "fe805b533d13a0297e4344f82f457080733e05f64c57f7b6fc90ac0f715d5acd",
+      "rawFile": "frames/000014-request-11002.bin",
+      "fields": {},
+      "classification": "ancillary"
+    },
+    {
+      "sequence": 15,
+      "timestamp": "2026-09-06T21:04:15.518+00:00",
+      "direction": "response",
+      "connection": "0x355c000bcd48",
+      "webSocketOpcode": 2,
+      "messageType": 11014,
+      "protocolName": "CG_MAIL_NOTIFY",
+      "declaredLength": 19,
+      "actualLength": 19,
+      "sha256": "5f82fa44057a3b7a717e2c880a847a33ffa0f0170443a47e3dcf15580d2ca9ff",
+      "rawFile": "frames/000015-response-11014.bin",
+      "fields": {
+        "mailId": 2388455620839671095,
+        "sender": "系统"
+      },
+      "classification": "ancillary"
+    },
+    {
+      "sequence": 16,
+      "timestamp": "2026-09-06T21:04:15.527+00:00",
+      "direction": "response",
+      "connection": "0x355c000bcd48",
+      "webSocketOpcode": 2,
+      "messageType": 14563,
+      "protocolName": "CG_ACHIEVEMENT_GAINREWARD_PUSH",
+      "declaredLength": 6,
+      "actualLength": 6,
+      "sha256": "80fefaca5f11653aeadaecfbc7474226ed6877fd38197ef7206cebff639c0f3b",
+      "rawFile": "frames/000016-response-14563.bin",
+      "fields": {
+        "achievementTypes": [
+          2
+        ]
+      },
+      "classification": "ancillary"
+    },
+    {
+      "sequence": 17,
+      "timestamp": "2026-09-06T21:04:15.534+00:00",
+      "direction": "request",
+      "connection": "0x355c000bcd48",
+      "webSocketOpcode": 2,
+      "messageType": 11002,
+      "protocolName": "CG_MAIL_STATISTICS",
+      "declaredLength": 4,
+      "actualLength": 4,
+      "sha256": "fe805b533d13a0297e4344f82f457080733e05f64c57f7b6fc90ac0f715d5acd",
+      "rawFile": "frames/000017-request-11002.bin",
+      "fields": {},
+      "classification": "ancillary"
+    },
+    {
+      "sequence": 18,
+      "timestamp": "2026-09-06T21:04:15.537+00:00",
+      "direction": "response",
+      "connection": "0x355c000bcd48",
+      "webSocketOpcode": 2,
+      "messageType": 27403,
+      "protocolName": null,
+      "declaredLength": 6,
+      "actualLength": 6,
+      "sha256": "134a5341e77e9d4405a1be111899909d4a86f27b6101fcbb9bc795e590df4642",
+      "rawFile": "frames/000018-response-27403.bin",
+      "classification": "ignored"
+    },
+    {
+      "sequence": 19,
+      "timestamp": "2026-09-06T21:04:15.548+00:00",
+      "direction": "response",
+      "connection": "0x355c000bcd48",
+      "webSocketOpcode": 2,
+      "messageType": 27403,
+      "protocolName": null,
+      "declaredLength": 6,
+      "actualLength": 6,
+      "sha256": "adbe4dc92efa161c2d9373d150cd45afe1ba91ff1361d3da4bba4ba427fe0094",
+      "rawFile": "frames/000019-response-27403.bin",
+      "classification": "ignored"
+    },
+    {
+      "sequence": 20,
+      "timestamp": "2026-09-06T21:04:15.557+00:00",
+      "direction": "response",
+      "connection": "0x355c000bcd48",
+      "webSocketOpcode": 2,
+      "messageType": 27403,
+      "protocolName": null,
+      "declaredLength": 6,
+      "actualLength": 6,
+      "sha256": "0c147207b85e6a4d9fe44a63ee3f5d33dd3c07d52893ea28e6d03eacda8b73b4",
+      "rawFile": "frames/000020-response-27403.bin",
+      "classification": "ignored"
+    },
+    {
+      "sequence": 21,
+      "timestamp": "2026-09-06T21:04:15.568+00:00",
+      "direction": "response",
+      "connection": "0x355c000bcd48",
+      "webSocketOpcode": 2,
+      "messageType": 27403,
+      "protocolName": null,
+      "declaredLength": 6,
+      "actualLength": 6,
+      "sha256": "17468769a7a062723be3e7d30d74b870245a61df7acc309e1c604b7deefe64aa",
+      "rawFile": "frames/000021-response-27403.bin",
+      "classification": "ignored"
+    },
+    {
+      "sequence": 22,
+      "timestamp": "2026-09-06T21:04:15.577+00:00",
+      "direction": "response",
+      "connection": "0x355c000bcd48",
+      "webSocketOpcode": 2,
+      "messageType": 27403,
+      "protocolName": null,
+      "declaredLength": 6,
+      "actualLength": 6,
+      "sha256": "f471508bd179ba35f66c24523ed095012a797d5096da5f6656a2fb2f0df2adf8",
+      "rawFile": "frames/000022-response-27403.bin",
+      "classification": "ignored"
+    },
+    {
+      "sequence": 23,
+      "timestamp": "2026-09-06T21:04:15.588+00:00",
+      "direction": "response",
+      "connection": "0x355c000bcd48",
+      "webSocketOpcode": 2,
+      "messageType": 27403,
+      "protocolName": null,
+      "declaredLength": 6,
+      "actualLength": 6,
+      "sha256": "db1eb02d19b59a80c7eb61668922157d0c65d9c529a7b2ce1795dd7b4f2edc45",
+      "rawFile": "frames/000023-response-27403.bin",
+      "classification": "ignored"
+    },
+    {
+      "sequence": 24,
+      "timestamp": "2026-09-06T21:04:15.598+00:00",
+      "direction": "response",
+      "connection": "0x355c000bcd48",
+      "webSocketOpcode": 2,
+      "messageType": 27403,
+      "protocolName": null,
+      "declaredLength": 6,
+      "actualLength": 6,
+      "sha256": "2d09babdca1023de55c6f6ee25c32d0294a866a16db2177246f366cfb937280b",
+      "rawFile": "frames/000024-response-27403.bin",
+      "classification": "ignored"
+    },
+    {
+      "sequence": 25,
+      "timestamp": "2026-09-06T21:04:15.608+00:00",
+      "direction": "response",
+      "connection": "0x355c000bcd48",
+      "webSocketOpcode": 2,
+      "messageType": 27403,
+      "protocolName": null,
+      "declaredLength": 6,
+      "actualLength": 6,
+      "sha256": "881e0c1b666d9ca0e32b2e08f3a45ebcbb7387bfab28e0c27ac6dc38cfe0a683",
+      "rawFile": "frames/000025-response-27403.bin",
+      "classification": "ignored"
+    },
+    {
+      "sequence": 26,
+      "timestamp": "2026-09-06T21:04:15.618+00:00",
+      "direction": "response",
+      "connection": "0x355c000bcd48",
+      "webSocketOpcode": 2,
+      "messageType": 27403,
+      "protocolName": null,
+      "declaredLength": 6,
+      "actualLength": 6,
+      "sha256": "38cee19918ef6b8611197d9be2acaa0c27e7baacd264fcc368acd8c3b1fc8212",
+      "rawFile": "frames/000026-response-27403.bin",
+      "classification": "ignored"
+    },
+    {
+      "sequence": 27,
+      "timestamp": "2026-09-06T21:04:15.628+00:00",
+      "direction": "response",
+      "connection": "0x355c000bcd48",
+      "webSocketOpcode": 2,
+      "messageType": 12001,
+      "protocolName": "CG_ACTOR_PLAYERBAG",
+      "declaredLength": 26,
+      "actualLength": 26,
+      "sha256": "c5ed7b1199e6f256bc31fd919116b016f0a1d8789ad2d298c4b178a582901200",
+      "rawFile": "frames/000027-response-12001.bin",
+      "fields": {
+        "bagMode": 11,
+        "exp": 30000,
+        "gainLevel": 5,
+        "currentExp": 6686,
+        "expMax": 9300,
+        "sp": 450,
+        "cp": 15,
+        "exp2": 0,
+        "gainLevel2": 0
+      },
+      "classification": "parsed"
+    },
+    {
+      "sequence": 28,
+      "timestamp": "2026-09-06T21:04:15.639+00:00",
+      "direction": "response",
+      "connection": "0x355c000bcd48",
+      "webSocketOpcode": 2,
+      "messageType": 12049,
+      "protocolName": "CG_ACTOR_COMBATPOWER",
+      "declaredLength": 32,
+      "actualLength": 32,
+      "sha256": "e0addb6e99f314b2bc044ad5fa5119d321bf4df770d9b15974e2c4dd66ce2f89",
+      "rawFile": "frames/000028-response-12049.bin",
+      "fields": {
+        "combatPower": 4563,
+        "ignore_back": 0,
+        "ignore_magic_back": 0,
+        "ignore_block": 0,
+        "ignore_insight": 0,
+        "ignore_wil": 0,
+        "ignore_touch": 0
+      },
+      "classification": "parsed"
+    },
+    {
+      "sequence": 29,
+      "timestamp": "2026-09-06T21:04:15.649+00:00",
+      "direction": "response",
+      "connection": "0x355c000bcd48",
+      "webSocketOpcode": 2,
+      "messageType": 11002,
+      "protocolName": "CG_MAIL_STATISTICS",
+      "declaredLength": 52,
+      "actualLength": 52,
+      "sha256": "f5000082be1dc314d5763b2a8b81f284b4a64cb044755ded9c3e5d478e242049",
+      "rawFile": "frames/000029-response-11002.bin",
+      "fields": {
+        "counts": [
+          {
+            "type": 32,
+            "read": 0,
+            "unread": 0
+          },
+          {
+            "type": 8,
+            "read": 0,
+            "unread": 0
+          },
+          {
+            "type": 4,
+            "read": 0,
+            "unread": 0
+          },
+          {
+            "type": 2,
+            "read": 7,
+            "unread": 0
+          },
+          {
+            "type": -5,
+            "read": 0,
+            "unread": 0
+          },
+          {
+            "type": -4,
+            "read": 0,
+            "unread": 0
+          },
+          {
+            "type": 1,
+            "read": 0,
+            "unread": 0
+          },
+          {
+            "type": 64,
+            "read": 0,
+            "unread": 0
+          }
+        ]
+      },
+      "classification": "ancillary"
+    },
+    {
+      "sequence": 30,
+      "timestamp": "2026-09-06T21:04:15.658+00:00",
+      "direction": "response",
+      "connection": "0x355c000bcd48",
+      "webSocketOpcode": 2,
+      "messageType": 11002,
+      "protocolName": "CG_MAIL_STATISTICS",
+      "declaredLength": 52,
+      "actualLength": 52,
+      "sha256": "f5000082be1dc314d5763b2a8b81f284b4a64cb044755ded9c3e5d478e242049",
+      "rawFile": "frames/000030-response-11002.bin",
+      "fields": {
+        "counts": [
+          {
+            "type": 32,
+            "read": 0,
+            "unread": 0
+          },
+          {
+            "type": 8,
+            "read": 0,
+            "unread": 0
+          },
+          {
+            "type": 4,
+            "read": 0,
+            "unread": 0
+          },
+          {
+            "type": 2,
+            "read": 7,
+            "unread": 0
+          },
+          {
+            "type": -5,
+            "read": 0,
+            "unread": 0
+          },
+          {
+            "type": -4,
+            "read": 0,
+            "unread": 0
+          },
+          {
+            "type": 1,
+            "read": 0,
+            "unread": 0
+          },
+          {
+            "type": 64,
+            "read": 0,
+            "unread": 0
+          }
+        ]
+      },
+      "classification": "ancillary"
+    },
+    {
+      "sequence": 31,
+      "timestamp": "2026-09-06T21:04:18.460+00:00",
+      "direction": "response",
+      "connection": "0x355c000bcd48",
+      "webSocketOpcode": 2,
+      "messageType": 20401,
+      "protocolName": null,
+      "declaredLength": 7320,
+      "actualLength": 7320,
+      "sha256": "8dee8317508f8fa94b18d3041a1c59f3ba80b2ea1aea84068afd994a26e29e32",
+      "rawFile": "frames/000031-response-20401.bin",
+      "classification": "ignored"
+    },
+    {
+      "sequence": 32,
+      "timestamp": "2026-09-06T21:04:19.439+00:00",
+      "direction": "request",
+      "connection": "0x355c000bcd48",
+      "webSocketOpcode": 2,
+      "messageType": 16001,
+      "protocolName": "CG_SYSTEM_HEART",
+      "declaredLength": 4,
+      "actualLength": 4,
+      "sha256": "a9e30a7ad0a4b2dd8bd7aca64139cbe9ccf0b6e1b91a3b9a5581cf804063ebfa",
+      "rawFile": "frames/000032-request-16001.bin",
+      "classification": "ignored"
+    },
+    {
+      "sequence": 33,
+      "timestamp": "2026-09-06T21:04:19.484+00:00",
+      "direction": "response",
+      "connection": "0x355c000bcd48",
+      "webSocketOpcode": 2,
+      "messageType": 16001,
+      "protocolName": "CG_SYSTEM_HEART",
+      "declaredLength": 4,
+      "actualLength": 4,
+      "sha256": "a9e30a7ad0a4b2dd8bd7aca64139cbe9ccf0b6e1b91a3b9a5581cf804063ebfa",
+      "rawFile": "frames/000033-response-16001.bin",
+      "classification": "ignored"
+    },
+    {
+      "sequence": 34,
+      "timestamp": "2026-09-06T21:04:21.307+00:00",
+      "direction": "request",
+      "connection": "0x355c000bcd48",
+      "webSocketOpcode": 2,
+      "messageType": 12001,
+      "protocolName": "CG_ACTOR_PLAYERBAG",
+      "declaredLength": 14,
+      "actualLength": 14,
+      "sha256": "cbdcfe02f4fd024ea4fd9354d2f58ef5ac6083b77ebac52d225619d9f585ab30",
+      "rawFile": "frames/000034-request-12001.bin",
+      "fields": {
+        "bagMode": 4,
+        "operation": 3,
+        "slotPos": 31,
+        "quantity": 1,
+        "confirm": false,
+        "itemType": 28
+      },
+      "classification": "parsed"
+    },
+    {
+      "sequence": 35,
+      "timestamp": "2026-09-06T21:04:21.357+00:00",
+      "direction": "response",
+      "connection": "0x355c000bcd48",
+      "webSocketOpcode": 2,
+      "messageType": 12001,
+      "protocolName": "CG_ACTOR_PLAYERBAG",
+      "declaredLength": 105,
+      "actualLength": 105,
+      "sha256": "c6177d1dcd2bad1738e433c4f0e924d5998a48636913cb740e434c42b448725c",
+      "rawFile": "frames/000035-response-12001.bin",
+      "fields": {
+        "bagMode": 4,
+        "extraConsumedQuantity": 0,
+        "items": [
+          {
+            "mode": 1,
+            "quantity": 1,
+            "expectedSlotPos": 31,
+            "item": {
+              "quantity": 1,
+              "petProvideExp": 0,
+              "durability": 0,
+              "attachDone": 0,
+              "attachPower": 0,
+              "attachValue": 0,
+              "slotPos": 31,
+              "status": 0,
+              "type": 30,
+              "id": 413,
+              "name": "加1敏捷宝石(绑）",
+              "bagIcon": 64,
+              "info": "镶嵌在装备上可以增加相应属性",
+              "grade": 0,
+              "autoBinding": 1,
+              "stackNum": 99,
+              "decomCHest": false,
+              "price": 500,
+              "power1": 5,
+              "powerValue1": 1
+            }
+          }
+        ]
+      },
+      "classification": "parsed"
+    },
+    {
+      "sequence": 36,
+      "timestamp": "2026-09-06T21:04:21.367+00:00",
+      "direction": "response",
+      "connection": "0x355c000bcd48",
+      "webSocketOpcode": 2,
+      "messageType": 12049,
+      "protocolName": "CG_ACTOR_COMBATPOWER",
+      "declaredLength": 32,
+      "actualLength": 32,
+      "sha256": "e0addb6e99f314b2bc044ad5fa5119d321bf4df770d9b15974e2c4dd66ce2f89",
+      "rawFile": "frames/000036-response-12049.bin",
+      "fields": {
+        "combatPower": 4563,
+        "ignore_back": 0,
+        "ignore_magic_back": 0,
+        "ignore_block": 0,
+        "ignore_insight": 0,
+        "ignore_wil": 0,
+        "ignore_touch": 0
+      },
+      "classification": "parsed"
+    },
+    {
+      "sequence": 37,
+      "timestamp": "2026-09-06T21:04:22.440+00:00",
+      "direction": "request",
+      "connection": "0x355c000bcd48",
+      "webSocketOpcode": 2,
+      "messageType": 16021,
+      "protocolName": "CG_SYSTEM_TIME",
+      "declaredLength": 4,
+      "actualLength": 4,
+      "sha256": "771267b53c891ac897b42190e9ed05900aedbffa289dc7c24cf713dba4467557",
+      "rawFile": "frames/000037-request-16021.bin",
+      "classification": "ignored"
+    },
+    {
+      "sequence": 38,
+      "timestamp": "2026-09-06T21:04:22.485+00:00",
+      "direction": "response",
+      "connection": "0x355c000bcd48",
+      "webSocketOpcode": 2,
+      "messageType": 16021,
+      "protocolName": "CG_SYSTEM_TIME",
+      "declaredLength": 12,
+      "actualLength": 12,
+      "sha256": "d978639271a33517665e81a19946f9ecdccb90ae30eee67600baf972d7244b64",
+      "rawFile": "frames/000038-response-16021.bin",
+      "classification": "ignored"
+    },
+    {
+      "sequence": 39,
+      "timestamp": "2026-09-06T21:04:24.362+00:00",
+      "direction": "response",
+      "connection": "0x355c000bcd48",
+      "webSocketOpcode": 2,
+      "messageType": 20401,
+      "protocolName": null,
+      "declaredLength": 7320,
+      "actualLength": 7320,
+      "sha256": "d7dcd01079b4cb98ba52d4896d4ad65cd8c4b4e10f710e4b581d321eb52c8502",
+      "rawFile": "frames/000039-response-20401.bin",
+      "classification": "ignored"
+    },
+    {
+      "sequence": 40,
+      "timestamp": "2026-09-06T21:04:30.464+00:00",
+      "direction": "request",
+      "connection": "0x355c000bcd48",
+      "webSocketOpcode": 2,
+      "messageType": 16001,
+      "protocolName": "CG_SYSTEM_HEART",
+      "declaredLength": 4,
+      "actualLength": 4,
+      "sha256": "a9e30a7ad0a4b2dd8bd7aca64139cbe9ccf0b6e1b91a3b9a5581cf804063ebfa",
+      "rawFile": "frames/000040-request-16001.bin",
+      "classification": "ignored"
+    },
+    {
+      "sequence": 41,
+      "timestamp": "2026-09-06T21:04:30.501+00:00",
+      "direction": "response",
+      "connection": "0x355c000bcd48",
+      "webSocketOpcode": 2,
+      "messageType": 16001,
+      "protocolName": "CG_SYSTEM_HEART",
+      "declaredLength": 4,
+      "actualLength": 4,
+      "sha256": "a9e30a7ad0a4b2dd8bd7aca64139cbe9ccf0b6e1b91a3b9a5581cf804063ebfa",
+      "rawFile": "frames/000041-response-16001.bin",
+      "classification": "ignored"
+    }
+  ]
+}

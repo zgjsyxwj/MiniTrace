@@ -1,0 +1,31 @@
+{
+  "finishedAt": "2026-09-06T21:08:43.301Z",
+  "pid": 19804,
+  "transport": "flue",
+  "counts": {
+    "request": 12,
+    "response": 29
+  },
+  "typeCounts": {
+    "request:11002": 2,
+    "request:12001": 2,
+    "request:16001": 6,
+    "request:16021": 2,
+    "response:11002": 2,
+    "response:11014": 2,
+    "response:12001": 2,
+    "response:12049": 2,
+    "response:13510": 1,
+    "response:14563": 1,
+    "response:16001": 6,
+    "response:16021": 2,
+    "response:20401": 2,
+    "response:27403": 9
+  },
+  "fatalError": null,
+  "timedOut": false,
+  "frameCount": 41,
+  "unparsedPayloadCount": 0,
+  "recoveredAfterForcedPtyInterrupt": true,
+  "recoveryEvidence": "timeline.jsonl、transport-events.jsonl 与 41 个原始帧一致；未出现 frida-error。Ctrl+C 结束了 PTY 宿主，采集器 finally 未执行。"
+}

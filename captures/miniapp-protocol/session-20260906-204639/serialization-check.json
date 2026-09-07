@@ -1,0 +1,76 @@
+{
+  "sources": [
+    {
+      "file": "wechat-miniapp/subpackages/main/main.min.js",
+      "sha256": "ae247b9e203653827669571bd8a0c4764a24e6818f66a689c2aff84c78653c47"
+    },
+    {
+      "file": "wechat-miniapp/subpackages/libs/egret.min.js",
+      "sha256": "dacf48738416e5ce5b5de502d002ba4ee0b060c3ebbd8d8cf93ba9be506c9eed"
+    }
+  ],
+  "frames": [
+    {
+      "sequence": 39,
+      "source": "frames/000039-request-12502.bin",
+      "sha256": "0d883476e828b1c06e657eaf179cb351fd0d06416c1513590227f733771a4b75",
+      "logicalBodyLength": 30,
+      "allocatedBodyLength": 34,
+      "paddingOffset": 34,
+      "paddingHex": "00000000",
+      "exactRebuild": true
+    },
+    {
+      "sequence": 96,
+      "source": "frames/000096-request-12502.bin",
+      "sha256": "4cc9881f870bae1cbc5e5d5b2e080d284f7236c69b23e8af90aebeeb15feca86",
+      "logicalBodyLength": 30,
+      "allocatedBodyLength": 34,
+      "paddingOffset": 34,
+      "paddingHex": "00000000",
+      "exactRebuild": true
+    },
+    {
+      "sequence": 110,
+      "source": "frames/000110-request-12502.bin",
+      "sha256": "22e1e9c4e18ae334242a2c0d1011241b4305fe6bf289521af51270680b15235c",
+      "logicalBodyLength": 30,
+      "allocatedBodyLength": 34,
+      "paddingOffset": 34,
+      "paddingHex": "00000000",
+      "exactRebuild": true
+    },
+    {
+      "sequence": 128,
+      "source": "frames/000128-request-12502.bin",
+      "sha256": "d9643076cc1b7ad9546e7cd385250f61dec327cec18a1bf5d4eadfb6efe9633b",
+      "logicalBodyLength": 30,
+      "allocatedBodyLength": 34,
+      "paddingOffset": 34,
+      "paddingHex": "00000000",
+      "exactRebuild": true
+    }
+  ],
+  "probes": [
+    {
+      "planLength": 0,
+      "logicalLength": 26,
+      "allocatedLength": 26
+    },
+    {
+      "planLength": 1,
+      "logicalLength": 27,
+      "allocatedLength": 28
+    },
+    {
+      "planLength": 4,
+      "logicalLength": 30,
+      "allocatedLength": 34
+    },
+    {
+      "planLength": 8,
+      "logicalLength": 34,
+      "allocatedLength": 42
+    }
+  ]
+}

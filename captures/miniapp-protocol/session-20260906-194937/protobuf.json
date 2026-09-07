@@ -1,0 +1,1535 @@
+[
+  {
+    "sequence": 20,
+    "source": "frames/000020-response-25013.bin",
+    "sha256": "9856a0377c7e651a1d56dbc204f969d769d3c6ec40e3a8c54033c2a289aca2ec",
+    "schema": "s2c_ResUpdate",
+    "data": {
+      "info": [
+        {
+          "type": -1,
+          "num": 0
+        },
+        {
+          "type": -2,
+          "num": 0
+        },
+        {
+          "type": -3,
+          "num": 792
+        }
+      ]
+    }
+  },
+  {
+    "sequence": 66,
+    "source": "frames/000066-response-25013.bin",
+    "sha256": "c15fb1037934a9fe61f6cdc4485bbe95a3598aee2f57a6e2d536e55cf08709da",
+    "schema": "s2c_ResUpdate",
+    "data": {
+      "info": [
+        {
+          "type": -1,
+          "num": 0
+        },
+        {
+          "type": -2,
+          "num": 0
+        },
+        {
+          "type": -3,
+          "num": 892
+        }
+      ]
+    }
+  },
+  {
+    "sequence": 82,
+    "source": "frames/000082-response-25013.bin",
+    "sha256": "c15eea0a66ecb005e17104223f9d59e1fbd0349cd3c8e15c55a9a2bdc171c8df",
+    "schema": "s2c_ResUpdate",
+    "data": {
+      "info": [
+        {
+          "type": -1,
+          "num": 0
+        },
+        {
+          "type": -2,
+          "num": 0
+        },
+        {
+          "type": -3,
+          "num": 992
+        }
+      ]
+    }
+  },
+  {
+    "sequence": 93,
+    "source": "frames/000093-request-20300.bin",
+    "sha256": "373a904d6c05494e531e524dd227e2dc2a8080c6f3e632d1d6472c5d721cd7b6",
+    "schema": "C2SBuddy",
+    "data": {
+      "fight": [],
+      "skillId": [],
+      "cmd": 10
+    }
+  },
+  {
+    "sequence": 96,
+    "source": "frames/000096-response-20301.bin",
+    "sha256": "b04d76a72782438c78df898850c8000c27f75b04d2810c78c90ae4c07208f42e",
+    "schema": "S2CBuddy",
+    "data": {
+      "data": [],
+      "fight": [],
+      "item": [],
+      "cmd": 10
+    }
+  },
+  {
+    "sequence": 100,
+    "source": "frames/000100-response-25013.bin",
+    "sha256": "83c700b171ad386ae64725b5ec0fd07115e743c78a9384722e35bb317aff29db",
+    "schema": "s2c_ResUpdate",
+    "data": {
+      "info": [
+        {
+          "type": -1,
+          "num": 0
+        },
+        {
+          "type": -2,
+          "num": 0
+        },
+        {
+          "type": -3,
+          "num": 994
+        }
+      ]
+    }
+  },
+  {
+    "sequence": 109,
+    "source": "frames/000109-response-25013.bin",
+    "sha256": "3dd5b18cc7160f7b3453fd4a53ce9d070b4584d79ee2e05c70d1aa464bf2fa87",
+    "schema": "s2c_ResUpdate",
+    "data": {
+      "info": [
+        {
+          "type": -1,
+          "num": 0
+        },
+        {
+          "type": -2,
+          "num": 0
+        },
+        {
+          "type": -3,
+          "num": 1394
+        }
+      ]
+    }
+  },
+  {
+    "sequence": 121,
+    "source": "frames/000121-response-25013.bin",
+    "sha256": "f559fb3e03757bf4cb9be25edeaa7b9de93beb85bd02f89a0366a4e32df4d988",
+    "schema": "s2c_ResUpdate",
+    "data": {
+      "info": [
+        {
+          "type": -1,
+          "num": 0
+        },
+        {
+          "type": -2,
+          "num": 0
+        },
+        {
+          "type": -3,
+          "num": 1494
+        }
+      ]
+    }
+  },
+  {
+    "sequence": 130,
+    "source": "frames/000130-request-20300.bin",
+    "sha256": "373a904d6c05494e531e524dd227e2dc2a8080c6f3e632d1d6472c5d721cd7b6",
+    "schema": "C2SBuddy",
+    "data": {
+      "fight": [],
+      "skillId": [],
+      "cmd": 10
+    }
+  },
+  {
+    "sequence": 133,
+    "source": "frames/000133-response-20301.bin",
+    "sha256": "b04d76a72782438c78df898850c8000c27f75b04d2810c78c90ae4c07208f42e",
+    "schema": "S2CBuddy",
+    "data": {
+      "data": [],
+      "fight": [],
+      "item": [],
+      "cmd": 10
+    }
+  },
+  {
+    "sequence": 136,
+    "source": "frames/000136-response-25013.bin",
+    "sha256": "0bee093e9ae6c0a145f8b2469d793a57b13d30214d96d99b54f18bfbcef678bd",
+    "schema": "s2c_ResUpdate",
+    "data": {
+      "info": [
+        {
+          "type": -1,
+          "num": 0
+        },
+        {
+          "type": -2,
+          "num": 0
+        },
+        {
+          "type": -3,
+          "num": 1496
+        }
+      ]
+    }
+  },
+  {
+    "sequence": 146,
+    "source": "frames/000146-response-25013.bin",
+    "sha256": "992736f62d36efc779d168a2205217845c71d0b9d6279e7abd5dcd7a8fe510a1",
+    "schema": "s2c_ResUpdate",
+    "data": {
+      "info": [
+        {
+          "type": -1,
+          "num": 0
+        },
+        {
+          "type": -2,
+          "num": 0
+        },
+        {
+          "type": -3,
+          "num": 2496
+        }
+      ]
+    }
+  },
+  {
+    "sequence": 160,
+    "source": "frames/000160-response-25013.bin",
+    "sha256": "eeb6898ea5de6dd3bb3c184a88a6e92ba207fa2e9fe3d423b52f185e3ad46526",
+    "schema": "s2c_ResUpdate",
+    "data": {
+      "info": [
+        {
+          "type": -1,
+          "num": 0
+        },
+        {
+          "type": -2,
+          "num": 0
+        },
+        {
+          "type": -3,
+          "num": 2996
+        }
+      ]
+    }
+  },
+  {
+    "sequence": 177,
+    "source": "frames/000177-response-25013.bin",
+    "sha256": "ed517bfed0724f21adb516033f16e884100070eaf3aab4dd3b77a5082fa6d21b",
+    "schema": "s2c_ResUpdate",
+    "data": {
+      "info": [
+        {
+          "type": -1,
+          "num": 0
+        },
+        {
+          "type": -2,
+          "num": 0
+        },
+        {
+          "type": -3,
+          "num": 3246
+        }
+      ]
+    }
+  },
+  {
+    "sequence": 186,
+    "source": "frames/000186-request-20300.bin",
+    "sha256": "373a904d6c05494e531e524dd227e2dc2a8080c6f3e632d1d6472c5d721cd7b6",
+    "schema": "C2SBuddy",
+    "data": {
+      "fight": [],
+      "skillId": [],
+      "cmd": 10
+    }
+  },
+  {
+    "sequence": 189,
+    "source": "frames/000189-response-20301.bin",
+    "sha256": "b04d76a72782438c78df898850c8000c27f75b04d2810c78c90ae4c07208f42e",
+    "schema": "S2CBuddy",
+    "data": {
+      "data": [],
+      "fight": [],
+      "item": [],
+      "cmd": 10
+    }
+  },
+  {
+    "sequence": 195,
+    "source": "frames/000195-response-25013.bin",
+    "sha256": "d43d30fdcf8428f942ff4801aa41e24422493036730303af7f950d077c8cb6d9",
+    "schema": "s2c_ResUpdate",
+    "data": {
+      "info": [
+        {
+          "type": -1,
+          "num": 0
+        },
+        {
+          "type": -2,
+          "num": 0
+        },
+        {
+          "type": -3,
+          "num": 3257
+        }
+      ]
+    }
+  },
+  {
+    "sequence": 204,
+    "source": "frames/000204-response-25013.bin",
+    "sha256": "33fc7733be5da8cb7ae518437100e441dfb6c706030534a26c4547d3a7b3bee0",
+    "schema": "s2c_ResUpdate",
+    "data": {
+      "info": [
+        {
+          "type": -1,
+          "num": 0
+        },
+        {
+          "type": -2,
+          "num": 0
+        },
+        {
+          "type": -3,
+          "num": 3807
+        }
+      ]
+    }
+  },
+  {
+    "sequence": 232,
+    "source": "frames/000232-response-25013.bin",
+    "sha256": "a49dedc0bd6f97ab178ce8c017256c1e8b4d51758c6464b690bc2a11e1bfa7c2",
+    "schema": "s2c_ResUpdate",
+    "data": {
+      "info": [
+        {
+          "type": -1,
+          "num": 0
+        },
+        {
+          "type": -2,
+          "num": 0
+        },
+        {
+          "type": -3,
+          "num": 4307
+        }
+      ]
+    }
+  },
+  {
+    "sequence": 245,
+    "source": "frames/000245-request-20300.bin",
+    "sha256": "373a904d6c05494e531e524dd227e2dc2a8080c6f3e632d1d6472c5d721cd7b6",
+    "schema": "C2SBuddy",
+    "data": {
+      "fight": [],
+      "skillId": [],
+      "cmd": 10
+    }
+  },
+  {
+    "sequence": 248,
+    "source": "frames/000248-response-20301.bin",
+    "sha256": "b04d76a72782438c78df898850c8000c27f75b04d2810c78c90ae4c07208f42e",
+    "schema": "S2CBuddy",
+    "data": {
+      "data": [],
+      "fight": [],
+      "item": [],
+      "cmd": 10
+    }
+  },
+  {
+    "sequence": 251,
+    "source": "frames/000251-response-25013.bin",
+    "sha256": "f67672aab896bb0b629597618e56c682c0a3a48ba2ceec8b74a2cc20b9bfdd91",
+    "schema": "s2c_ResUpdate",
+    "data": {
+      "info": [
+        {
+          "type": -1,
+          "num": 0
+        },
+        {
+          "type": -2,
+          "num": 0
+        },
+        {
+          "type": -3,
+          "num": 4310
+        }
+      ]
+    }
+  },
+  {
+    "sequence": 259,
+    "source": "frames/000259-response-25013.bin",
+    "sha256": "69256887463ddae19c6ebe945da50c53ce7ef8fe1775b27188562c8464244185",
+    "schema": "s2c_ResUpdate",
+    "data": {
+      "info": [
+        {
+          "type": -1,
+          "num": 0
+        },
+        {
+          "type": -2,
+          "num": 0
+        },
+        {
+          "type": -3,
+          "num": 4810
+        }
+      ]
+    }
+  },
+  {
+    "sequence": 264,
+    "source": "frames/000264-response-32109.bin",
+    "sha256": "68e6de8b687b0d8f4e5977ce200b8d8701601d237ee424c19b96af4e5ba4e8b7",
+    "schema": "s2c_HandBookPowerInfo",
+    "data": {
+      "infos": [
+        {
+          "info": [
+            {
+              "type": 34,
+              "power": 175,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 35,
+              "power": 191,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 37,
+              "power": 0,
+              "powerValue": 0,
+              "effect": false
+            },
+            {
+              "type": 39,
+              "power": 0,
+              "powerValue": 0,
+              "effect": false
+            },
+            {
+              "type": 13,
+              "power": 133,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 14,
+              "power": 133,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 15,
+              "power": 134,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 16,
+              "power": 134,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 18,
+              "power": 135,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 19,
+              "power": 137,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 20,
+              "power": 136,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 21,
+              "power": 139,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 22,
+              "power": 139,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 23,
+              "power": 139,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 24,
+              "power": 140,
+              "powerValue": 1,
+              "effect": false
+            }
+          ],
+          "group": 1
+        },
+        {
+          "info": [
+            {
+              "type": 0,
+              "power": 68,
+              "powerValue": 25,
+              "effect": false
+            },
+            {
+              "type": 1,
+              "power": 11,
+              "powerValue": 100,
+              "effect": false
+            },
+            {
+              "type": 2,
+              "power": 70,
+              "powerValue": 100,
+              "effect": false
+            },
+            {
+              "type": 3,
+              "power": 71,
+              "powerValue": 25,
+              "effect": false
+            },
+            {
+              "type": 4,
+              "power": 67,
+              "powerValue": 25,
+              "effect": false
+            },
+            {
+              "type": 5,
+              "power": 72,
+              "powerValue": 25,
+              "effect": false
+            },
+            {
+              "type": 6,
+              "power": 55,
+              "powerValue": 25,
+              "effect": false
+            },
+            {
+              "type": 7,
+              "power": 53,
+              "powerValue": 25,
+              "effect": false
+            },
+            {
+              "type": 8,
+              "power": 172,
+              "powerValue": 25,
+              "effect": false
+            },
+            {
+              "type": 9,
+              "power": 173,
+              "powerValue": 25,
+              "effect": false
+            },
+            {
+              "type": 10,
+              "power": 64,
+              "powerValue": 25,
+              "effect": false
+            },
+            {
+              "type": 12,
+              "power": 65,
+              "powerValue": 25,
+              "effect": false
+            }
+          ],
+          "group": 2
+        },
+        {
+          "info": [
+            {
+              "type": 7,
+              "power": 95,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 8,
+              "power": 92,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 41,
+              "power": 89,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 9,
+              "power": 94,
+              "powerValue": 1,
+              "effect": false
+            }
+          ],
+          "group": 3
+        },
+        {
+          "info": [
+            {
+              "type": 11,
+              "power": 142,
+              "powerValue": 1,
+              "effect": false
+            }
+          ],
+          "group": 11
+        }
+      ]
+    }
+  },
+  {
+    "sequence": 268,
+    "source": "frames/000268-response-32109.bin",
+    "sha256": "68e6de8b687b0d8f4e5977ce200b8d8701601d237ee424c19b96af4e5ba4e8b7",
+    "schema": "s2c_HandBookPowerInfo",
+    "data": {
+      "infos": [
+        {
+          "info": [
+            {
+              "type": 34,
+              "power": 175,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 35,
+              "power": 191,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 37,
+              "power": 0,
+              "powerValue": 0,
+              "effect": false
+            },
+            {
+              "type": 39,
+              "power": 0,
+              "powerValue": 0,
+              "effect": false
+            },
+            {
+              "type": 13,
+              "power": 133,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 14,
+              "power": 133,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 15,
+              "power": 134,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 16,
+              "power": 134,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 18,
+              "power": 135,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 19,
+              "power": 137,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 20,
+              "power": 136,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 21,
+              "power": 139,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 22,
+              "power": 139,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 23,
+              "power": 139,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 24,
+              "power": 140,
+              "powerValue": 1,
+              "effect": false
+            }
+          ],
+          "group": 1
+        },
+        {
+          "info": [
+            {
+              "type": 0,
+              "power": 68,
+              "powerValue": 25,
+              "effect": false
+            },
+            {
+              "type": 1,
+              "power": 11,
+              "powerValue": 100,
+              "effect": false
+            },
+            {
+              "type": 2,
+              "power": 70,
+              "powerValue": 100,
+              "effect": false
+            },
+            {
+              "type": 3,
+              "power": 71,
+              "powerValue": 25,
+              "effect": false
+            },
+            {
+              "type": 4,
+              "power": 67,
+              "powerValue": 25,
+              "effect": false
+            },
+            {
+              "type": 5,
+              "power": 72,
+              "powerValue": 25,
+              "effect": false
+            },
+            {
+              "type": 6,
+              "power": 55,
+              "powerValue": 25,
+              "effect": false
+            },
+            {
+              "type": 7,
+              "power": 53,
+              "powerValue": 25,
+              "effect": false
+            },
+            {
+              "type": 8,
+              "power": 172,
+              "powerValue": 25,
+              "effect": false
+            },
+            {
+              "type": 9,
+              "power": 173,
+              "powerValue": 25,
+              "effect": false
+            },
+            {
+              "type": 10,
+              "power": 64,
+              "powerValue": 25,
+              "effect": false
+            },
+            {
+              "type": 12,
+              "power": 65,
+              "powerValue": 25,
+              "effect": false
+            }
+          ],
+          "group": 2
+        },
+        {
+          "info": [
+            {
+              "type": 7,
+              "power": 95,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 8,
+              "power": 92,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 41,
+              "power": 89,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 9,
+              "power": 94,
+              "powerValue": 1,
+              "effect": false
+            }
+          ],
+          "group": 3
+        },
+        {
+          "info": [
+            {
+              "type": 11,
+              "power": 142,
+              "powerValue": 1,
+              "effect": false
+            }
+          ],
+          "group": 11
+        }
+      ]
+    }
+  },
+  {
+    "sequence": 272,
+    "source": "frames/000272-response-32109.bin",
+    "sha256": "68e6de8b687b0d8f4e5977ce200b8d8701601d237ee424c19b96af4e5ba4e8b7",
+    "schema": "s2c_HandBookPowerInfo",
+    "data": {
+      "infos": [
+        {
+          "info": [
+            {
+              "type": 34,
+              "power": 175,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 35,
+              "power": 191,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 37,
+              "power": 0,
+              "powerValue": 0,
+              "effect": false
+            },
+            {
+              "type": 39,
+              "power": 0,
+              "powerValue": 0,
+              "effect": false
+            },
+            {
+              "type": 13,
+              "power": 133,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 14,
+              "power": 133,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 15,
+              "power": 134,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 16,
+              "power": 134,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 18,
+              "power": 135,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 19,
+              "power": 137,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 20,
+              "power": 136,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 21,
+              "power": 139,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 22,
+              "power": 139,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 23,
+              "power": 139,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 24,
+              "power": 140,
+              "powerValue": 1,
+              "effect": false
+            }
+          ],
+          "group": 1
+        },
+        {
+          "info": [
+            {
+              "type": 0,
+              "power": 68,
+              "powerValue": 25,
+              "effect": false
+            },
+            {
+              "type": 1,
+              "power": 11,
+              "powerValue": 100,
+              "effect": false
+            },
+            {
+              "type": 2,
+              "power": 70,
+              "powerValue": 100,
+              "effect": false
+            },
+            {
+              "type": 3,
+              "power": 71,
+              "powerValue": 25,
+              "effect": false
+            },
+            {
+              "type": 4,
+              "power": 67,
+              "powerValue": 25,
+              "effect": false
+            },
+            {
+              "type": 5,
+              "power": 72,
+              "powerValue": 25,
+              "effect": false
+            },
+            {
+              "type": 6,
+              "power": 55,
+              "powerValue": 25,
+              "effect": false
+            },
+            {
+              "type": 7,
+              "power": 53,
+              "powerValue": 25,
+              "effect": false
+            },
+            {
+              "type": 8,
+              "power": 172,
+              "powerValue": 25,
+              "effect": false
+            },
+            {
+              "type": 9,
+              "power": 173,
+              "powerValue": 25,
+              "effect": false
+            },
+            {
+              "type": 10,
+              "power": 64,
+              "powerValue": 25,
+              "effect": false
+            },
+            {
+              "type": 12,
+              "power": 65,
+              "powerValue": 25,
+              "effect": false
+            }
+          ],
+          "group": 2
+        },
+        {
+          "info": [
+            {
+              "type": 7,
+              "power": 95,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 8,
+              "power": 92,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 41,
+              "power": 89,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 9,
+              "power": 94,
+              "powerValue": 1,
+              "effect": false
+            }
+          ],
+          "group": 3
+        },
+        {
+          "info": [
+            {
+              "type": 11,
+              "power": 142,
+              "powerValue": 1,
+              "effect": false
+            }
+          ],
+          "group": 11
+        }
+      ]
+    }
+  },
+  {
+    "sequence": 281,
+    "source": "frames/000281-request-20300.bin",
+    "sha256": "373a904d6c05494e531e524dd227e2dc2a8080c6f3e632d1d6472c5d721cd7b6",
+    "schema": "C2SBuddy",
+    "data": {
+      "fight": [],
+      "skillId": [],
+      "cmd": 10
+    }
+  },
+  {
+    "sequence": 284,
+    "source": "frames/000284-response-20301.bin",
+    "sha256": "b04d76a72782438c78df898850c8000c27f75b04d2810c78c90ae4c07208f42e",
+    "schema": "S2CBuddy",
+    "data": {
+      "data": [],
+      "fight": [],
+      "item": [],
+      "cmd": 10
+    }
+  },
+  {
+    "sequence": 291,
+    "source": "frames/000291-response-25013.bin",
+    "sha256": "f40863efabc6f21fdd0eaf09cb5c7cf88eb9df7201385fc4b941d87f4553a28c",
+    "schema": "s2c_ResUpdate",
+    "data": {
+      "info": [
+        {
+          "type": -1,
+          "num": 0
+        },
+        {
+          "type": -2,
+          "num": 0
+        },
+        {
+          "type": -3,
+          "num": 4813
+        }
+      ]
+    }
+  },
+  {
+    "sequence": 300,
+    "source": "frames/000300-response-25013.bin",
+    "sha256": "1e1fa4c6f07de4df83e2cd4a3e8bb061ed3b644090ce8f7d04c14fc323989161",
+    "schema": "s2c_ResUpdate",
+    "data": {
+      "info": [
+        {
+          "type": -1,
+          "num": 0
+        },
+        {
+          "type": -2,
+          "num": 0
+        },
+        {
+          "type": -3,
+          "num": 5313
+        }
+      ]
+    }
+  },
+  {
+    "sequence": 305,
+    "source": "frames/000305-response-32109.bin",
+    "sha256": "68e6de8b687b0d8f4e5977ce200b8d8701601d237ee424c19b96af4e5ba4e8b7",
+    "schema": "s2c_HandBookPowerInfo",
+    "data": {
+      "infos": [
+        {
+          "info": [
+            {
+              "type": 34,
+              "power": 175,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 35,
+              "power": 191,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 37,
+              "power": 0,
+              "powerValue": 0,
+              "effect": false
+            },
+            {
+              "type": 39,
+              "power": 0,
+              "powerValue": 0,
+              "effect": false
+            },
+            {
+              "type": 13,
+              "power": 133,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 14,
+              "power": 133,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 15,
+              "power": 134,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 16,
+              "power": 134,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 18,
+              "power": 135,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 19,
+              "power": 137,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 20,
+              "power": 136,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 21,
+              "power": 139,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 22,
+              "power": 139,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 23,
+              "power": 139,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 24,
+              "power": 140,
+              "powerValue": 1,
+              "effect": false
+            }
+          ],
+          "group": 1
+        },
+        {
+          "info": [
+            {
+              "type": 0,
+              "power": 68,
+              "powerValue": 25,
+              "effect": false
+            },
+            {
+              "type": 1,
+              "power": 11,
+              "powerValue": 100,
+              "effect": false
+            },
+            {
+              "type": 2,
+              "power": 70,
+              "powerValue": 100,
+              "effect": false
+            },
+            {
+              "type": 3,
+              "power": 71,
+              "powerValue": 25,
+              "effect": false
+            },
+            {
+              "type": 4,
+              "power": 67,
+              "powerValue": 25,
+              "effect": false
+            },
+            {
+              "type": 5,
+              "power": 72,
+              "powerValue": 25,
+              "effect": false
+            },
+            {
+              "type": 6,
+              "power": 55,
+              "powerValue": 25,
+              "effect": false
+            },
+            {
+              "type": 7,
+              "power": 53,
+              "powerValue": 25,
+              "effect": false
+            },
+            {
+              "type": 8,
+              "power": 172,
+              "powerValue": 25,
+              "effect": false
+            },
+            {
+              "type": 9,
+              "power": 173,
+              "powerValue": 25,
+              "effect": false
+            },
+            {
+              "type": 10,
+              "power": 64,
+              "powerValue": 25,
+              "effect": false
+            },
+            {
+              "type": 12,
+              "power": 65,
+              "powerValue": 25,
+              "effect": false
+            }
+          ],
+          "group": 2
+        },
+        {
+          "info": [
+            {
+              "type": 7,
+              "power": 95,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 8,
+              "power": 92,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 41,
+              "power": 89,
+              "powerValue": 1,
+              "effect": false
+            },
+            {
+              "type": 9,
+              "power": 94,
+              "powerValue": 1,
+              "effect": false
+            }
+          ],
+          "group": 3
+        },
+        {
+          "info": [
+            {
+              "type": 11,
+              "power": 142,
+              "powerValue": 1,
+              "effect": false
+            }
+          ],
+          "group": 11
+        }
+      ]
+    }
+  },
+  {
+    "sequence": 323,
+    "source": "frames/000323-response-25013.bin",
+    "sha256": "889a3e5ad9303ca87ad9c3d11be189dfa2c149201e65b05961f3522a53136719",
+    "schema": "s2c_ResUpdate",
+    "data": {
+      "info": [
+        {
+          "type": -1,
+          "num": 0
+        },
+        {
+          "type": -2,
+          "num": 0
+        },
+        {
+          "type": -3,
+          "num": 5513
+        }
+      ]
+    }
+  },
+  {
+    "sequence": 335,
+    "source": "frames/000335-response-25013.bin",
+    "sha256": "29c44722dc9e0ac8f5242349d74ef597695e8fd7b12c9c262c1eab80fcc3f946",
+    "schema": "s2c_ResUpdate",
+    "data": {
+      "info": [
+        {
+          "type": -1,
+          "num": 0
+        },
+        {
+          "type": -2,
+          "num": 0
+        },
+        {
+          "type": -3,
+          "num": 5499
+        }
+      ]
+    }
+  },
+  {
+    "sequence": 339,
+    "source": "frames/000339-response-25013.bin",
+    "sha256": "f67878d08a8036bece3ddfd5f8bd947fdd5766f09daec6781a7840252ef39bb9",
+    "schema": "s2c_ResUpdate",
+    "data": {
+      "info": [
+        {
+          "type": -1,
+          "num": 0
+        },
+        {
+          "type": -2,
+          "num": 0
+        },
+        {
+          "type": -3,
+          "num": 5799
+        }
+      ]
+    }
+  },
+  {
+    "sequence": 350,
+    "source": "frames/000350-request-20300.bin",
+    "sha256": "373a904d6c05494e531e524dd227e2dc2a8080c6f3e632d1d6472c5d721cd7b6",
+    "schema": "C2SBuddy",
+    "data": {
+      "fight": [],
+      "skillId": [],
+      "cmd": 10
+    }
+  },
+  {
+    "sequence": 353,
+    "source": "frames/000353-response-20301.bin",
+    "sha256": "b04d76a72782438c78df898850c8000c27f75b04d2810c78c90ae4c07208f42e",
+    "schema": "S2CBuddy",
+    "data": {
+      "data": [],
+      "fight": [],
+      "item": [],
+      "cmd": 10
+    }
+  },
+  {
+    "sequence": 356,
+    "source": "frames/000356-response-25013.bin",
+    "sha256": "4d15f534ba3c060cf2ece2c7e106084da27d2f8982f38390ca678ca1ebe00c6d",
+    "schema": "s2c_ResUpdate",
+    "data": {
+      "info": [
+        {
+          "type": -1,
+          "num": 0
+        },
+        {
+          "type": -2,
+          "num": 0
+        },
+        {
+          "type": -3,
+          "num": 5810
+        }
+      ]
+    }
+  },
+  {
+    "sequence": 365,
+    "source": "frames/000365-request-20300.bin",
+    "sha256": "373a904d6c05494e531e524dd227e2dc2a8080c6f3e632d1d6472c5d721cd7b6",
+    "schema": "C2SBuddy",
+    "data": {
+      "fight": [],
+      "skillId": [],
+      "cmd": 10
+    }
+  },
+  {
+    "sequence": 367,
+    "source": "frames/000367-response-20301.bin",
+    "sha256": "b04d76a72782438c78df898850c8000c27f75b04d2810c78c90ae4c07208f42e",
+    "schema": "S2CBuddy",
+    "data": {
+      "data": [],
+      "fight": [],
+      "item": [],
+      "cmd": 10
+    }
+  },
+  {
+    "sequence": 371,
+    "source": "frames/000371-response-25013.bin",
+    "sha256": "ee58c2d8525065e1fd4c8e4df9a82b03a84f90b15c9deb007d85db00b36d4688",
+    "schema": "s2c_ResUpdate",
+    "data": {
+      "info": [
+        {
+          "type": -1,
+          "num": 0
+        },
+        {
+          "type": -2,
+          "num": 0
+        },
+        {
+          "type": -3,
+          "num": 5821
+        }
+      ]
+    }
+  }
+]

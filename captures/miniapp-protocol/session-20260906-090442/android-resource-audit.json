@@ -1,0 +1,62 @@
+[
+  {
+    "model": 5003,
+    "name": "世界村村长",
+    "status": "missing_or_invalid",
+    "detail": "No direct SPR; Android package selector has no package for this ID"
+  },
+  {
+    "model": 15090,
+    "name": "云裳",
+    "status": "missing_or_invalid",
+    "detail": "No direct SPR; Android package selector has no package for this ID"
+  },
+  {
+    "model": 5024,
+    "name": "东海",
+    "status": "missing_or_invalid",
+    "detail": "No direct SPR; Android package selector has no package for this ID"
+  },
+  {
+    "model": 5026,
+    "name": "小悦",
+    "status": "missing_or_invalid",
+    "detail": "No direct SPR; Android package selector has no package for this ID"
+  },
+  {
+    "model": 5012,
+    "name": "悲剧哥",
+    "status": "missing_or_invalid",
+    "detail": "No direct SPR; Android package selector has no package for this ID"
+  },
+  {
+    "model": 318,
+    "name": "轩姐",
+    "source": "apk-extracted\\assets\\ani\\ani2\\sprite_318.spr",
+    "status": "local_model_and_tiles_parsed"
+  },
+  {
+    "model": 600,
+    "name": "碰我进入战斗",
+    "source": "apk-extracted\\assets\\ani\\ani2\\sprite_600.spr",
+    "status": "local_model_and_tiles_parsed"
+  },
+  {
+    "model": 1223,
+    "name": "井",
+    "source": "apk-extracted\\assets\\ani\\ani2\\sprite_1223.spr",
+    "status": "local_model_and_tiles_parsed"
+  },
+  {
+    "model": 15073,
+    "name": "小偷",
+    "status": "missing_or_invalid",
+    "detail": "No direct SPR; Android package selector has no package for this ID"
+  },
+  {
+    "model": 1338,
+    "name": "碰我进行传送",
+    "source": "apk-extracted\\assets\\ani\\ani2\\sprite_1338.spr",
+    "status": "local_model_and_tiles_parsed"
+  }
+]

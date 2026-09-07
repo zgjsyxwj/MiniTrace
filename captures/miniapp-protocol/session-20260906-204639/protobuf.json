@@ -1,0 +1,248 @@
+[
+  {
+    "sequence": 35,
+    "source": "frames/000035-request-20300.bin",
+    "sha256": "373a904d6c05494e531e524dd227e2dc2a8080c6f3e632d1d6472c5d721cd7b6",
+    "schema": "C2SBuddy",
+    "data": {
+      "fight": [],
+      "skillId": [],
+      "cmd": 10
+    }
+  },
+  {
+    "sequence": 37,
+    "source": "frames/000037-response-20301.bin",
+    "sha256": "b04d76a72782438c78df898850c8000c27f75b04d2810c78c90ae4c07208f42e",
+    "schema": "S2CBuddy",
+    "data": {
+      "data": [],
+      "fight": [],
+      "item": [],
+      "cmd": 10
+    }
+  },
+  {
+    "sequence": 41,
+    "source": "frames/000041-response-25013.bin",
+    "sha256": "33b9f97118ba5b7058eec3e543b02e137a533bc1e6dcc4f8ab622c55e3f31eed",
+    "schema": "s2c_ResUpdate",
+    "data": {
+      "info": [
+        {
+          "type": -1,
+          "num": 0
+        },
+        {
+          "type": -2,
+          "num": 0
+        },
+        {
+          "type": -3,
+          "num": 5834
+        }
+      ]
+    }
+  },
+  {
+    "sequence": 72,
+    "source": "frames/000072-response-25013.bin",
+    "sha256": "afad9745fd1d4be176165c8c851ec2e18e79dfb6d89a6a7b816263755acaeb52",
+    "schema": "s2c_ResUpdate",
+    "data": {
+      "info": [
+        {
+          "type": -1,
+          "num": 0
+        },
+        {
+          "type": -2,
+          "num": 0
+        },
+        {
+          "type": -3,
+          "num": 5334
+        }
+      ]
+    }
+  },
+  {
+    "sequence": 80,
+    "source": "frames/000080-response-25013.bin",
+    "sha256": "33b9f97118ba5b7058eec3e543b02e137a533bc1e6dcc4f8ab622c55e3f31eed",
+    "schema": "s2c_ResUpdate",
+    "data": {
+      "info": [
+        {
+          "type": -1,
+          "num": 0
+        },
+        {
+          "type": -2,
+          "num": 0
+        },
+        {
+          "type": -3,
+          "num": 5834
+        }
+      ]
+    }
+  },
+  {
+    "sequence": 91,
+    "source": "frames/000091-request-20300.bin",
+    "sha256": "373a904d6c05494e531e524dd227e2dc2a8080c6f3e632d1d6472c5d721cd7b6",
+    "schema": "C2SBuddy",
+    "data": {
+      "fight": [],
+      "skillId": [],
+      "cmd": 10
+    }
+  },
+  {
+    "sequence": 94,
+    "source": "frames/000094-response-20301.bin",
+    "sha256": "b04d76a72782438c78df898850c8000c27f75b04d2810c78c90ae4c07208f42e",
+    "schema": "S2CBuddy",
+    "data": {
+      "data": [],
+      "fight": [],
+      "item": [],
+      "cmd": 10
+    }
+  },
+  {
+    "sequence": 97,
+    "source": "frames/000097-response-25013.bin",
+    "sha256": "13f83b6f08aaa2b13cb350dfb3ff208d9baac4595873c36b4065fa3551fa06a9",
+    "schema": "s2c_ResUpdate",
+    "data": {
+      "info": [
+        {
+          "type": -1,
+          "num": 0
+        },
+        {
+          "type": -2,
+          "num": 0
+        },
+        {
+          "type": -3,
+          "num": 5845
+        }
+      ]
+    }
+  },
+  {
+    "sequence": 106,
+    "source": "frames/000106-request-20300.bin",
+    "sha256": "373a904d6c05494e531e524dd227e2dc2a8080c6f3e632d1d6472c5d721cd7b6",
+    "schema": "C2SBuddy",
+    "data": {
+      "fight": [],
+      "skillId": [],
+      "cmd": 10
+    }
+  },
+  {
+    "sequence": 108,
+    "source": "frames/000108-response-20301.bin",
+    "sha256": "b04d76a72782438c78df898850c8000c27f75b04d2810c78c90ae4c07208f42e",
+    "schema": "S2CBuddy",
+    "data": {
+      "data": [],
+      "fight": [],
+      "item": [],
+      "cmd": 10
+    }
+  },
+  {
+    "sequence": 111,
+    "source": "frames/000111-response-25013.bin",
+    "sha256": "5d257039bd6743cdbf43af804a3cd69e9c43d1f76328fd2e0e63da5161dba368",
+    "schema": "s2c_ResUpdate",
+    "data": {
+      "info": [
+        {
+          "type": -1,
+          "num": 0
+        },
+        {
+          "type": -2,
+          "num": 0
+        },
+        {
+          "type": -3,
+          "num": 5856
+        }
+      ]
+    }
+  },
+  {
+    "sequence": 121,
+    "source": "frames/000121-request-20300.bin",
+    "sha256": "373a904d6c05494e531e524dd227e2dc2a8080c6f3e632d1d6472c5d721cd7b6",
+    "schema": "C2SBuddy",
+    "data": {
+      "fight": [],
+      "skillId": [],
+      "cmd": 10
+    }
+  },
+  {
+    "sequence": 124,
+    "source": "frames/000124-response-20301.bin",
+    "sha256": "b04d76a72782438c78df898850c8000c27f75b04d2810c78c90ae4c07208f42e",
+    "schema": "S2CBuddy",
+    "data": {
+      "data": [],
+      "fight": [],
+      "item": [],
+      "cmd": 10
+    }
+  },
+  {
+    "sequence": 129,
+    "source": "frames/000129-response-25013.bin",
+    "sha256": "a18a8e8f0d58d3ce7da6b3e2a3188b58417fa63411ad184090fd12cf086ca97e",
+    "schema": "s2c_ResUpdate",
+    "data": {
+      "info": [
+        {
+          "type": -1,
+          "num": 0
+        },
+        {
+          "type": -2,
+          "num": 0
+        },
+        {
+          "type": -3,
+          "num": 5867
+        }
+      ]
+    }
+  },
+  {
+    "sequence": 172,
+    "source": "frames/000172-response-25013.bin",
+    "sha256": "f082d02880995d8bd2a37dad9becbc2a02809640eaa8086c858f2981bc63a77b",
+    "schema": "s2c_ResUpdate",
+    "data": {
+      "info": [
+        {
+          "type": -1,
+          "num": 0
+        },
+        {
+          "type": -2,
+          "num": 0
+        },
+        {
+          "type": -3,
+          "num": 5835
+        }
+      ]
+    }
+  }
+]

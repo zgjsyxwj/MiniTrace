@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "model": 5003,
+    "frames": 3,
+    "animations": 1,
+    "valid": true
+  },
+  {
+    "id": 2,
+    "model": 15090,
+    "frames": 10,
+    "animations": 2,
+    "valid": true
+  },
+  {
+    "id": 3,
+    "model": 5024,
+    "frames": 4,
+    "animations": 1,
+    "valid": true
+  },
+  {
+    "id": 4,
+    "model": 5026,
+    "frames": 4,
+    "animations": 1,
+    "valid": true
+  },
+  {
+    "id": 5,
+    "model": 5012,
+    "frames": 5,
+    "animations": 1,
+    "valid": true
+  },
+  {
+    "id": 6,
+    "model": 318,
+    "frames": 10,
+    "animations": 2,
+    "valid": true
+  },
+  {
+    "id": 7,
+    "model": 600,
+    "frames": 16,
+    "animations": 7,
+    "valid": true
+  },
+  {
+    "id": 8,
+    "model": 1223,
+    "frames": 9,
+    "animations": 1,
+    "valid": true
+  },
+  {
+    "id": 11,
+    "model": 15073,
+    "frames": 10,
+    "animations": 2,
+    "valid": true
+  },
+  {
+    "id": 12,
+    "model": 1338,
+    "frames": 7,
+    "animations": 1,
+    "valid": true
+  }
+]

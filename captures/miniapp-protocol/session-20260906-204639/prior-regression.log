@@ -1,0 +1,170 @@
+NPC parser self-check ok
+verified 386 ignored 97 unconfirmed [11114] partial [11114]
+frames/000026-response-14591.bin 1124 新手有礼 map 4 acceptMap 4 npc 88 next 2199
+frames/000034-response-14501.bin 1124 新手有礼 map 4 acceptMap 4 npc 88 next 2199
+frames/000035-response-14501.bin 2201 领路人【紫嫣】 map 4 acceptMap 4 npc 2 next 2202
+frames/000035-response-14501.bin 2199 蜀山的邀请函 map 4 acceptMap 4 npc 51 next 2201
+frames/000061-response-14591.bin 2199 蜀山的邀请函 map 4 acceptMap 4 npc 51 next 2201
+frames/000067-response-14591.bin 2201 领路人【紫嫣】 map 4 acceptMap 4 npc 2 next 2202
+frames/000072-response-14501.bin 2202 小心后面！ map 4 acceptMap 4 npc 2 next 2203
+frames/000072-response-14501.bin 2203 事情不简单 map 4 acceptMap 4 npc 5 next 2204
+frames/000083-response-14591.bin 2202 小心后面！ map 4 acceptMap 4 npc 2 next 2203
+frames/000110-response-14591.bin 2203 事情不简单 map 4 acceptMap 4 npc 5 next 2204
+frames/000115-response-14501.bin 2204 帮助剑客韩松 map 4 acceptMap 4 npc 5 next 2205
+frames/000115-response-14501.bin 2205 前往迎客殿 map 4 acceptMap 4 npc 10 next 2206
+frames/000122-response-14591.bin 2204 帮助剑客韩松 map 4 acceptMap 4 npc 5 next 2205
+frames/000147-response-14591.bin 2205 前往迎客殿 map 4 acceptMap 4 npc 10 next 2206
+frames/000155-response-14501.bin 2206 阻止亥起进攻大殿 map 4 acceptMap 4 npc 11 next 2207
+frames/000161-response-14591.bin 2206 阻止亥起进攻大殿 map 4 acceptMap 4 npc 11 next 2207
+frames/000166-response-14501.bin 2207 单挑的邀请 map 4 acceptMap 4 npc 11 next 2243
+frames/000166-response-14501.bin 2243 赢得单挑 map 4 acceptMap 4 npc 16 next 2208
+frames/000179-response-14591.bin 2207 单挑的邀请 map 4 acceptMap 4 npc 11 next 2243
+frames/000205-response-14591.bin 2243 赢得单挑 map 4 acceptMap 4 npc 16 next 2208
+frames/000214-response-14501.bin 2208 清除余党 map 4 acceptMap 4 npc 13 next 2209
+frames/000214-response-14501.bin 2211 前往神剑广场 map 16 acceptMap 4 npc 1 next 2212
+frames/000219-response-14591.bin 2208 清除余党 map 4 acceptMap 4 npc 13 next 2209
+frames/000225-response-14501.bin 2209 帮助剑客严人英 map 4 acceptMap 4 npc 13 next 2210
+frames/000225-response-14501.bin 2210 帮助剑客李文衍 map 4 acceptMap 4 npc 16 next None
+frames/000233-response-14591.bin 2209 帮助剑客严人英 map 4 acceptMap 4 npc 13 next 2210
+frames/000260-response-14591.bin 2210 帮助剑客李文衍 map 4 acceptMap 4 npc 16 next None
+frames/000301-response-14591.bin 2211 前往神剑广场 map 16 acceptMap 4 npc 1 next 2212
+frames/000318-response-14501.bin 2212 修真者梦龙 map 16 acceptMap 16 npc 2 next 2213
+frames/000324-response-14591.bin 2212 修真者梦龙 map 16 acceptMap 16 npc 2 next 2213
+frames/000329-response-14501.bin 2213 被封锁的桥 map 16 acceptMap 16 npc 5 next 2214
+frames/000329-response-14501.bin 2215 前往神剑广场 map 16 acceptMap 16 npc 4 next 2216
+frames/000329-response-14501.bin 1181 新手教程-技能学习 map 16 acceptMap 16 npc 65 next 2213
+frames/000340-response-14591.bin 2213 被封锁的桥 map 16 acceptMap 16 npc 5 next 2214
+frames/000360-response-14501.bin 2214 击败魔教屠夫 map 16 acceptMap 16 npc 5 next 2244
+frames/000360-response-14501.bin 2244 桥已打通 map 16 acceptMap 16 npc 2 next 2215
+25 request 14503 {'npcId': 22, 'missionId': 1121, 'selection': -1}
+27 response 14503 {'result': 0, 'npcStatus': [{'npcId': 22, 'sign': 0}], 'reward': {'finishMission': True, 'costMoney1': 0, 'costMoney2': 0, 'costMoney3': 0, 'gainMoney2': 0, 'gainMoney3': 0, 'level': {'exp': 0, 'gainLevel': 0, 'exp2': 0, 'gainLevel2': 0}, 'hasPetReward': False, 'removedItems': [], 'items': [], 'refreshCity': False, 'hasCountryReward': False}}
+31 request 14501 {'npcId': 88, 'cachedGroups': [260, 261, 2012, 2013, 2015, 2016], 'cachedMonsters': [21, 22, 2016, 2017, 2019, 2020, 2021, 2047, 2048, 2049]}
+33 request 14501 {'npcId': 51, 'cachedGroups': [260, 261, 2012, 2013, 2015, 2016], 'cachedMonsters': [21, 22, 2016, 2017, 2019, 2020, 2021, 2047, 2048, 2049]}
+34 response 14501 {'npcId': 88, 'missionCount': 1, 'missionIds': [1124], 'monsterData': {'groups': [], 'monsters': [], 'skills': [], 'ai': []}}
+35 response 14501 {'npcId': 51, 'missionCount': 2, 'missionIds': [2201, 2199], 'monsterData': {'groups': [], 'monsters': [], 'skills': [], 'ai': []}}
+60 request 14503 {'npcId': 88, 'missionId': 1124, 'selection': -1}
+62 response 14503 {'result': 0, 'npcStatus': [{'npcId': 88, 'sign': 0}], 'reward': {'finishMission': True, 'costMoney1': 0, 'costMoney2': 0, 'costMoney3': 0, 'gainMoney2': 0, 'gainMoney3': 0, 'level': {'exp': 0, 'gainLevel': 0, 'exp2': 0, 'gainLevel2': 0}, 'hasPetReward': False, 'removedItems': [], 'items': [{'mode': 1, 'quantity': 1, 'expectedSlotPos': 31, 'item': {'quantity': 1, 'petProvideExp': 0, 'durability': 0, 'attachDone': 0, 'attachPower': 0, 'attachValue': 0, 'slotPos': 31, 'status': 0, 'type': 28, 'id': 40067, 'name': '新手大礼包', 'bagIcon': 7, 'info': '在背包中使用，将获取丰厚奖励。', 'grade': 0, 'autoBinding': 1, 'stackNum': 99, 'decomCHest': False, 'reqLv': 0, 'ownTime': 0, 'durMax': 0, 'price': 100, 'round': 0, 'area': -1, 'power1': 100, 'powerValue1': 101, 'power2': 103, 'powerValue2': 3, 'vipLevelReq': 0, 'needShowRate': False}}], 'refreshCity': False, 'hasCountryReward': False}}
+65 request 14503 {'npcId': 51, 'missionId': 2199, 'selection': -1}
+68 response 14503 {'result': 0, 'npcStatus': [], 'reward': {'finishMission': True, 'costMoney1': 0, 'costMoney2': 0, 'costMoney3': 0, 'gainMoney2': 0, 'gainMoney3': 100, 'level': {'exp': 100, 'gainLevel': 0, 'exp2': 0, 'gainLevel2': 0}, 'hasPetReward': False, 'removedItems': [], 'items': [], 'refreshCity': False, 'hasCountryReward': False}}
+69 request 14502 {'npcId': 51, 'missionId': 2201}
+70 response 14502 {'result': 0, 'npcStatus': [{'npcId': 2, 'sign': 1}, {'npcId': 51, 'sign': 0}], 'directSubmit': False}
+71 request 14501 {'npcId': 2, 'cachedGroups': [260, 261, 2012, 2013, 2015, 2016], 'cachedMonsters': [21, 22, 2016, 2017, 2019, 2020, 2021, 2047, 2048, 2049]}
+72 response 14501 {'npcId': 2, 'missionCount': 2, 'missionIds': [2202, 2203], 'monsterData': {'groups': [], 'monsters': [], 'skills': [], 'ai': []}}
+74 request 10518 {'mode': 2, 'target': 2201}
+75 response 10518 {'result': 0, 'segments': 0, 'transitions': [], 'x': 22, 'y': 7}
+77 request 14503 {'npcId': 2, 'missionId': 2201, 'selection': -1}
+85 response 14503 {'result': 0, 'npcStatus': [{'npcId': 2, 'sign': 3}], 'reward': {'finishMission': True, 'costMoney1': 0, 'costMoney2': 0, 'costMoney3': 0, 'gainMoney2': 0, 'gainMoney3': 100, 'level': {'exp': 100, 'gainLevel': 1, 'currentExp': 60, 'expMax': 800, 'sp': 20, 'cp': 3, 'exp2': 0, 'gainLevel2': 0}, 'hasPetReward': False, 'removedItems': [], 'items': [], 'refreshCity': False, 'hasCountryReward': False}}
+87 request 14502 {'npcId': 2, 'missionId': 2202}
+88 response 14502 {'result': 0, 'npcStatus': [{'npcId': 2, 'sign': 2}], 'directSubmit': False}
+89 request 10518 {'mode': 2, 'target': 2202}
+90 response 10518 {'result': 0, 'segments': 0, 'transitions': [], 'x': 21, 'y': 12}
+95 request 12501 {'monsterGroupId': 2012}
+97 response 12501 {'result': 0}
+105 request 10518 {'mode': 2, 'target': 2202}
+106 response 10518 {'result': 0, 'segments': 0, 'transitions': [], 'x': 22, 'y': 7}
+108 request 14503 {'npcId': 2, 'missionId': 2202, 'selection': 2101}
+111 response 14503 {'result': 0, 'npcStatus': [{'npcId': 2, 'sign': 3}], 'reward': {'finishMission': True, 'costMoney1': 0, 'costMoney2': 0, 'costMoney3': 0, 'gainMoney2': 0, 'gainMoney3': 400, 'level': {'exp': 300, 'gainLevel': 0, 'exp2': 0, 'gainLevel2': 0}, 'hasPetReward': False, 'removedItems': [], 'items': [{'mode': 1, 'quantity': 1, 'expectedSlotPos': 32, 'item': {'quantity': 1, 'petProvideExp': 0, 'durability': 130, 'attachDone': 0, 'attachPower': 0, 'attachValue': 0, 'slotPos': 32, 'status': 0, 'type': 1, 'id': 2101, 'name': '云卿锦袍', 'bagIcon': 213, 'info': '适合/c00FF00修真者/p的装备,不可分解', 'grade': 0, 'autoBinding': 0, 'stackNum': 1, 'decomCHest': False, 'icon': 6082, 'ownTime': 0, 'durMax': 130, 'price': 250, 'attachCount': 0, 'itemSet': 0, 'reqLv': 3, 'reqStr': 0, 'reqCon': 1, 'reqAgi': 0, 'reqIlt': 0, 'reqWis': 6, 'def_str': 40, 'def_agi': 40, 'def_mag': 84, 'powers': [[70, 18], [13, 18], [0, 0]], 'skill': None, 'combinUpSkills': [], 'skillDesc': '', 'bindPowers': [[0, 0], [0, 0]], 'ascensionStar': 0, 'star': 0, 'vipLevelReq': 0, 'enchantPowers': [[0, 0], [0, 0]], 'enchantLevel': 0, 'cssLeftChannel': False, 'cssRightChannel': False, 'cssLeftHasItem': False, 'cssRightHasItem': False, 'cssLeftPowerPer': 0, 'cssRightPowerPer': 0, 'isUpgradeItem': False, 'upgradeAscensionStar': 0, 'upgradeStar': 0}}], 'refreshCity': False, 'hasCountryReward': False}}
+112 request 14502 {'npcId': 2, 'missionId': 2203}
+113 response 14502 {'result': 0, 'npcStatus': [{'npcId': 2, 'sign': 0}, {'npcId': 5, 'sign': 1}], 'directSubmit': False}
+114 request 14501 {'npcId': 5, 'cachedGroups': [260, 261, 2012, 2013, 2015, 2016], 'cachedMonsters': [21, 22, 2016, 2017, 2019, 2020, 2021, 2047, 2048, 2049]}
+115 response 14501 {'npcId': 5, 'missionCount': 2, 'missionIds': [2204, 2205], 'monsterData': {'groups': [], 'monsters': [], 'skills': [], 'ai': []}}
+116 request 10518 {'mode': 2, 'target': 2203}
+117 response 10518 {'result': 0, 'segments': 0, 'transitions': [], 'x': 22, 'y': 16}
+120 request 14503 {'npcId': 5, 'missionId': 2203, 'selection': -1}
+123 response 14503 {'result': 0, 'npcStatus': [{'npcId': 5, 'sign': 3}], 'reward': {'finishMission': True, 'costMoney1': 0, 'costMoney2': 0, 'costMoney3': 0, 'gainMoney2': 0, 'gainMoney3': 100, 'level': {'exp': 100, 'gainLevel': 0, 'exp2': 0, 'gainLevel2': 0}, 'hasPetReward': False, 'removedItems': [], 'items': [], 'refreshCity': False, 'hasCountryReward': False}}
+124 request 14502 {'npcId': 5, 'missionId': 2204}
+125 response 14502 {'result': 0, 'npcStatus': [{'npcId': 5, 'sign': 2}], 'directSubmit': False}
+128 request 10518 {'mode': 2, 'target': 2204}
+129 response 10518 {'result': 0, 'segments': 0, 'transitions': [], 'x': 29, 'y': 16}
+132 request 12501 {'monsterGroupId': 2013}
+134 response 12501 {'result': 0}
+141 request 10518 {'mode': 2, 'target': 2204}
+142 response 10518 {'result': 0, 'segments': 0, 'transitions': [], 'x': 22, 'y': 16}
+143 request 14503 {'npcId': 5, 'missionId': 2204, 'selection': 2125}
+149 response 14503 {'result': 0, 'npcStatus': [{'npcId': 5, 'sign': 3}], 'reward': {'finishMission': True, 'costMoney1': 0, 'costMoney2': 0, 'costMoney3': 0, 'gainMoney2': 0, 'gainMoney3': 1000, 'level': {'exp': 1000, 'gainLevel': 1, 'currentExp': 672, 'expMax': 1200, 'sp': 30, 'cp': 3, 'exp2': 0, 'gainLevel2': 0}, 'hasPetReward': False, 'removedItems': [], 'items': [{'mode': 1, 'quantity': 1, 'expectedSlotPos': 33, 'item': {'quantity': 1, 'petProvideExp': 0, 'durability': 130, 'attachDone': 0, 'attachPower': 0, 'attachValue': 0, 'slotPos': 33, 'status': 0, 'type': 0, 'id': 2125, 'name': '云卿头饰', 'bagIcon': 212, 'info': '适合/c00FF00修真者/p的装备,不可分解', 'grade': 0, 'autoBinding': 0, 'stackNum': 1, 'decomCHest': False, 'icon': 10012, 'ownTime': 0, 'durMax': 130, 'price': 250, 'attachCount': 0, 'itemSet': 0, 'reqLv': 3, 'reqStr': 0, 'reqCon': 1, 'reqAgi': 0, 'reqIlt': 0, 'reqWis': 6, 'def_str': 20, 'def_agi': 20, 'def_mag': 43, 'powers': [[70, 18], [13, 18], [0, 0]], 'skill': None, 'combinUpSkills': [], 'skillDesc': '', 'bindPowers': [[0, 0], [0, 0]], 'ascensionStar': 0, 'star': 0, 'vipLevelReq': 0, 'enchantPowers': [[0, 0], [0, 0]], 'enchantLevel': 0, 'cssLeftChannel': False, 'cssRightChannel': False, 'cssLeftHasItem': False, 'cssRightHasItem': False, 'cssLeftPowerPer': 0, 'cssRightPowerPer': 0, 'isUpgradeItem': False, 'upgradeAscensionStar': 0, 'upgradeStar': 0}}], 'refreshCity': False, 'hasCountryReward': False}}
+152 request 14502 {'npcId': 5, 'missionId': 2205}
+153 response 14502 {'result': 0, 'npcStatus': [{'npcId': 5, 'sign': 0}, {'npcId': 10, 'sign': 1}], 'directSubmit': False}
+154 request 14501 {'npcId': 10, 'cachedGroups': [260, 261, 2012, 2013, 2015, 2016], 'cachedMonsters': [21, 22, 2016, 2017, 2019, 2020, 2021, 2047, 2048, 2049]}
+155 response 14501 {'npcId': 10, 'missionCount': 1, 'missionIds': [2206], 'monsterData': {'groups': [], 'monsters': [], 'skills': [], 'ai': []}}
+156 request 10518 {'mode': 2, 'target': 2205}
+157 response 10518 {'result': 0, 'segments': 0, 'transitions': [], 'x': 14, 'y': 23}
+159 request 14503 {'npcId': 10, 'missionId': 2205, 'selection': -1}
+162 response 14503 {'result': 0, 'npcStatus': [{'npcId': 10, 'sign': 3}], 'reward': {'finishMission': True, 'costMoney1': 0, 'costMoney2': 0, 'costMoney3': 0, 'gainMoney2': 0, 'gainMoney3': 500, 'level': {'exp': 500, 'gainLevel': 0, 'exp2': 0, 'gainLevel2': 0}, 'hasPetReward': False, 'removedItems': [], 'items': [], 'refreshCity': False, 'hasCountryReward': False}}
+163 request 14502 {'npcId': 10, 'missionId': 2206}
+164 response 14502 {'result': 0, 'npcStatus': [{'npcId': 10, 'sign': 0}, {'npcId': 11, 'sign': 1}], 'directSubmit': False}
+165 request 14501 {'npcId': 11, 'cachedGroups': [260, 261, 2012, 2013, 2015, 2016], 'cachedMonsters': [21, 22, 2016, 2017, 2019, 2020, 2021, 2047, 2048, 2049]}
+166 response 14501 {'npcId': 11, 'missionCount': 2, 'missionIds': [2207, 2243], 'monsterData': {'groups': [{'groupId': 2014, 'type': 0, 'nextBattleGroupID': 0, 'flag': 2, 'coefficient': 0, 'monsters': [0, 0, 0, 0, 2018, 0, 0, 0, 0, 0], 'npcs': [2019, 2049, 0, 0]}], 'monsters': [{'id': 2018, 'name': '亥起', 'icon1': 20031, 'level': 5, 'monstertype': 0, 'hpMax': 200, 'mpMax': 50, 'speed': 15, 'atkType': 0, 'atkMin': 10, 'atkMax': 40, 'atk_time': 0, 'dodge': 0, 'atk_str': 30, 'atk_str_nearby': 0, 'atk_str_range': 0, 'atk_agi': 0, 'atk_agi_nearby': 0, 'atk_agi_range': 0, 'atk_magic': 0, 'def_str': 20, 'def_str_nearby': 0, 'def_str_range': 0, 'def_agi': 20, 'def_agi_nearby': 0, 'def_agi_range': 0, 'def_magic': 20, 'hitrate': 30, 'hitMagic': 0, 'critical': 0, 'ignoreCritical': 0, 'criticalDmg': 0, 'ignore_back': 0, 'ignore_magic_back': 0, 'ignore_block': 0, 'ignore_insight': 0, 'ignore_touch': 0, 'ignore_wil': 0, 'wil': 0, 'tough': 20, 'block': 0, 'brkArmor': 0, 'insight': 0, 'def_field': 0, 'back': 0, 'magic_back': 0, 'life_absorption': 0, 'mana_absorption': 0, 'magic_penetration': 0, 'bornStatus': 0, 'newReflection': 0}], 'skills': [], 'ai': []}}
+167 request 10518 {'mode': 2, 'target': 2206}
+168 response 10518 {'result': 0, 'segments': 0, 'transitions': [], 'x': 20, 'y': 31}
+172 request 14503 {'npcId': 11, 'missionId': 2206, 'selection': -1}
+181 response 14503 {'result': 0, 'npcStatus': [{'npcId': 11, 'sign': 3}], 'reward': {'finishMission': True, 'costMoney1': 0, 'costMoney2': 0, 'costMoney3': 0, 'gainMoney2': 0, 'gainMoney3': 250, 'level': {'exp': 250, 'gainLevel': 1, 'currentExp': 222, 'expMax': 1600, 'sp': 40, 'cp': 3, 'exp2': 0, 'gainLevel2': 0}, 'hasPetReward': False, 'removedItems': [], 'items': [], 'refreshCity': False, 'hasCountryReward': False}}
+184 request 14502 {'npcId': 11, 'missionId': 2207}
+185 response 14502 {'result': 0, 'npcStatus': [{'npcId': 11, 'sign': 2}], 'directSubmit': False}
+188 request 12501 {'monsterGroupId': 2014}
+190 response 12501 {'result': 0}
+201 request 10518 {'mode': 2, 'target': 2207}
+202 response 10518 {'result': 0, 'segments': 0, 'transitions': [], 'x': 20, 'y': 31}
+203 request 14503 {'npcId': 11, 'missionId': 2207, 'selection': 2117}
+206 response 14503 {'result': 0, 'npcStatus': [{'npcId': 11, 'sign': 3}], 'reward': {'finishMission': True, 'costMoney1': 0, 'costMoney2': 0, 'costMoney3': 0, 'gainMoney2': 0, 'gainMoney3': 550, 'level': {'exp': 1250, 'gainLevel': 0, 'exp2': 0, 'gainLevel2': 0}, 'hasPetReward': False, 'removedItems': [], 'items': [{'mode': 1, 'quantity': 1, 'expectedSlotPos': 34, 'item': {'quantity': 1, 'petProvideExp': 0, 'durability': 150, 'attachDone': 0, 'attachPower': 0, 'attachValue': 0, 'slotPos': 34, 'status': 0, 'type': 13, 'id': 20303, 'name': '紫电剑', 'bagIcon': 8011, 'info': '不可分解', 'grade': 1, 'autoBinding': 0, 'stackNum': 1, 'decomCHest': False, 'icon': 8011, 'ownTime': 0, 'durMax': 150, 'price': 500, 'attachCount': 20, 'itemSet': 0, 'reqLv': 5, 'reqStr': 0, 'reqCon': 0, 'reqAgi': 0, 'reqIlt': 0, 'reqWis': 0, 'def_str': 0, 'def_agi': 0, 'def_mag': 0, 'powers': [[53, 31], [55, 4], [0, 0]], 'skill': None, 'combinUpSkills': [], 'skillDesc': '', 'bindPowers': [[0, 0], [0, 0]], 'atkType': 2, 'atk_time': 1, 'atkMin': 9, 'atkMax': 53, 'ascensionStar': 40, 'star': 0, 'hitrate': -50, 'vipLevelReq': 0, 'enchantPowers': [[0, 0], [0, 0]], 'enchantLevel': 0, 'cssLeftChannel': False, 'cssRightChannel': False, 'cssLeftHasItem': False, 'cssRightHasItem': False, 'cssLeftPowerPer': 0, 'cssRightPowerPer': 0, 'isUpgradeItem': False, 'upgradeAscensionStar': 0, 'upgradeStar': 0}}, {'mode': 1, 'quantity': 1, 'expectedSlotPos': 35, 'item': {'quantity': 1, 'petProvideExp': 0, 'durability': 150, 'attachDone': 0, 'attachPower': 0, 'attachValue': 0, 'slotPos': 35, 'status': 0, 'type': 19, 'id': 20003, 'name': '宽宏之杖', 'bagIcon': 8397, 'info': '不可分解', 'grade': 1, 'autoBinding': 0, 'stackNum': 1, 'decomCHest': False, 'icon': 8397, 'ownTime': 0, 'durMax': 150, 'price': 500, 'attachCount': 20, 'itemSet': 0, 'reqLv': 5, 'reqStr': 0, 'reqCon': 0, 'reqAgi': 0, 'reqIlt': 0, 'reqWis': 0, 'def_str': 0, 'def_agi': 0, 'def_mag': 0, 'powers': [[56, 20], [13, 20], [0, 0]], 'skill': None, 'combinUpSkills': [], 'skillDesc': '', 'bindPowers': [[0, 0], [0, 0]], 'atkType': 4, 'atk_time': 0, 'atkMin': 24, 'atkMax': 35, 'ascensionStar': 40, 'star': 0, 'hitrate': 0, 'vipLevelReq': 0, 'enchantPowers': [[0, 0], [0, 0]], 'enchantLevel': 0, 'cssLeftChannel': False, 'cssRightChannel': False, 'cssLeftHasItem': False, 'cssRightHasItem': False, 'cssLeftPowerPer': 0, 'cssRightPowerPer': 0, 'isUpgradeItem': False, 'upgradeAscensionStar': 0, 'upgradeStar': 0}}, {'mode': 1, 'quantity': 1, 'expectedSlotPos': 36, 'item': {'quantity': 1, 'petProvideExp': 0, 'durability': 130, 'attachDone': 0, 'attachPower': 0, 'attachValue': 0, 'slotPos': 36, 'status': 0, 'type': 3, 'id': 2117, 'name': '云卿肩饰', 'bagIcon': 215, 'info': '适合/c00FF00修真者/p的装备,不可分解', 'grade': 0, 'autoBinding': 0, 'stackNum': 1, 'decomCHest': False, 'icon': 4052, 'ownTime': 0, 'durMax': 130, 'price': 250, 'attachCount': 0, 'itemSet': 0, 'reqLv': 3, 'reqStr': 0, 'reqCon': 1, 'reqAgi': 0, 'reqIlt': 0, 'reqWis': 6, 'def_str': 20, 'def_agi': 20, 'def_mag': 43, 'powers': [[70, 18], [13, 18], [0, 0]], 'skill': None, 'combinUpSkills': [], 'skillDesc': '', 'bindPowers': [[0, 0], [0, 0]], 'ascensionStar': 0, 'star': 0, 'vipLevelReq': 0, 'enchantPowers': [[0, 0], [0, 0]], 'enchantLevel': 0, 'cssLeftChannel': False, 'cssRightChannel': False, 'cssLeftHasItem': False, 'cssRightHasItem': False, 'cssLeftPowerPer': 0, 'cssRightPowerPer': 0, 'isUpgradeItem': False, 'upgradeAscensionStar': 0, 'upgradeStar': 0}}], 'refreshCity': False, 'hasCountryReward': False}}
+211 request 14502 {'npcId': 11, 'missionId': 2243}
+212 response 14502 {'result': 0, 'npcStatus': [{'npcId': 16, 'sign': 1}, {'npcId': 11, 'sign': 0}], 'directSubmit': False}
+213 request 14501 {'npcId': 16, 'cachedGroups': [260, 261, 2012, 2013, 2014, 2015, 2016], 'cachedMonsters': [21, 22, 2016, 2017, 2018, 2019, 2020, 2021, 2047, 2048, 2049]}
+214 response 14501 {'npcId': 16, 'missionCount': 2, 'missionIds': [2208, 2211], 'monsterData': {'groups': [], 'monsters': [], 'skills': [], 'ai': []}}
+215 request 10518 {'mode': 2, 'target': 2243}
+216 response 10518 {'result': 0, 'segments': 0, 'transitions': [], 'x': 16, 'y': 31}
+218 request 14503 {'npcId': 16, 'missionId': 2243, 'selection': -1}
+221 response 14503 {'result': 0, 'npcStatus': [{'npcId': 16, 'sign': 3}], 'reward': {'finishMission': True, 'costMoney1': 0, 'costMoney2': 0, 'costMoney3': 0, 'gainMoney2': 0, 'gainMoney3': 0, 'level': {'exp': 0, 'gainLevel': 0, 'exp2': 0, 'gainLevel2': 0}, 'hasPetReward': False, 'removedItems': [], 'items': [], 'refreshCity': False, 'hasCountryReward': False}}
+222 request 14502 {'npcId': 16, 'missionId': 2208}
+223 response 14502 {'result': 0, 'npcStatus': [{'npcId': 16, 'sign': 0}, {'npcId': 13, 'sign': 1}], 'directSubmit': False}
+224 request 14501 {'npcId': 13, 'cachedGroups': [260, 261, 2012, 2013, 2014, 2015, 2016], 'cachedMonsters': [21, 22, 2016, 2017, 2018, 2019, 2020, 2021, 2047, 2048, 2049]}
+225 response 14501 {'npcId': 13, 'missionCount': 2, 'missionIds': [2209, 2210], 'monsterData': {'groups': [], 'monsters': [], 'skills': [], 'ai': []}}
+226 request 10518 {'mode': 2, 'target': 2208}
+227 response 10518 {'result': 0, 'segments': 0, 'transitions': [], 'x': 12, 'y': 35}
+228 request 14503 {'npcId': 13, 'missionId': 2208, 'selection': -1}
+235 response 14503 {'result': 0, 'npcStatus': [{'npcId': 13, 'sign': 3}], 'reward': {'finishMission': True, 'costMoney1': 0, 'costMoney2': 0, 'costMoney3': 0, 'gainMoney2': 0, 'gainMoney3': 500, 'level': {'exp': 1000, 'gainLevel': 1, 'currentExp': 902, 'expMax': 2200, 'sp': 50, 'cp': 3, 'exp2': 0, 'gainLevel2': 0}, 'hasPetReward': False, 'removedItems': [], 'items': [{'mode': 1, 'quantity': 1, 'expectedSlotPos': 37, 'item': {'quantity': 1, 'petProvideExp': 0, 'durability': 150, 'attachDone': 0, 'attachPower': 0, 'attachValue': 0, 'slotPos': 37, 'status': 0, 'type': 21, 'id': 20103, 'name': '银色轻弩', 'bagIcon': 8517, 'info': '不可分解', 'grade': 1, 'autoBinding': 0, 'stackNum': 1, 'decomCHest': False, 'icon': 8517, 'ownTime': 0, 'durMax': 150, 'price': 500, 'attachCount': 20, 'itemSet': 0, 'reqLv': 5, 'reqStr': 0, 'reqCon': 0, 'reqAgi': 5, 'reqIlt': 0, 'reqWis': 0, 'def_str': 0, 'def_agi': 0, 'def_mag': 0, 'powers': [[53, 60], [13, 10], [173, 15]], 'skill': None, 'combinUpSkills': [], 'skillDesc': '', 'bindPowers': [[0, 0], [0, 0]], 'atkType': 3, 'atk_time': 1, 'atkMin': 20, 'atkMax': 45, 'ascensionStar': 40, 'star': 0, 'hitrate': -50, 'vipLevelReq': 0, 'enchantPowers': [[0, 0], [0, 0]], 'enchantLevel': 0, 'cssLeftChannel': False, 'cssRightChannel': False, 'cssLeftHasItem': False, 'cssRightHasItem': False, 'cssLeftPowerPer': 0, 'cssRightPowerPer': 0, 'isUpgradeItem': False, 'upgradeAscensionStar': 0, 'upgradeStar': 0}}], 'refreshCity': False, 'hasCountryReward': False}}
+238 request 14502 {'npcId': 13, 'missionId': 2209}
+239 response 14502 {'result': 0, 'npcStatus': [{'npcId': 13, 'sign': 2}], 'directSubmit': False}
+240 request 10518 {'mode': 2, 'target': 2209}
+242 response 10518 {'result': 0, 'segments': 0, 'transitions': [], 'x': 9, 'y': 34}
+247 request 12501 {'monsterGroupId': 2015}
+249 response 12501 {'result': 0}
+256 request 10518 {'mode': 2, 'target': 2209}
+257 response 10518 {'result': 0, 'segments': 0, 'transitions': [], 'x': 12, 'y': 35}
+258 request 14503 {'npcId': 13, 'missionId': 2209, 'selection': 20004}
+261 response 14503 {'result': 0, 'npcStatus': [{'npcId': 13, 'sign': 3}], 'reward': {'finishMission': True, 'costMoney1': 0, 'costMoney2': 0, 'costMoney3': 0, 'gainMoney2': 0, 'gainMoney3': 500, 'level': {'exp': 500, 'gainLevel': 0, 'exp2': 0, 'gainLevel2': 0}, 'hasPetReward': False, 'removedItems': [], 'items': [{'mode': 1, 'quantity': 1, 'expectedSlotPos': 38, 'item': {'quantity': 1, 'petProvideExp': 0, 'durability': 130, 'attachDone': 0, 'attachPower': 0, 'attachValue': 0, 'slotPos': 38, 'status': 0, 'type': 2, 'id': 2009, 'name': '萍踪护腿', 'bagIcon': 115, 'info': '适合/c00FF00侠客/p的装备,不可分解', 'grade': 0, 'autoBinding': 0, 'stackNum': 1, 'decomCHest': False, 'icon': 7049, 'ownTime': 0, 'durMax': 130, 'price': 250, 'attachCount': 0, 'itemSet': 0, 'reqLv': 3, 'reqStr': 0, 'reqCon': 2, 'reqAgi': 5, 'reqIlt': 0, 'reqWis': 0, 'def_str': 60, 'def_agi': 70, 'def_mag': 60, 'powers': [[11, 25], [13, 18], [0, 0]], 'skill': None, 'combinUpSkills': [], 'skillDesc': '', 'bindPowers': [[0, 0], [0, 0]], 'ascensionStar': 0, 'star': 0, 'vipLevelReq': 0, 'enchantPowers': [[0, 0], [0, 0]], 'enchantLevel': 0, 'cssLeftChannel': False, 'cssRightChannel': False, 'cssLeftHasItem': False, 'cssRightHasItem': False, 'cssLeftPowerPer': 0, 'cssRightPowerPer': 0, 'isUpgradeItem': False, 'upgradeAscensionStar': 0, 'upgradeStar': 0}}, {'mode': 1, 'quantity': 1, 'expectedSlotPos': 39, 'item': {'quantity': 1, 'petProvideExp': 0, 'durability': 130, 'attachDone': 0, 'attachPower': 0, 'attachValue': 0, 'slotPos': 39, 'status': 0, 'type': 2, 'id': 2109, 'name': '云卿锦裤', 'bagIcon': 214, 'info': '适合/c00FF00修真者/p的装备,不可分解', 'grade': 0, 'autoBinding': 0, 'stackNum': 1, 'decomCHest': False, 'icon': 7418, 'ownTime': 0, 'durMax': 130, 'price': 250, 'attachCount': 0, 'itemSet': 0, 'reqLv': 3, 'reqStr': 0, 'reqCon': 1, 'reqAgi': 0, 'reqIlt': 0, 'reqWis': 6, 'def_str': 40, 'def_agi': 40, 'def_mag': 84, 'powers': [[70, 18], [13, 18], [0, 0]], 'skill': None, 'combinUpSkills': [], 'skillDesc': '', 'bindPowers': [[0, 0], [0, 0]], 'ascensionStar': 0, 'star': 0, 'vipLevelReq': 0, 'enchantPowers': [[0, 0], [0, 0]], 'enchantLevel': 0, 'cssLeftChannel': False, 'cssRightChannel': False, 'cssLeftHasItem': False, 'cssRightHasItem': False, 'cssLeftPowerPer': 0, 'cssRightPowerPer': 0, 'isUpgradeItem': False, 'upgradeAscensionStar': 0, 'upgradeStar': 0}}, {'mode': 1, 'quantity': 1, 'expectedSlotPos': 40, 'item': {'quantity': 1, 'petProvideExp': 0, 'durability': 170, 'attachDone': 0, 'attachPower': 0, 'attachValue': 0, 'slotPos': 40, 'status': 0, 'type': 19, 'id': 20004, 'name': '统御法杖', 'bagIcon': 8401, 'info': '不可分解', 'grade': 2, 'autoBinding': 0, 'stackNum': 1, 'decomCHest': False, 'icon': 8401, 'ownTime': 0, 'durMax': 170, 'price': 750, 'attachCount': 20, 'itemSet': 0, 'reqLv': 5, 'reqStr': 0, 'reqCon': 0, 'reqAgi': 0, 'reqIlt': 5, 'reqWis': 3, 'def_str': 0, 'def_agi': 0, 'def_mag': 0, 'powers': [[56, 21], [13, 25], [0, 0]], 'skill': None, 'combinUpSkills': [], 'skillDesc': '', 'bindPowers': [[78, 25], [60, 15]], 'atkType': 4, 'atk_time': 0, 'atkMin': 25, 'atkMax': 37, 'ascensionStar': 40, 'star': 0, 'hitrate': 0, 'vipLevelReq': 0, 'enchantPowers': [[0, 0], [0, 0]], 'enchantLevel': 0, 'cssLeftChannel': False, 'cssRightChannel': False, 'cssLeftHasItem': False, 'cssRightHasItem': False, 'cssLeftPowerPer': 0, 'cssRightPowerPer': 0, 'isUpgradeItem': False, 'upgradeAscensionStar': 0, 'upgradeStar': 0}}], 'refreshCity': False, 'hasCountryReward': False}}
+275 request 14502 {'npcId': 13, 'missionId': 2210}
+276 response 14502 {'result': 0, 'npcStatus': [{'npcId': 16, 'sign': 2}, {'npcId': 13, 'sign': 0}], 'directSubmit': False}
+277 request 10518 {'mode': 2, 'target': 2210}
+278 response 10518 {'result': 0, 'segments': 0, 'transitions': [], 'x': 29, 'y': 28}
+283 request 12501 {'monsterGroupId': 2016}
+285 response 12501 {'result': 0}
+296 request 10518 {'mode': 2, 'target': 2210}
+297 response 10518 {'result': 0, 'segments': 0, 'transitions': [], 'x': 16, 'y': 31}
+299 request 14503 {'npcId': 16, 'missionId': 2210, 'selection': 2102}
+302 response 14503 {'result': 0, 'npcStatus': [{'npcId': 16, 'sign': 3}], 'reward': {'finishMission': True, 'costMoney1': 0, 'costMoney2': 0, 'costMoney3': 0, 'gainMoney2': 0, 'gainMoney3': 500, 'level': {'exp': 500, 'gainLevel': 0, 'exp2': 0, 'gainLevel2': 0}, 'hasPetReward': False, 'removedItems': [], 'items': [{'mode': 1, 'quantity': 1, 'expectedSlotPos': 41, 'item': {'quantity': 1, 'petProvideExp': 0, 'durability': 150, 'attachDone': 0, 'attachPower': 0, 'attachValue': 0, 'slotPos': 41, 'status': 0, 'type': 1, 'id': 2102, 'name': '松绿锦袍', 'bagIcon': 213, 'info': '适合/c00FF00修真者/p的装备,不可分解', 'grade': 1, 'autoBinding': 0, 'stackNum': 1, 'decomCHest': False, 'icon': 6075, 'ownTime': 0, 'durMax': 150, 'price': 500, 'attachCount': 20, 'itemSet': 74, 'reqLv': 5, 'reqStr': 0, 'reqCon': 1, 'reqAgi': 0, 'reqIlt': 0, 'reqWis': 8, 'def_str': 44, 'def_agi': 44, 'def_mag': 91, 'powers': [[70, 19], [13, 19], [0, 0]], 'skill': None, 'combinUpSkills': [], 'skillDesc': '', 'bindPowers': [[5, 1], [0, 0]], 'ascensionStar': 40, 'star': 0, 'vipLevelReq': 0, 'enchantPowers': [[0, 0], [0, 0]], 'enchantLevel': 0, 'cssLeftChannel': False, 'cssRightChannel': False, 'cssLeftHasItem': False, 'cssRightHasItem': False, 'cssLeftPowerPer': 0, 'cssRightPowerPer': 0, 'isUpgradeItem': False, 'upgradeAscensionStar': 0, 'upgradeStar': 0}}], 'refreshCity': False, 'hasCountryReward': False}}
+308 request 14502 {'npcId': 16, 'missionId': 2211}
+309 response 14502 {'result': 0, 'npcStatus': [{'npcId': 16, 'sign': 0}], 'directSubmit': False}
+310 request 10518 {'mode': 2, 'target': 2211}
+311 response 10518 {'result': 0, 'segments': 1, 'transitions': [{'exitX': 34, 'exitY': 33, 'mapId': 16, 'entryX': 3, 'entryY': 44}], 'x': 5, 'y': 44}
+317 request 14501 {'npcId': 1, 'cachedGroups': [260, 261, 2012, 2013, 2014, 2015, 2016, 2018, 2019, 2020, 2021, 2023, 2024, 2047], 'cachedMonsters': [21, 22, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2025, 2029, 2031, 2032, 2046, 2047, 2048, 2049, 2050]}
+318 response 14501 {'npcId': 1, 'missionCount': 1, 'missionIds': [2212], 'monsterData': {'groups': [], 'monsters': [], 'skills': [], 'ai': []}}
+321 request 14503 {'npcId': 1, 'missionId': 2211, 'selection': -1}
+325 response 14503 {'result': 0, 'npcStatus': [{'npcId': 1, 'sign': 3}], 'reward': {'finishMission': True, 'costMoney1': 0, 'costMoney2': 0, 'costMoney3': 0, 'gainMoney2': 0, 'gainMoney3': 200, 'level': {'exp': 200, 'gainLevel': 0, 'exp2': 0, 'gainLevel2': 0}, 'hasPetReward': False, 'removedItems': [], 'items': [], 'refreshCity': False, 'hasCountryReward': False}}
+326 request 14502 {'npcId': 1, 'missionId': 2212}
+327 response 14502 {'result': 0, 'npcStatus': [{'npcId': 1, 'sign': 0}, {'npcId': 2, 'sign': 1}], 'directSubmit': False}
+328 request 14501 {'npcId': 2, 'cachedGroups': [260, 261, 2012, 2013, 2014, 2015, 2016, 2018, 2019, 2020, 2021, 2023, 2024, 2047], 'cachedMonsters': [21, 22, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2025, 2029, 2031, 2032, 2046, 2047, 2048, 2049, 2050]}
+329 response 14501 {'npcId': 2, 'missionCount': 3, 'missionIds': [2213, 2215, 1181], 'monsterData': {'groups': [], 'monsters': [], 'skills': [], 'ai': []}}
+330 request 10518 {'mode': 2, 'target': 2212}
+331 response 10518 {'result': 0, 'segments': 0, 'transitions': [], 'x': 7, 'y': 44}
+334 request 14503 {'npcId': 2, 'missionId': 2212, 'selection': -1}
+342 response 14503 {'result': 0, 'npcStatus': [{'npcId': 2, 'sign': 3}], 'reward': {'finishMission': True, 'costMoney1': 0, 'costMoney2': 0, 'costMoney3': 0, 'gainMoney2': 0, 'gainMoney3': 300, 'level': {'exp': 300, 'gainLevel': 1, 'currentExp': 226, 'expMax': 2800, 'sp': 60, 'cp': 3, 'exp2': 0, 'gainLevel2': 0}, 'hasPetReward': False, 'removedItems': [], 'items': [], 'refreshCity': False, 'hasCountryReward': False}}
+343 request 14502 {'npcId': 2, 'missionId': 2213}
+344 response 14502 {'result': 0, 'npcStatus': [{'npcId': 2, 'sign': 0}, {'npcId': 5, 'sign': 2}], 'directSubmit': False}
+346 request 10518 {'mode': 2, 'target': 2213}
+347 response 10518 {'result': 0, 'segments': 0, 'transitions': [], 'x': 18, 'y': 45}
+352 request 12501 {'monsterGroupId': 2019}
+354 response 12501 {'result': 0}
+359 request 14501 {'npcId': 5, 'cachedGroups': [260, 261, 2012, 2013, 2014, 2015, 2016, 2018, 2019, 2020, 2021, 2023, 2024, 2047], 'cachedMonsters': [21, 22, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2025, 2029, 2031, 2032, 2046, 2047, 2048, 2049, 2050]}
+360 response 14501 {'npcId': 5, 'missionCount': 2, 'missionIds': [2214, 2244], 'monsterData': {'groups': [{'groupId': 2017, 'type': 0, 'nextBattleGroupID': 0, 'flag': 2, 'coefficient': 0, 'monsters': [0, 0, 0, 0, 2028, 0, 0, 0, 0, 0], 'npcs': [2019, 2029, 0, 0]}], 'monsters': [{'id': 2028, 'name': '魔教屠夫', 'icon1': 20045, 'level': 5, 'monstertype': 0, 'hpMax': 400, 'mpMax': 50, 'speed': 21, 'atkType': 4, 'atkMin': 10, 'atkMax': 30, 'atk_time': 0, 'dodge': 0, 'atk_str': 0, 'atk_str_nearby': 0, 'atk_str_range': 0, 'atk_agi': 0, 'atk_agi_nearby': 0, 'atk_agi_range': 0, 'atk_magic': 10, 'def_str': 20, 'def_str_nearby': 0, 'def_str_range': 0, 'def_agi': 20, 'def_agi_nearby': 0, 'def_agi_range': 0, 'def_magic': 20, 'hitrate': 30, 'hitMagic': 0, 'critical': 0, 'ignoreCritical': 0, 'criticalDmg': 0, 'ignore_back': 0, 'ignore_magic_back': 0, 'ignore_block': 0, 'ignore_insight': 0, 'ignore_touch': 0, 'ignore_wil': 0, 'wil': 0, 'tough': 0, 'block': 0, 'brkArmor': 0, 'insight': 0, 'def_field': 0, 'back': 0, 'magic_back': 0, 'life_absorption': 0, 'mana_absorption': 0, 'magic_penetration': 0, 'bornStatus': 0, 'newReflection': 0}], 'skills': [], 'ai': []}}
+366 request 12501 {'monsterGroupId': 2019}
+368 response 12501 {'result': 0}

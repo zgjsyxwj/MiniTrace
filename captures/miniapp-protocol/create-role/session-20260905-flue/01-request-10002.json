@@ -1,0 +1,33 @@
+{
+  "declaredLength": 49,
+  "actualLength": 49,
+  "messageType": 10002,
+  "direction": "request",
+  "body": {
+    "sex": 0,
+    "race": 1,
+    "job": 4,
+    "icon1": {
+      "high": 0,
+      "low": 2237346,
+      "decimal": "2237346"
+    },
+    "icon2": {
+      "high": 0,
+      "low": 0,
+      "decimal": "0"
+    },
+    "icon3": {
+      "high": 0,
+      "low": 0,
+      "decimal": "0"
+    },
+    "name": "斯特特里古",
+    "clientType": "1",
+    "unparsedBytes": 0
+  },
+  "timestamp": "2026-09-05T12:54:11.714+00:00",
+  "sha256": "14bc72fa841a8e8a6a964aa28f6deed62f6360faf30d5e635278ff17d726442b",
+  "rawFile": "01-request-10002.bin",
+  "sourceHookRva": "0x573550"
+}

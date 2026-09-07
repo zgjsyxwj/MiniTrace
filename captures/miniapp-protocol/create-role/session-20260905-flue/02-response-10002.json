@@ -1,0 +1,41 @@
+{
+  "declaredLength": 64,
+  "actualLength": 64,
+  "messageType": 10002,
+  "direction": "response",
+  "body": {
+    "result": 0,
+    "success": true,
+    "role": {
+      "id": 2586841,
+      "name": "斯特特里古",
+      "sex": 0,
+      "race": 1,
+      "job": 4,
+      "level": 1,
+      "vipLevel": 0,
+      "mapName": "世界村",
+      "icon1": {
+        "high": 0,
+        "low": 2237346,
+        "decimal": "2237346"
+      },
+      "icon2": {
+        "high": 0,
+        "low": 6208,
+        "decimal": "6208"
+      },
+      "icon3": {
+        "high": 0,
+        "low": 2957952,
+        "decimal": "2957952"
+      },
+      "status": 0
+    },
+    "unparsedBytes": 0
+  },
+  "timestamp": "2026-09-05T12:54:12.292+00:00",
+  "sha256": "9a40b453d1040b7834b62dceac86821b9a5ba5ea197aef97212131ed8df1be9a",
+  "rawFile": "02-response-10002.bin",
+  "sourceHookRva": "0x4c06990"
+}

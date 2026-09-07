@@ -1,0 +1,106 @@
+{
+  "sources": [
+    {
+      "file": "wechat-miniapp/subpackages/main/main.min.js",
+      "sha256": "ae247b9e203653827669571bd8a0c4764a24e6818f66a689c2aff84c78653c47"
+    },
+    {
+      "file": "wechat-miniapp/subpackages/libs/egret.min.js",
+      "sha256": "dacf48738416e5ce5b5de502d002ba4ee0b060c3ebbd8d8cf93ba9be506c9eed"
+    }
+  ],
+  "frames": [
+    {
+      "sequence": 99,
+      "source": "frames/000099-request-12502.bin",
+      "sha256": "21ae101e82afa4b25c069232bc8d12d54565f7c4e3a5d2c7c0f0c5d2818c6148",
+      "logicalBodyLength": 37,
+      "allocatedBodyLength": 41,
+      "paddingOffset": 41,
+      "paddingHex": "00000000",
+      "exactRebuild": true
+    },
+    {
+      "sequence": 135,
+      "source": "frames/000135-request-12502.bin",
+      "sha256": "6724d5cbf5f3b912995f21494317a7030a014e7430bc622f014e1b370f100149",
+      "logicalBodyLength": 37,
+      "allocatedBodyLength": 41,
+      "paddingOffset": 41,
+      "paddingHex": "00000000",
+      "exactRebuild": true
+    },
+    {
+      "sequence": 193,
+      "source": "frames/000193-request-12502.bin",
+      "sha256": "86b52f3a2c772471223de29e3a0438553ee87b19a97612079f48d14aa28a7ced",
+      "logicalBodyLength": 37,
+      "allocatedBodyLength": 41,
+      "paddingOffset": 41,
+      "paddingHex": "00000000",
+      "exactRebuild": true
+    },
+    {
+      "sequence": 250,
+      "source": "frames/000250-request-12502.bin",
+      "sha256": "a5eda05de64b4d94fdf1892ca767c398fe35000298d8992a9fceb330a9a41c6f",
+      "logicalBodyLength": 37,
+      "allocatedBodyLength": 41,
+      "paddingOffset": 41,
+      "paddingHex": "00000000",
+      "exactRebuild": true
+    },
+    {
+      "sequence": 290,
+      "source": "frames/000290-request-12502.bin",
+      "sha256": "bdf679937f1e44b0256af32141d95fa54396557c6dba5239c4672555b7c2e3ef",
+      "logicalBodyLength": 37,
+      "allocatedBodyLength": 41,
+      "paddingOffset": 41,
+      "paddingHex": "00000000",
+      "exactRebuild": true
+    },
+    {
+      "sequence": 355,
+      "source": "frames/000355-request-12502.bin",
+      "sha256": "d54c3b176984d381210e5c8188b4f244c765b3e8e7628afad8b766bc01ed3389",
+      "logicalBodyLength": 30,
+      "allocatedBodyLength": 34,
+      "paddingOffset": 34,
+      "paddingHex": "00000000",
+      "exactRebuild": true
+    },
+    {
+      "sequence": 370,
+      "source": "frames/000370-request-12502.bin",
+      "sha256": "8def871e2556bbb5c7ca2e8c9171634235f04fe7769cf554c48a87bb7a8c8736",
+      "logicalBodyLength": 37,
+      "allocatedBodyLength": 41,
+      "paddingOffset": 41,
+      "paddingHex": "00000000",
+      "exactRebuild": true
+    }
+  ],
+  "probes": [
+    {
+      "planLength": 0,
+      "logicalLength": 26,
+      "allocatedLength": 26
+    },
+    {
+      "planLength": 1,
+      "logicalLength": 27,
+      "allocatedLength": 28
+    },
+    {
+      "planLength": 4,
+      "logicalLength": 30,
+      "allocatedLength": 34
+    },
+    {
+      "planLength": 8,
+      "logicalLength": 34,
+      "allocatedLength": 42
+    }
+  ]
+}

@@ -1,0 +1,2561 @@
+[
+  {
+    "source": "frames/000026-response-14591.bin",
+    "frameSha256": "6b5a721aecbff4672ce729cd885d0747f3fe550daf0bbecbe5756b6740ba6330",
+    "offset": 7,
+    "file": "missions\\000026-1124.bin",
+    "sha256": "14bfe549211ea5a8d784918813fa5238cb9325f4d6a30b79bf80d86aa71537f5",
+    "task": {
+      "id": 1124,
+      "title": "新手有礼",
+      "level": 0,
+      "description": "",
+      "acceptedText": "欢迎您的来临，您将获得系统赠送的/c00ff00新手大礼包/p。在/c00ff00背包/p中使用即可获得礼品。祝您游戏愉快！",
+      "setting": 1025,
+      "mapId": 4,
+      "npcId": 88,
+      "radarMapId": 0,
+      "prompt": "",
+      "progressText": "",
+      "completeText": "",
+      "exp": 0,
+      "money2": 0,
+      "money3": 0,
+      "acceptJumpMap": 0,
+      "submitJumpMap": 0,
+      "acceptBattleId": 0,
+      "submitBattleId": 0,
+      "nextMissionId": 2199,
+      "rewardItems": [
+        {
+          "id": 40067,
+          "quantity": 1,
+          "name": "新手大礼包",
+          "icon": 7,
+          "grade": 0
+        }
+      ],
+      "selectItems": [],
+      "acceptConditions": [
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        }
+      ],
+      "submitConditions": [
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        }
+      ],
+      "type": 6,
+      "series": "",
+      "acceptMapId": 4,
+      "acceptNpcId": 88,
+      "canAccept": 1,
+      "isHelp": 0
+    }
+  },
+  {
+    "source": "frames/000034-response-14501.bin",
+    "frameSha256": "4fae22281e6af6ca730baa686894e619e24a11f3a6de2b71831f82aea6079ae3",
+    "offset": 10,
+    "file": "missions\\000034-1124.bin",
+    "sha256": "14bfe549211ea5a8d784918813fa5238cb9325f4d6a30b79bf80d86aa71537f5",
+    "task": {
+      "id": 1124,
+      "title": "新手有礼",
+      "level": 0,
+      "description": "",
+      "acceptedText": "欢迎您的来临，您将获得系统赠送的/c00ff00新手大礼包/p。在/c00ff00背包/p中使用即可获得礼品。祝您游戏愉快！",
+      "setting": 1025,
+      "mapId": 4,
+      "npcId": 88,
+      "radarMapId": 0,
+      "prompt": "",
+      "progressText": "",
+      "completeText": "",
+      "exp": 0,
+      "money2": 0,
+      "money3": 0,
+      "acceptJumpMap": 0,
+      "submitJumpMap": 0,
+      "acceptBattleId": 0,
+      "submitBattleId": 0,
+      "nextMissionId": 2199,
+      "rewardItems": [
+        {
+          "id": 40067,
+          "quantity": 1,
+          "name": "新手大礼包",
+          "icon": 7,
+          "grade": 0
+        }
+      ],
+      "selectItems": [],
+      "acceptConditions": [
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        }
+      ],
+      "submitConditions": [
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        }
+      ],
+      "type": 6,
+      "series": "",
+      "acceptMapId": 4,
+      "acceptNpcId": 88,
+      "canAccept": 1,
+      "isHelp": 0
+    }
+  },
+  {
+    "source": "frames/000035-response-14501.bin",
+    "frameSha256": "34bcf19f159c0910a13c50f164ec51b91eb2a3953b4b04c15e75504fb302a0ca",
+    "offset": 10,
+    "file": "missions\\000035-2201.bin",
+    "sha256": "071c97b9d59e7feaaf5fc9735dcf1910d16e066a233519e6cfe2f2100cea7f51",
+    "task": {
+      "id": 2201,
+      "title": "领路人【紫嫣】",
+      "level": 1,
+      "description": "/c00FF00紫嫣/p将在前面带您到武林大会的会场。",
+      "acceptedText": "欢迎/c00ff00{1}/p上人应邀来蜀一聚，走过莲蓬就可以看见/c00FF00紫嫣/p，她将带领您前往武林大会的所在地。",
+      "setting": 5376,
+      "mapId": 4,
+      "npcId": 2,
+      "radarMapId": 4,
+      "radarPosition": [
+        22,
+        7
+      ],
+      "prompt": "",
+      "progressText": "",
+      "completeText": "/cFFFFFF{1}/p上人，这边请！",
+      "exp": 100,
+      "money2": 0,
+      "money3": 100,
+      "acceptJumpMap": 0,
+      "submitJumpMap": 0,
+      "acceptBattleId": 0,
+      "submitBattleId": 0,
+      "nextMissionId": 2202,
+      "rewardItems": [],
+      "selectItems": [],
+      "acceptConditions": [
+        {
+          "type": 9,
+          "not": 0,
+          "dataHex": "08970012e89c80e5b1b1e79a84e98280e8afb7e587bd"
+        }
+      ],
+      "submitConditions": [],
+      "type": 6,
+      "series": "",
+      "acceptMapId": 4,
+      "acceptNpcId": 51,
+      "canAccept": 0,
+      "isHelp": 0
+    }
+  },
+  {
+    "source": "frames/000035-response-14501.bin",
+    "frameSha256": "34bcf19f159c0910a13c50f164ec51b91eb2a3953b4b04c15e75504fb302a0ca",
+    "offset": 356,
+    "file": "missions\\000035-2199.bin",
+    "sha256": "d7d493d1caafb987295e9ed4b010ccf16de44e8d7f9faf5c2b00dbc64e113219",
+    "task": {
+      "id": 2199,
+      "title": "蜀山的邀请函",
+      "level": 0,
+      "description": "",
+      "acceptedText": "尊敬的/c00FF00{1}/p上人！非常感谢您仙临蜀山参加这次的武林大会。",
+      "setting": 1025,
+      "mapId": 4,
+      "npcId": 51,
+      "radarMapId": 0,
+      "prompt": "",
+      "progressText": "",
+      "completeText": "上人可能不知道，近半年内各地均有出现不同寻常的事情；加上最近/cFFFFFF魔教/p的活动频繁，大有一发不可收拾的意味，/cFFFFFF神算子师祖/p算出最近的异变必与魔教有关，所以邀请上人您共商除魔之事。",
+      "exp": 100,
+      "money2": 0,
+      "money3": 100,
+      "acceptJumpMap": 0,
+      "submitJumpMap": 0,
+      "acceptBattleId": 0,
+      "submitBattleId": 0,
+      "nextMissionId": 2201,
+      "rewardItems": [],
+      "selectItems": [],
+      "acceptConditions": [],
+      "submitConditions": [],
+      "type": 6,
+      "series": "",
+      "acceptMapId": 4,
+      "acceptNpcId": 51,
+      "canAccept": 0,
+      "isHelp": 0
+    }
+  },
+  {
+    "source": "frames/000061-response-14591.bin",
+    "frameSha256": "368fb209bf28ca8dfbcd8a9386fb3eb1062fe9095ea7e9dfacf29c4f0d74d024",
+    "offset": 7,
+    "file": "missions\\000061-2199.bin",
+    "sha256": "f66e1a491045203a2d9a66ac86d38f434eab5f1d6acbd16dd73eb13b29e460cf",
+    "task": {
+      "id": 2199,
+      "title": "蜀山的邀请函",
+      "level": 0,
+      "description": "",
+      "acceptedText": "尊敬的/c00FF00{1}/p上人！非常感谢您仙临蜀山参加这次的武林大会。",
+      "setting": 1025,
+      "mapId": 4,
+      "npcId": 51,
+      "radarMapId": 0,
+      "prompt": "",
+      "progressText": "",
+      "completeText": "上人可能不知道，近半年内各地均有出现不同寻常的事情；加上最近/cFFFFFF魔教/p的活动频繁，大有一发不可收拾的意味，/cFFFFFF神算子师祖/p算出最近的异变必与魔教有关，所以邀请上人您共商除魔之事。",
+      "exp": 100,
+      "money2": 0,
+      "money3": 100,
+      "acceptJumpMap": 0,
+      "submitJumpMap": 0,
+      "acceptBattleId": 0,
+      "submitBattleId": 0,
+      "nextMissionId": 2201,
+      "rewardItems": [],
+      "selectItems": [],
+      "acceptConditions": [],
+      "submitConditions": [],
+      "type": 6,
+      "series": "",
+      "acceptMapId": 4,
+      "acceptNpcId": 51,
+      "canAccept": 1,
+      "isHelp": 0
+    }
+  },
+  {
+    "source": "frames/000067-response-14591.bin",
+    "frameSha256": "c6c42230dfa0af43c9791328d62039332b130a267a895ed4bc62af460916dc0a",
+    "offset": 7,
+    "file": "missions\\000067-2201.bin",
+    "sha256": "149bb4b8022a34c84a1e7bd7eb016eece99f913ee19500da10819fb6ea66ba86",
+    "task": {
+      "id": 2201,
+      "title": "领路人【紫嫣】",
+      "level": 1,
+      "description": "/c00FF00紫嫣/p将在前面带您到武林大会的会场。",
+      "acceptedText": "欢迎/c00ff00{1}/p上人应邀来蜀一聚，走过莲蓬就可以看见/c00FF00紫嫣/p，她将带领您前往武林大会的所在地。",
+      "setting": 5376,
+      "mapId": 4,
+      "npcId": 2,
+      "radarMapId": 4,
+      "radarPosition": [
+        22,
+        7
+      ],
+      "prompt": "",
+      "progressText": "",
+      "completeText": "/cFFFFFF{1}/p上人，这边请！",
+      "exp": 100,
+      "money2": 0,
+      "money3": 100,
+      "acceptJumpMap": 0,
+      "submitJumpMap": 0,
+      "acceptBattleId": 0,
+      "submitBattleId": 0,
+      "nextMissionId": 2202,
+      "rewardItems": [],
+      "selectItems": [],
+      "acceptConditions": [
+        {
+          "type": 9,
+          "not": 0,
+          "dataHex": "08970012e89c80e5b1b1e79a84e98280e8afb7e587bd"
+        }
+      ],
+      "submitConditions": [],
+      "type": 6,
+      "series": "",
+      "acceptMapId": 4,
+      "acceptNpcId": 51,
+      "canAccept": 1,
+      "isHelp": 0
+    }
+  },
+  {
+    "source": "frames/000072-response-14501.bin",
+    "frameSha256": "6f3a47a1037214376beb72048289df79e207c4f19d81a99a439c03cd00a9c95e",
+    "offset": 10,
+    "file": "missions\\000072-2202.bin",
+    "sha256": "86389b02812b29fd25645010a84ee4d7a6df972db229e2e17eeb41a0d7180823",
+    "task": {
+      "id": 2202,
+      "title": "小心后面！",
+      "level": 1,
+      "description": "保护/c00FF00紫嫣/p小姐，解决那些突然向你们/cff0000偷袭的弓箭手/p！",
+      "acceptedText": "紫嫣正带领你走向武林大会的所在地，“嘣嘣”两声之后，你立即发现有两支箭分别向你和紫嫣飞来！/f10解决掉这那几个向你们施以/cff0000偷袭的弓箭手/p，了解他们到底是些什么人！",
+      "setting": 5120,
+      "mapId": 4,
+      "npcId": 2,
+      "radarMapId": 4,
+      "radarPosition": [
+        21,
+        12
+      ],
+      "prompt": "",
+      "progressText": "哎！小心暗箭！",
+      "completeText": "没看错的话，这些是魔教中人！他们竟敢斗胆攻上山来？！",
+      "exp": 300,
+      "money2": 0,
+      "money3": 400,
+      "acceptJumpMap": 0,
+      "submitJumpMap": 0,
+      "acceptBattleId": 0,
+      "submitBattleId": 0,
+      "nextMissionId": 2203,
+      "rewardItems": [],
+      "selectItems": [
+        {
+          "id": 2001,
+          "quantity": 1,
+          "name": "萍踪软甲",
+          "icon": 114,
+          "grade": 0,
+          "type": 1
+        },
+        {
+          "id": 2101,
+          "quantity": 1,
+          "name": "云卿锦袍",
+          "icon": 213,
+          "grade": 0,
+          "type": 1
+        }
+      ],
+      "acceptConditions": [
+        {
+          "type": 9,
+          "not": 0,
+          "dataHex": "08990015e9a286e8b7afe4babae38090e7b4abe5aba3e38091"
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        }
+      ],
+      "submitConditions": [
+        {
+          "type": 2,
+          "not": 0,
+          "dataHex": "07e0000fe581b7e8a2ade79a84e7aeade6898b0200"
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        }
+      ],
+      "type": 6,
+      "series": "",
+      "acceptMapId": 4,
+      "acceptNpcId": 2,
+      "canAccept": 0,
+      "isHelp": 1
+    }
+  },
+  {
+    "source": "frames/000072-response-14501.bin",
+    "frameSha256": "6f3a47a1037214376beb72048289df79e207c4f19d81a99a439c03cd00a9c95e",
+    "offset": 634,
+    "file": "missions\\000072-2203.bin",
+    "sha256": "d9fd2b3475f5547e66948505c486f5330061e7c403b1f1059d8f1c6d253682f4",
+    "task": {
+      "id": 2203,
+      "title": "事情不简单",
+      "level": 1,
+      "description": "跟着/c00ff00紫嫣/p继续前往武林大会的所在地。",
+      "acceptedText": "事情好像不简单了，看这些人的装扮和武功路数，肯定是魔教的教众。居然敢来刺杀武林正道中人，这件事情一定要通知长老。紫嫣貌似心中着急，不经不觉脚步就加快了。",
+      "setting": 5376,
+      "mapId": 4,
+      "npcId": 5,
+      "radarMapId": 4,
+      "radarPosition": [
+        22,
+        16
+      ],
+      "prompt": "",
+      "progressText": "",
+      "completeText": "糟了！看来魔教的人大举进攻我派！",
+      "exp": 100,
+      "money2": 0,
+      "money3": 100,
+      "acceptJumpMap": 0,
+      "submitJumpMap": 0,
+      "acceptBattleId": 0,
+      "submitBattleId": 0,
+      "nextMissionId": 2204,
+      "rewardItems": [],
+      "selectItems": [],
+      "acceptConditions": [
+        {
+          "type": 9,
+          "not": 0,
+          "dataHex": "089a000fe5b08fe5bf83e5908ee99da2efbc81"
+        }
+      ],
+      "submitConditions": [],
+      "type": 6,
+      "series": "",
+      "acceptMapId": 4,
+      "acceptNpcId": 2,
+      "canAccept": 0,
+      "isHelp": 0
+    }
+  },
+  {
+    "source": "frames/000083-response-14591.bin",
+    "frameSha256": "d2f29dfce2ed6155f02839e068ac1e3f7ec9a7020502cf66f3abaaea3c1bd438",
+    "offset": 7,
+    "file": "missions\\000083-2202.bin",
+    "sha256": "223026b9d90126ed5348510b5c9e4ad3a70bd90b7ca2d4117dc681f7f001a03c",
+    "task": {
+      "id": 2202,
+      "title": "小心后面！",
+      "level": 1,
+      "description": "保护/c00FF00紫嫣/p小姐，解决那些突然向你们/cff0000偷袭的弓箭手/p！",
+      "acceptedText": "紫嫣正带领你走向武林大会的所在地，“嘣嘣”两声之后，你立即发现有两支箭分别向你和紫嫣飞来！/f10解决掉这那几个向你们施以/cff0000偷袭的弓箭手/p，了解他们到底是些什么人！",
+      "setting": 5120,
+      "mapId": 4,
+      "npcId": 2,
+      "radarMapId": 4,
+      "radarPosition": [
+        21,
+        12
+      ],
+      "prompt": "",
+      "progressText": "哎！小心暗箭！",
+      "completeText": "没看错的话，这些是魔教中人！他们竟敢斗胆攻上山来？！",
+      "exp": 300,
+      "money2": 0,
+      "money3": 400,
+      "acceptJumpMap": 0,
+      "submitJumpMap": 0,
+      "acceptBattleId": 0,
+      "submitBattleId": 0,
+      "nextMissionId": 2203,
+      "rewardItems": [],
+      "selectItems": [
+        {
+          "id": 2001,
+          "quantity": 1,
+          "name": "萍踪软甲",
+          "icon": 114,
+          "grade": 0,
+          "type": 1
+        },
+        {
+          "id": 2101,
+          "quantity": 1,
+          "name": "云卿锦袍",
+          "icon": 213,
+          "grade": 0,
+          "type": 1
+        }
+      ],
+      "acceptConditions": [
+        {
+          "type": 9,
+          "not": 0,
+          "dataHex": "08990015e9a286e8b7afe4babae38090e7b4abe5aba3e38091"
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        }
+      ],
+      "submitConditions": [
+        {
+          "type": 2,
+          "not": 0,
+          "dataHex": "07e0000fe581b7e8a2ade79a84e7aeade6898b0200"
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        }
+      ],
+      "type": 6,
+      "series": "",
+      "acceptMapId": 4,
+      "acceptNpcId": 2,
+      "canAccept": 1,
+      "isHelp": 1
+    }
+  },
+  {
+    "source": "frames/000110-response-14591.bin",
+    "frameSha256": "8ba9852df8b9d46a648d044f1051e7d988263a6b71629556b382b947911a5fa6",
+    "offset": 7,
+    "file": "missions\\000110-2203.bin",
+    "sha256": "bb9d21bbb70d3484f0c9c6a97120c8c26fd49006db07d9468d95a6e5ea73bd1e",
+    "task": {
+      "id": 2203,
+      "title": "事情不简单",
+      "level": 1,
+      "description": "跟着/c00ff00紫嫣/p继续前往武林大会的所在地。",
+      "acceptedText": "事情好像不简单了，看这些人的装扮和武功路数，肯定是魔教的教众。居然敢来刺杀武林正道中人，这件事情一定要通知长老。紫嫣貌似心中着急，不经不觉脚步就加快了。",
+      "setting": 5376,
+      "mapId": 4,
+      "npcId": 5,
+      "radarMapId": 4,
+      "radarPosition": [
+        22,
+        16
+      ],
+      "prompt": "",
+      "progressText": "",
+      "completeText": "糟了！看来魔教的人大举进攻我派！",
+      "exp": 100,
+      "money2": 0,
+      "money3": 100,
+      "acceptJumpMap": 0,
+      "submitJumpMap": 0,
+      "acceptBattleId": 0,
+      "submitBattleId": 0,
+      "nextMissionId": 2204,
+      "rewardItems": [],
+      "selectItems": [],
+      "acceptConditions": [
+        {
+          "type": 9,
+          "not": 0,
+          "dataHex": "089a000fe5b08fe5bf83e5908ee99da2efbc81"
+        }
+      ],
+      "submitConditions": [],
+      "type": 6,
+      "series": "",
+      "acceptMapId": 4,
+      "acceptNpcId": 2,
+      "canAccept": 1,
+      "isHelp": 0
+    }
+  },
+  {
+    "source": "frames/000115-response-14501.bin",
+    "frameSha256": "f4f51d3ceb4961f88aaf0e448f5a453e119495065c803f61b555baa2933b0c76",
+    "offset": 10,
+    "file": "missions\\000115-2204.bin",
+    "sha256": "2ad84456603e5d8f8efe509225340c7e67da14f3a88e1c97d72ccd15850b3537",
+    "task": {
+      "id": 2204,
+      "title": "帮助剑客韩松",
+      "level": 1,
+      "description": "帮助/c00ff00韩松/p消灭在旁边围攻的/cFF0000魔教教众/p。",
+      "acceptedText": "/c00ff00韩松/p是蜀山刚入门不久的弟子，如今他在瀑布平台被一群/cFF0000魔教的教众/p围攻，赶快去帮助于他吧。",
+      "setting": 5376,
+      "mapId": 4,
+      "npcId": 5,
+      "radarMapId": 4,
+      "radarPosition": [
+        29,
+        16
+      ],
+      "prompt": "",
+      "progressText": "啊！不好！/c00ff00韩松/p师弟有危险了！",
+      "completeText": "感谢您，/c00ff00{1}/p上人，要是没有你，韩师弟就有危险了。",
+      "exp": 1000,
+      "money2": 0,
+      "money3": 1000,
+      "acceptJumpMap": 0,
+      "submitJumpMap": 0,
+      "acceptBattleId": 0,
+      "submitBattleId": 0,
+      "nextMissionId": 2205,
+      "rewardItems": [],
+      "selectItems": [
+        {
+          "id": 2025,
+          "quantity": 1,
+          "name": "萍踪护额",
+          "icon": 113,
+          "grade": 0,
+          "type": 0
+        },
+        {
+          "id": 2125,
+          "quantity": 1,
+          "name": "云卿头饰",
+          "icon": 212,
+          "grade": 0,
+          "type": 0
+        }
+      ],
+      "acceptConditions": [
+        {
+          "type": 9,
+          "not": 0,
+          "dataHex": "089b000fe4ba8be68385e4b88de7ae80e58d95"
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        }
+      ],
+      "submitConditions": [
+        {
+          "type": 2,
+          "not": 0,
+          "dataHex": "07e1000fe59bb4e694bbe79a84e69599e4bc970200"
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        }
+      ],
+      "type": 6,
+      "series": "",
+      "acceptMapId": 4,
+      "acceptNpcId": 5,
+      "canAccept": 0,
+      "isHelp": 1
+    }
+  },
+  {
+    "source": "frames/000115-response-14501.bin",
+    "frameSha256": "f4f51d3ceb4961f88aaf0e448f5a453e119495065c803f61b555baa2933b0c76",
+    "offset": 549,
+    "file": "missions\\000115-2205.bin",
+    "sha256": "93627e9669d966cbfa4bea157b1305ef7f28c2361478e9b07424558272a588af",
+    "task": {
+      "id": 2205,
+      "title": "前往迎客殿",
+      "level": 1,
+      "description": "和紫嫣一起到迎客殿以抵挡魔教。",
+      "acceptedText": "韩松：“大师姐！不好了！刚刚后山的弟子来报，魔教这次大举进攻我们蜀山了！玄真长老已经离开迎客殿去准备启动天雷大阵！现在迎客殿已经机乎被魔教攻陷了！”",
+      "setting": 5376,
+      "mapId": 4,
+      "npcId": 10,
+      "radarMapId": 4,
+      "radarPosition": [
+        14,
+        23
+      ],
+      "prompt": "",
+      "progressText": "",
+      "completeText": "啊！快看前面！那不就是魔教的杀人王/cff0000亥起/p！",
+      "exp": 500,
+      "money2": 0,
+      "money3": 500,
+      "acceptJumpMap": 0,
+      "submitJumpMap": 0,
+      "acceptBattleId": 0,
+      "submitBattleId": 0,
+      "nextMissionId": 2206,
+      "rewardItems": [],
+      "selectItems": [],
+      "acceptConditions": [
+        {
+          "type": 9,
+          "not": 0,
+          "dataHex": "089c0012e5b8aee58aa9e58991e5aea2e99fa9e69dbe"
+        }
+      ],
+      "submitConditions": [],
+      "type": 6,
+      "series": "",
+      "acceptMapId": 4,
+      "acceptNpcId": 5,
+      "canAccept": 0,
+      "isHelp": 0
+    }
+  },
+  {
+    "source": "frames/000122-response-14591.bin",
+    "frameSha256": "f55e0b58735982acc9c1593714c55f8792ef317f5902e15d136174c04338fd73",
+    "offset": 7,
+    "file": "missions\\000122-2204.bin",
+    "sha256": "7023138ffbbb11eaf5d969d9f14c1cfec9b602ffcd195afd7c456b2aaea63649",
+    "task": {
+      "id": 2204,
+      "title": "帮助剑客韩松",
+      "level": 1,
+      "description": "帮助/c00ff00韩松/p消灭在旁边围攻的/cFF0000魔教教众/p。",
+      "acceptedText": "/c00ff00韩松/p是蜀山刚入门不久的弟子，如今他在瀑布平台被一群/cFF0000魔教的教众/p围攻，赶快去帮助于他吧。",
+      "setting": 5376,
+      "mapId": 4,
+      "npcId": 5,
+      "radarMapId": 4,
+      "radarPosition": [
+        29,
+        16
+      ],
+      "prompt": "",
+      "progressText": "啊！不好！/c00ff00韩松/p师弟有危险了！",
+      "completeText": "感谢您，/c00ff00{1}/p上人，要是没有你，韩师弟就有危险了。",
+      "exp": 1000,
+      "money2": 0,
+      "money3": 1000,
+      "acceptJumpMap": 0,
+      "submitJumpMap": 0,
+      "acceptBattleId": 0,
+      "submitBattleId": 0,
+      "nextMissionId": 2205,
+      "rewardItems": [],
+      "selectItems": [
+        {
+          "id": 2025,
+          "quantity": 1,
+          "name": "萍踪护额",
+          "icon": 113,
+          "grade": 0,
+          "type": 0
+        },
+        {
+          "id": 2125,
+          "quantity": 1,
+          "name": "云卿头饰",
+          "icon": 212,
+          "grade": 0,
+          "type": 0
+        }
+      ],
+      "acceptConditions": [
+        {
+          "type": 9,
+          "not": 0,
+          "dataHex": "089b000fe4ba8be68385e4b88de7ae80e58d95"
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        }
+      ],
+      "submitConditions": [
+        {
+          "type": 2,
+          "not": 0,
+          "dataHex": "07e1000fe59bb4e694bbe79a84e69599e4bc970200"
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        }
+      ],
+      "type": 6,
+      "series": "",
+      "acceptMapId": 4,
+      "acceptNpcId": 5,
+      "canAccept": 1,
+      "isHelp": 1
+    }
+  },
+  {
+    "source": "frames/000147-response-14591.bin",
+    "frameSha256": "5db167aa423a2dfa7585fcd4501682b38bf1278d2b8e91a77716f7001322f73d",
+    "offset": 7,
+    "file": "missions\\000147-2205.bin",
+    "sha256": "d6833fad0e355f9a65517b5b77145d44c25e973c40456acb4307499e9da8c43d",
+    "task": {
+      "id": 2205,
+      "title": "前往迎客殿",
+      "level": 1,
+      "description": "和紫嫣一起到迎客殿以抵挡魔教。",
+      "acceptedText": "韩松：“大师姐！不好了！刚刚后山的弟子来报，魔教这次大举进攻我们蜀山了！玄真长老已经离开迎客殿去准备启动天雷大阵！现在迎客殿已经机乎被魔教攻陷了！”",
+      "setting": 5376,
+      "mapId": 4,
+      "npcId": 10,
+      "radarMapId": 4,
+      "radarPosition": [
+        14,
+        23
+      ],
+      "prompt": "",
+      "progressText": "",
+      "completeText": "啊！快看前面！那不就是魔教的杀人王/cff0000亥起/p！",
+      "exp": 500,
+      "money2": 0,
+      "money3": 500,
+      "acceptJumpMap": 0,
+      "submitJumpMap": 0,
+      "acceptBattleId": 0,
+      "submitBattleId": 0,
+      "nextMissionId": 2206,
+      "rewardItems": [],
+      "selectItems": [],
+      "acceptConditions": [
+        {
+          "type": 9,
+          "not": 0,
+          "dataHex": "089c0012e5b8aee58aa9e58991e5aea2e99fa9e69dbe"
+        }
+      ],
+      "submitConditions": [],
+      "type": 6,
+      "series": "",
+      "acceptMapId": 4,
+      "acceptNpcId": 5,
+      "canAccept": 1,
+      "isHelp": 0
+    }
+  },
+  {
+    "source": "frames/000155-response-14501.bin",
+    "frameSha256": "0be8a2233fef924cf85c61e69669746f3416ed25887cc3b44e9adc6c5b3c4f61",
+    "offset": 10,
+    "file": "missions\\000155-2206.bin",
+    "sha256": "d7ac2ebfcd1c852f1dc012459ea21acecdcf26603245152e56579c92a54d4f76",
+    "task": {
+      "id": 2206,
+      "title": "阻止亥起进攻大殿",
+      "level": 0,
+      "description": "击败/cFF0000杀人王亥起/p及他周围的/cFF0000魔教教众/p。",
+      "acceptedText": "/cFF0000杀人王亥起/p，是魔教中的风云人物，是魔教四大天王之一！攻打迎客殿的魔教教众就是由亥起带领的。他的可怕之处是他懂得分身之术，/c00ff00{1}上人/p，请您一定要多加小心！",
+      "setting": 5376,
+      "mapId": 4,
+      "npcId": 11,
+      "radarMapId": 4,
+      "radarPosition": [
+        20,
+        31
+      ],
+      "prompt": "",
+      "progressText": "那是/cFF0000魔教/p的/cFF0000杀人王亥起/p！他的可怕之处是他懂得分身之术，/c00ff00{1}上人/p，请您一定要多加小心！",
+      "completeText": "呵呵，我道是谁，原来是大名鼎鼎的/c00ff00{1}/p。",
+      "exp": 250,
+      "money2": 0,
+      "money3": 250,
+      "acceptJumpMap": 0,
+      "submitJumpMap": 0,
+      "acceptBattleId": 0,
+      "submitBattleId": 0,
+      "nextMissionId": 2207,
+      "rewardItems": [],
+      "selectItems": [],
+      "acceptConditions": [
+        {
+          "type": 9,
+          "not": 0,
+          "dataHex": "089d000fe5898de5be80e8bf8ee5aea2e6aebf"
+        }
+      ],
+      "submitConditions": [],
+      "type": 6,
+      "series": "",
+      "acceptMapId": 4,
+      "acceptNpcId": 10,
+      "canAccept": 0,
+      "isHelp": 0
+    }
+  },
+  {
+    "source": "frames/000161-response-14591.bin",
+    "frameSha256": "ac2e81b179d587a3c1631bc18a57f5727ca01206b9a6581c86023ada86cad793",
+    "offset": 7,
+    "file": "missions\\000161-2206.bin",
+    "sha256": "31f2a15c71635ee660ea24c34fe35f76a887e410ab462484d83741a0cdbc679b",
+    "task": {
+      "id": 2206,
+      "title": "阻止亥起进攻大殿",
+      "level": 0,
+      "description": "击败/cFF0000杀人王亥起/p及他周围的/cFF0000魔教教众/p。",
+      "acceptedText": "/cFF0000杀人王亥起/p，是魔教中的风云人物，是魔教四大天王之一！攻打迎客殿的魔教教众就是由亥起带领的。他的可怕之处是他懂得分身之术，/c00ff00{1}上人/p，请您一定要多加小心！",
+      "setting": 5376,
+      "mapId": 4,
+      "npcId": 11,
+      "radarMapId": 4,
+      "radarPosition": [
+        20,
+        31
+      ],
+      "prompt": "",
+      "progressText": "那是/cFF0000魔教/p的/cFF0000杀人王亥起/p！他的可怕之处是他懂得分身之术，/c00ff00{1}上人/p，请您一定要多加小心！",
+      "completeText": "呵呵，我道是谁，原来是大名鼎鼎的/c00ff00{1}/p。",
+      "exp": 250,
+      "money2": 0,
+      "money3": 250,
+      "acceptJumpMap": 0,
+      "submitJumpMap": 0,
+      "acceptBattleId": 0,
+      "submitBattleId": 0,
+      "nextMissionId": 2207,
+      "rewardItems": [],
+      "selectItems": [],
+      "acceptConditions": [
+        {
+          "type": 9,
+          "not": 0,
+          "dataHex": "089d000fe5898de5be80e8bf8ee5aea2e6aebf"
+        }
+      ],
+      "submitConditions": [],
+      "type": 6,
+      "series": "",
+      "acceptMapId": 4,
+      "acceptNpcId": 10,
+      "canAccept": 1,
+      "isHelp": 0
+    }
+  },
+  {
+    "source": "frames/000166-response-14501.bin",
+    "frameSha256": "4d457c6d7e1348b5998f176612727d3401952063de0879d5748dd69d24c576a7",
+    "offset": 10,
+    "file": "missions\\000166-2207.bin",
+    "sha256": "7f3f896bd90fc716e4b8e4a16e13aabd3b35ede1afa763ba1695413337b2884e",
+    "task": {
+      "id": 2207,
+      "title": "单挑的邀请",
+      "level": 0,
+      "description": "/c00ff00人王亥起/p向你发出单挑的邀请。/cFFDE00接任务立即进入战斗/p",
+      "acceptedText": "/c00ff00击败人王/p：“哈哈哈，想不到惊动了/c00ff00{1}/p阁下，闻说/c00ff00{1}/p阁下武功了得，在下正想与阁下讨教讨教！”",
+      "setting": 5120,
+      "mapId": 4,
+      "npcId": 11,
+      "radarMapId": 4,
+      "radarPosition": [
+        20,
+        31
+      ],
+      "prompt": "",
+      "progressText": "击败/cff0000亥起/p之后，附近的魔教教众一定会士气大减而溃退！",
+      "completeText": "想不到/c00ff00{1}/p上人的武功如此高强（紫嫣说着低头微微一笑）",
+      "exp": 1250,
+      "money2": 0,
+      "money3": 550,
+      "acceptJumpMap": 0,
+      "submitJumpMap": 0,
+      "acceptBattleId": 2014,
+      "submitBattleId": 0,
+      "nextMissionId": 2243,
+      "rewardItems": [
+        {
+          "id": 20303,
+          "quantity": 1,
+          "name": "紫电剑",
+          "icon": 8011,
+          "grade": 1
+        },
+        {
+          "id": 20003,
+          "quantity": 1,
+          "name": "宽宏之杖",
+          "icon": 8397,
+          "grade": 1
+        }
+      ],
+      "selectItems": [
+        {
+          "id": 2017,
+          "quantity": 1,
+          "name": "萍踪护肩",
+          "icon": 116,
+          "grade": 0,
+          "type": 3
+        },
+        {
+          "id": 2117,
+          "quantity": 1,
+          "name": "云卿肩饰",
+          "icon": 215,
+          "grade": 0,
+          "type": 3
+        }
+      ],
+      "acceptConditions": [
+        {
+          "type": 9,
+          "not": 0,
+          "dataHex": "089e0018e998bbe6ada2e4baa5e8b5b7e8bf9be694bbe5a4a7e6aebf"
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        }
+      ],
+      "submitConditions": [
+        {
+          "type": 2,
+          "not": 0,
+          "dataHex": "07e20006e4baa5e8b5b70100"
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        }
+      ],
+      "type": 6,
+      "series": "",
+      "acceptMapId": 4,
+      "acceptNpcId": 11,
+      "canAccept": 0,
+      "isHelp": 1
+    }
+  },
+  {
+    "source": "frames/000166-response-14501.bin",
+    "frameSha256": "4d457c6d7e1348b5998f176612727d3401952063de0879d5748dd69d24c576a7",
+    "offset": 661,
+    "file": "missions\\000166-2243.bin",
+    "sha256": "e750eb8fc14368f692dc6a78bb47e2970918f68c1e136ac74d2e19e60235d227",
+    "task": {
+      "id": 2243,
+      "title": "赢得单挑",
+      "level": 0,
+      "description": "与/c00ff00紫嫣/p对话。",
+      "acceptedText": "/c00ff00{1}/p阁下武功高强，在下佩服！",
+      "setting": 5376,
+      "mapId": 4,
+      "npcId": 16,
+      "radarMapId": 0,
+      "prompt": "",
+      "progressText": "",
+      "completeText": "想不到/c00ff00{1}/p上人的武功如此高强（紫嫣说着低头微微一笑）",
+      "exp": 0,
+      "money2": 0,
+      "money3": 0,
+      "acceptJumpMap": 0,
+      "submitJumpMap": 0,
+      "acceptBattleId": 0,
+      "submitBattleId": 0,
+      "nextMissionId": 2208,
+      "rewardItems": [],
+      "selectItems": [],
+      "acceptConditions": [
+        {
+          "type": 9,
+          "not": 0,
+          "dataHex": "089f000fe58d95e68c91e79a84e98280e8afb7"
+        }
+      ],
+      "submitConditions": [],
+      "type": 6,
+      "series": "",
+      "acceptMapId": 4,
+      "acceptNpcId": 11,
+      "canAccept": 0,
+      "isHelp": 0
+    }
+  },
+  {
+    "source": "frames/000179-response-14591.bin",
+    "frameSha256": "76a898fb7d89bdcb918f4f61d6b6486efade09db52e311810e652402d9edd65d",
+    "offset": 7,
+    "file": "missions\\000179-2207.bin",
+    "sha256": "1e209e876a467324cdb4eb5c5633cae2d665bf3cca218e36f40c3c294e02e4ed",
+    "task": {
+      "id": 2207,
+      "title": "单挑的邀请",
+      "level": 0,
+      "description": "/c00ff00人王亥起/p向你发出单挑的邀请。/cFFDE00接任务立即进入战斗/p",
+      "acceptedText": "/c00ff00击败人王/p：“哈哈哈，想不到惊动了/c00ff00{1}/p阁下，闻说/c00ff00{1}/p阁下武功了得，在下正想与阁下讨教讨教！”",
+      "setting": 5120,
+      "mapId": 4,
+      "npcId": 11,
+      "radarMapId": 4,
+      "radarPosition": [
+        20,
+        31
+      ],
+      "prompt": "",
+      "progressText": "击败/cff0000亥起/p之后，附近的魔教教众一定会士气大减而溃退！",
+      "completeText": "想不到/c00ff00{1}/p上人的武功如此高强（紫嫣说着低头微微一笑）",
+      "exp": 1250,
+      "money2": 0,
+      "money3": 550,
+      "acceptJumpMap": 0,
+      "submitJumpMap": 0,
+      "acceptBattleId": 2014,
+      "submitBattleId": 0,
+      "nextMissionId": 2243,
+      "rewardItems": [
+        {
+          "id": 20303,
+          "quantity": 1,
+          "name": "紫电剑",
+          "icon": 8011,
+          "grade": 1
+        },
+        {
+          "id": 20003,
+          "quantity": 1,
+          "name": "宽宏之杖",
+          "icon": 8397,
+          "grade": 1
+        }
+      ],
+      "selectItems": [
+        {
+          "id": 2017,
+          "quantity": 1,
+          "name": "萍踪护肩",
+          "icon": 116,
+          "grade": 0,
+          "type": 3
+        },
+        {
+          "id": 2117,
+          "quantity": 1,
+          "name": "云卿肩饰",
+          "icon": 215,
+          "grade": 0,
+          "type": 3
+        }
+      ],
+      "acceptConditions": [
+        {
+          "type": 9,
+          "not": 0,
+          "dataHex": "089e0018e998bbe6ada2e4baa5e8b5b7e8bf9be694bbe5a4a7e6aebf"
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        }
+      ],
+      "submitConditions": [
+        {
+          "type": 2,
+          "not": 0,
+          "dataHex": "07e20006e4baa5e8b5b70100"
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        }
+      ],
+      "type": 6,
+      "series": "",
+      "acceptMapId": 4,
+      "acceptNpcId": 11,
+      "canAccept": 1,
+      "isHelp": 1
+    }
+  },
+  {
+    "source": "frames/000205-response-14591.bin",
+    "frameSha256": "c548dce92b7945f43b0f0245671c08f38ddfb48936ea2b531fb7f92bfbc4200d",
+    "offset": 7,
+    "file": "missions\\000205-2243.bin",
+    "sha256": "d5692527562c5bb3bf1462820cbb221dfafc05c795ecaa40038d96ed67fef3af",
+    "task": {
+      "id": 2243,
+      "title": "赢得单挑",
+      "level": 0,
+      "description": "与/c00ff00紫嫣/p对话。",
+      "acceptedText": "/c00ff00{1}/p阁下武功高强，在下佩服！",
+      "setting": 5376,
+      "mapId": 4,
+      "npcId": 16,
+      "radarMapId": 0,
+      "prompt": "",
+      "progressText": "",
+      "completeText": "想不到/c00ff00{1}/p上人的武功如此高强（紫嫣说着低头微微一笑）",
+      "exp": 0,
+      "money2": 0,
+      "money3": 0,
+      "acceptJumpMap": 0,
+      "submitJumpMap": 0,
+      "acceptBattleId": 0,
+      "submitBattleId": 0,
+      "nextMissionId": 2208,
+      "rewardItems": [],
+      "selectItems": [],
+      "acceptConditions": [
+        {
+          "type": 9,
+          "not": 0,
+          "dataHex": "089f000fe58d95e68c91e79a84e98280e8afb7"
+        }
+      ],
+      "submitConditions": [],
+      "type": 6,
+      "series": "",
+      "acceptMapId": 4,
+      "acceptNpcId": 11,
+      "canAccept": 1,
+      "isHelp": 0
+    }
+  },
+  {
+    "source": "frames/000214-response-14501.bin",
+    "frameSha256": "d6e9c14a90f081af498d27ec75d87a8536bcbc0fad728ed1445ace7bef6d1d12",
+    "offset": 10,
+    "file": "missions\\000214-2208.bin",
+    "sha256": "e3d06cbf06f331f670d80c88751d2edde592254e703451458aa22c0c17c586a5",
+    "task": {
+      "id": 2208,
+      "title": "清除余党",
+      "level": 0,
+      "description": "帮助有需要的人清除附近的魔教教众。",
+      "acceptedText": "随着亥起的战败，在迎客殿附近的魔教教众已经溃退，但在附近依然有很多魔教的余孽，请您帮助迎客殿附近正被围攻的侠士。",
+      "setting": 5376,
+      "mapId": 4,
+      "npcId": 13,
+      "radarMapId": 4,
+      "radarPosition": [
+        12,
+        35
+      ],
+      "prompt": "",
+      "progressText": "/c00ff00{1}/p上人，请你帮助附近有需要帮助的人吧。（你向周围看了看，果然有些侠士被围攻得手忙脚乱）",
+      "completeText": "真的很感谢您，我们快去/cffffff神剑广场/p看看那边怎样了吧？",
+      "exp": 1000,
+      "money2": 0,
+      "money3": 500,
+      "acceptJumpMap": 0,
+      "submitJumpMap": 0,
+      "acceptBattleId": 0,
+      "submitBattleId": 0,
+      "nextMissionId": 2209,
+      "rewardItems": [
+        {
+          "id": 20103,
+          "quantity": 1,
+          "name": "银色轻弩",
+          "icon": 8517,
+          "grade": 1
+        }
+      ],
+      "selectItems": [],
+      "acceptConditions": [
+        {
+          "type": 9,
+          "not": 0,
+          "dataHex": "08c3000ce8b5a2e5be97e58d95e68c91"
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        }
+      ],
+      "submitConditions": [
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        }
+      ],
+      "type": 6,
+      "series": "",
+      "acceptMapId": 4,
+      "acceptNpcId": 16,
+      "canAccept": 0,
+      "isHelp": 0
+    }
+  },
+  {
+    "source": "frames/000214-response-14501.bin",
+    "frameSha256": "d6e9c14a90f081af498d27ec75d87a8536bcbc0fad728ed1445ace7bef6d1d12",
+    "offset": 585,
+    "file": "missions\\000214-2211.bin",
+    "sha256": "77cef031cb155c8143774cada8ee98fb256012596efe07ce2e478a6a1faadc4b",
+    "task": {
+      "id": 2211,
+      "title": "前往神剑广场",
+      "level": 0,
+      "description": "向/c00ff00东/p一直走就是/cffffff神剑广场/p了！",
+      "acceptedText": "迎客殿的魔教中人已经清除了！但广场那边不断传来刀剑撞击的声音！和紫嫣一起前往/c00ff00东面/p的/cffffff神剑广场/p看看是什么情况吧！",
+      "setting": 5376,
+      "mapId": 16,
+      "npcId": 1,
+      "radarMapId": 4,
+      "radarPosition": [
+        37,
+        33
+      ],
+      "prompt": "",
+      "progressText": "",
+      "completeText": "广场那边已经传来了/cff0000刀剑撞击的声音/p了，我们赶快过去吧！",
+      "exp": 200,
+      "money2": 0,
+      "money3": 200,
+      "acceptJumpMap": 0,
+      "submitJumpMap": 0,
+      "acceptBattleId": 0,
+      "submitBattleId": 0,
+      "nextMissionId": 2212,
+      "rewardItems": [],
+      "selectItems": [],
+      "acceptConditions": [
+        {
+          "type": 9,
+          "not": 0,
+          "dataHex": "08a20015e5b8aee58aa9e58991e5aea2e69d8ee69687e8a18d"
+        }
+      ],
+      "submitConditions": [],
+      "type": 6,
+      "series": "",
+      "acceptMapId": 4,
+      "acceptNpcId": 16,
+      "canAccept": 0,
+      "isHelp": 0
+    }
+  },
+  {
+    "source": "frames/000219-response-14591.bin",
+    "frameSha256": "368db77789deaaed420ba1074d79746bd7cb3ac893c6e6f9be30c17e9bf1e48c",
+    "offset": 7,
+    "file": "missions\\000219-2208.bin",
+    "sha256": "93429129a0aac0878f9e6f0a3833f0299ef0acf44053782fd6488f6d1b0c9f04",
+    "task": {
+      "id": 2208,
+      "title": "清除余党",
+      "level": 0,
+      "description": "帮助有需要的人清除附近的魔教教众。",
+      "acceptedText": "随着亥起的战败，在迎客殿附近的魔教教众已经溃退，但在附近依然有很多魔教的余孽，请您帮助迎客殿附近正被围攻的侠士。",
+      "setting": 5376,
+      "mapId": 4,
+      "npcId": 13,
+      "radarMapId": 4,
+      "radarPosition": [
+        12,
+        35
+      ],
+      "prompt": "",
+      "progressText": "/c00ff00{1}/p上人，请你帮助附近有需要帮助的人吧。（你向周围看了看，果然有些侠士被围攻得手忙脚乱）",
+      "completeText": "真的很感谢您，我们快去/cffffff神剑广场/p看看那边怎样了吧？",
+      "exp": 1000,
+      "money2": 0,
+      "money3": 500,
+      "acceptJumpMap": 0,
+      "submitJumpMap": 0,
+      "acceptBattleId": 0,
+      "submitBattleId": 0,
+      "nextMissionId": 2209,
+      "rewardItems": [
+        {
+          "id": 20103,
+          "quantity": 1,
+          "name": "银色轻弩",
+          "icon": 8517,
+          "grade": 1
+        }
+      ],
+      "selectItems": [],
+      "acceptConditions": [
+        {
+          "type": 9,
+          "not": 0,
+          "dataHex": "08c3000ce8b5a2e5be97e58d95e68c91"
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        }
+      ],
+      "submitConditions": [
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        }
+      ],
+      "type": 6,
+      "series": "",
+      "acceptMapId": 4,
+      "acceptNpcId": 16,
+      "canAccept": 1,
+      "isHelp": 0
+    }
+  },
+  {
+    "source": "frames/000225-response-14501.bin",
+    "frameSha256": "5df2a83cd31940122fe513b70f1ab224695cb270a0f884e201bd2df3949ce62a",
+    "offset": 10,
+    "file": "missions\\000225-2209.bin",
+    "sha256": "8b946bfef8047eaf7eb529fa6264a03475b662eac385748e2d16ebff461ebc54",
+    "task": {
+      "id": 2209,
+      "title": "帮助剑客严人英",
+      "level": 0,
+      "description": "帮助/c00ff00严人英/p清除在他周围的/cff0000魔教枪兵/p。",
+      "acceptedText": "啊...我不行了...大侠快来帮帮我...从严人英的剑法套路上看出来完全是被围攻得毫无还手的权利，看他的样子有够可怜的，就帮帮他吧。",
+      "setting": 5376,
+      "mapId": 4,
+      "npcId": 13,
+      "radarMapId": 4,
+      "radarPosition": [
+        9,
+        34
+      ],
+      "prompt": "",
+      "progressText": "魔教竟敢来突袭蜀山派！/f13",
+      "completeText": "这位侠士，谢谢你的帮忙啦！",
+      "exp": 500,
+      "money2": 0,
+      "money3": 500,
+      "acceptJumpMap": 0,
+      "submitJumpMap": 0,
+      "acceptBattleId": 0,
+      "submitBattleId": 0,
+      "nextMissionId": 2210,
+      "rewardItems": [
+        {
+          "id": 2009,
+          "quantity": 1,
+          "name": "萍踪护腿",
+          "icon": 115,
+          "grade": 0
+        },
+        {
+          "id": 2109,
+          "quantity": 1,
+          "name": "云卿锦裤",
+          "icon": 214,
+          "grade": 0
+        }
+      ],
+      "selectItems": [
+        {
+          "id": 20304,
+          "quantity": 1,
+          "name": "百炼寒铁剑",
+          "icon": 8025,
+          "grade": 2,
+          "type": 13
+        },
+        {
+          "id": 20004,
+          "quantity": 1,
+          "name": "统御法杖",
+          "icon": 8401,
+          "grade": 2,
+          "type": 19
+        }
+      ],
+      "acceptConditions": [
+        {
+          "type": 9,
+          "not": 0,
+          "dataHex": "08a0000ce6b885e999a4e4bd99e5859a"
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        }
+      ],
+      "submitConditions": [
+        {
+          "type": 2,
+          "not": 0,
+          "dataHex": "07e4000ce9ad94e69599e69eaae585b50200"
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        }
+      ],
+      "type": 6,
+      "series": "",
+      "acceptMapId": 4,
+      "acceptNpcId": 13,
+      "canAccept": 0,
+      "isHelp": 1
+    }
+  },
+  {
+    "source": "frames/000225-response-14501.bin",
+    "frameSha256": "5df2a83cd31940122fe513b70f1ab224695cb270a0f884e201bd2df3949ce62a",
+    "offset": 576,
+    "file": "missions\\000225-2210.bin",
+    "sha256": "f2c4fb8fc844d49c5e6a2418fbcf48fc9d03947695b655efd7b74231afdafc27",
+    "task": {
+      "id": 2210,
+      "title": "帮助剑客李文衍",
+      "level": 0,
+      "description": "帮助/c00ff00李文衍/p清除在他周围的/cff0000魔教刀兵/p。",
+      "acceptedText": "/c00ff00李文衍/p正被/cff0000魔教刀兵/p围攻得毫无还手之力，帮帮他吧，不然就有危险了。",
+      "setting": 4352,
+      "mapId": 4,
+      "npcId": 16,
+      "radarMapId": 4,
+      "radarPosition": [
+        29,
+        28
+      ],
+      "prompt": "",
+      "progressText": "这帮东西到底是从哪里冒出来的！杀不胜杀！/f22",
+      "completeText": "阁下的帮忙，在下不胜感激！",
+      "exp": 500,
+      "money2": 0,
+      "money3": 500,
+      "rewardItems": [],
+      "selectItems": [
+        {
+          "id": 2002,
+          "quantity": 1,
+          "name": "平雪无痕软甲",
+          "icon": 114,
+          "grade": 1,
+          "type": 1
+        },
+        {
+          "id": 2102,
+          "quantity": 1,
+          "name": "松绿锦袍",
+          "icon": 213,
+          "grade": 1,
+          "type": 1
+        }
+      ],
+      "acceptConditions": [
+        {
+          "type": 9,
+          "not": 0,
+          "dataHex": "08a10015e5b8aee58aa9e58991e5aea2e4b8a5e4babae88bb1"
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        }
+      ],
+      "submitConditions": [
+        {
+          "type": 2,
+          "not": 0,
+          "dataHex": "07e5000ce9ad94e69599e58880e585b50200"
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        }
+      ],
+      "type": 6,
+      "series": "",
+      "acceptMapId": 4,
+      "acceptNpcId": 13,
+      "canAccept": 0,
+      "isHelp": 1
+    }
+  },
+  {
+    "source": "frames/000233-response-14591.bin",
+    "frameSha256": "4b5177d663a03082dc86e2652396e9b0ff4f905c19b2f229464bc2164c143431",
+    "offset": 7,
+    "file": "missions\\000233-2209.bin",
+    "sha256": "82329291d7c8d0d96ba27aa805d77ad6f26cf10f5665d55dec1b6f82a850b104",
+    "task": {
+      "id": 2209,
+      "title": "帮助剑客严人英",
+      "level": 0,
+      "description": "帮助/c00ff00严人英/p清除在他周围的/cff0000魔教枪兵/p。",
+      "acceptedText": "啊...我不行了...大侠快来帮帮我...从严人英的剑法套路上看出来完全是被围攻得毫无还手的权利，看他的样子有够可怜的，就帮帮他吧。",
+      "setting": 5376,
+      "mapId": 4,
+      "npcId": 13,
+      "radarMapId": 4,
+      "radarPosition": [
+        9,
+        34
+      ],
+      "prompt": "",
+      "progressText": "魔教竟敢来突袭蜀山派！/f13",
+      "completeText": "这位侠士，谢谢你的帮忙啦！",
+      "exp": 500,
+      "money2": 0,
+      "money3": 500,
+      "acceptJumpMap": 0,
+      "submitJumpMap": 0,
+      "acceptBattleId": 0,
+      "submitBattleId": 0,
+      "nextMissionId": 2210,
+      "rewardItems": [
+        {
+          "id": 2009,
+          "quantity": 1,
+          "name": "萍踪护腿",
+          "icon": 115,
+          "grade": 0
+        },
+        {
+          "id": 2109,
+          "quantity": 1,
+          "name": "云卿锦裤",
+          "icon": 214,
+          "grade": 0
+        }
+      ],
+      "selectItems": [
+        {
+          "id": 20304,
+          "quantity": 1,
+          "name": "百炼寒铁剑",
+          "icon": 8025,
+          "grade": 2,
+          "type": 13
+        },
+        {
+          "id": 20004,
+          "quantity": 1,
+          "name": "统御法杖",
+          "icon": 8401,
+          "grade": 2,
+          "type": 19
+        }
+      ],
+      "acceptConditions": [
+        {
+          "type": 9,
+          "not": 0,
+          "dataHex": "08a0000ce6b885e999a4e4bd99e5859a"
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        }
+      ],
+      "submitConditions": [
+        {
+          "type": 2,
+          "not": 0,
+          "dataHex": "07e4000ce9ad94e69599e69eaae585b50200"
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        }
+      ],
+      "type": 6,
+      "series": "",
+      "acceptMapId": 4,
+      "acceptNpcId": 13,
+      "canAccept": 1,
+      "isHelp": 1
+    }
+  },
+  {
+    "source": "frames/000260-response-14591.bin",
+    "frameSha256": "fd1d552c3032523e7ed9041f9f818f6d9a3c14189af7151c89d4b103dd0bf4bb",
+    "offset": 7,
+    "file": "missions\\000260-2210.bin",
+    "sha256": "06d7984b8facf834bab26740d7e8d37e6a652a1b914a788b49241cc842219994",
+    "task": {
+      "id": 2210,
+      "title": "帮助剑客李文衍",
+      "level": 0,
+      "description": "帮助/c00ff00李文衍/p清除在他周围的/cff0000魔教刀兵/p。",
+      "acceptedText": "/c00ff00李文衍/p正被/cff0000魔教刀兵/p围攻得毫无还手之力，帮帮他吧，不然就有危险了。",
+      "setting": 4352,
+      "mapId": 4,
+      "npcId": 16,
+      "radarMapId": 4,
+      "radarPosition": [
+        29,
+        28
+      ],
+      "prompt": "",
+      "progressText": "这帮东西到底是从哪里冒出来的！杀不胜杀！/f22",
+      "completeText": "阁下的帮忙，在下不胜感激！",
+      "exp": 500,
+      "money2": 0,
+      "money3": 500,
+      "rewardItems": [],
+      "selectItems": [
+        {
+          "id": 2002,
+          "quantity": 1,
+          "name": "平雪无痕软甲",
+          "icon": 114,
+          "grade": 1,
+          "type": 1
+        },
+        {
+          "id": 2102,
+          "quantity": 1,
+          "name": "松绿锦袍",
+          "icon": 213,
+          "grade": 1,
+          "type": 1
+        }
+      ],
+      "acceptConditions": [
+        {
+          "type": 9,
+          "not": 0,
+          "dataHex": "08a10015e5b8aee58aa9e58991e5aea2e4b8a5e4babae88bb1"
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        }
+      ],
+      "submitConditions": [
+        {
+          "type": 2,
+          "not": 0,
+          "dataHex": "07e5000ce9ad94e69599e58880e585b50200"
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        }
+      ],
+      "type": 6,
+      "series": "",
+      "acceptMapId": 4,
+      "acceptNpcId": 13,
+      "canAccept": 1,
+      "isHelp": 1
+    }
+  },
+  {
+    "source": "frames/000301-response-14591.bin",
+    "frameSha256": "a6704328153ae90e3c0ed8785121badc15df334f98e0c8466d73b7c87ebf7a40",
+    "offset": 7,
+    "file": "missions\\000301-2211.bin",
+    "sha256": "70f065b5ddec16e38acd1d130b55706ce9a1c9bce88b45227474f8e3c5514d50",
+    "task": {
+      "id": 2211,
+      "title": "前往神剑广场",
+      "level": 0,
+      "description": "向/c00ff00东/p一直走就是/cffffff神剑广场/p了！",
+      "acceptedText": "迎客殿的魔教中人已经清除了！但广场那边不断传来刀剑撞击的声音！和紫嫣一起前往/c00ff00东面/p的/cffffff神剑广场/p看看是什么情况吧！",
+      "setting": 5376,
+      "mapId": 16,
+      "npcId": 1,
+      "radarMapId": 4,
+      "radarPosition": [
+        37,
+        33
+      ],
+      "prompt": "",
+      "progressText": "",
+      "completeText": "广场那边已经传来了/cff0000刀剑撞击的声音/p了，我们赶快过去吧！",
+      "exp": 200,
+      "money2": 0,
+      "money3": 200,
+      "acceptJumpMap": 0,
+      "submitJumpMap": 0,
+      "acceptBattleId": 0,
+      "submitBattleId": 0,
+      "nextMissionId": 2212,
+      "rewardItems": [],
+      "selectItems": [],
+      "acceptConditions": [
+        {
+          "type": 9,
+          "not": 0,
+          "dataHex": "08a20015e5b8aee58aa9e58991e5aea2e69d8ee69687e8a18d"
+        }
+      ],
+      "submitConditions": [],
+      "type": 6,
+      "series": "",
+      "acceptMapId": 4,
+      "acceptNpcId": 16,
+      "canAccept": 1,
+      "isHelp": 0
+    }
+  },
+  {
+    "source": "frames/000318-response-14501.bin",
+    "frameSha256": "141c2c3406ca49cb9c88a111c03a52c1adb2fe2403bec7c04e538fb6e2b13ecb",
+    "offset": 10,
+    "file": "missions\\000318-2212.bin",
+    "sha256": "39203e13e1cf3b48aadcbe0989be312ab30b62e93fb3b3a2a32001806080682b",
+    "task": {
+      "id": 2212,
+      "title": "修真者梦龙",
+      "level": 0,
+      "description": "与旁边的修真者/c00ff00梦龙/p对话。 ",
+      "acceptedText": "紫嫣：这位就是我们的大师兄，/c00ff00梦龙/p。",
+      "setting": 5376,
+      "mapId": 16,
+      "npcId": 2,
+      "radarMapId": 16,
+      "radarPosition": [
+        7,
+        44
+      ],
+      "prompt": "",
+      "progressText": "",
+      "completeText": "梦龙：这不是/c00ff00{1}/p么？我是/c00ff00梦龙/p，是蜀山派当代大师兄，等解决了这帮该死的魔教中人，一定得与您饮个痛快！",
+      "exp": 300,
+      "money2": 0,
+      "money3": 300,
+      "acceptJumpMap": 0,
+      "submitJumpMap": 0,
+      "acceptBattleId": 0,
+      "submitBattleId": 0,
+      "nextMissionId": 2213,
+      "rewardItems": [],
+      "selectItems": [],
+      "acceptConditions": [
+        {
+          "type": 9,
+          "not": 0,
+          "dataHex": "08a30012e5898de5be80e7a59ee58991e5b9bfe59cba"
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        }
+      ],
+      "submitConditions": [
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        }
+      ],
+      "type": 6,
+      "series": "",
+      "acceptMapId": 16,
+      "acceptNpcId": 1,
+      "canAccept": 0,
+      "isHelp": 0
+    }
+  },
+  {
+    "source": "frames/000324-response-14591.bin",
+    "frameSha256": "2c03cc1e43b17d944a33c790921797172c39b0ac5ed43411c039c6b0996c4a88",
+    "offset": 7,
+    "file": "missions\\000324-2212.bin",
+    "sha256": "06b904d68d0edfe5bd3c12dfd25e7ae4e272073bbec38d51611656aea6757b70",
+    "task": {
+      "id": 2212,
+      "title": "修真者梦龙",
+      "level": 0,
+      "description": "与旁边的修真者/c00ff00梦龙/p对话。 ",
+      "acceptedText": "紫嫣：这位就是我们的大师兄，/c00ff00梦龙/p。",
+      "setting": 5376,
+      "mapId": 16,
+      "npcId": 2,
+      "radarMapId": 16,
+      "radarPosition": [
+        7,
+        44
+      ],
+      "prompt": "",
+      "progressText": "",
+      "completeText": "梦龙：这不是/c00ff00{1}/p么？我是/c00ff00梦龙/p，是蜀山派当代大师兄，等解决了这帮该死的魔教中人，一定得与您饮个痛快！",
+      "exp": 300,
+      "money2": 0,
+      "money3": 300,
+      "acceptJumpMap": 0,
+      "submitJumpMap": 0,
+      "acceptBattleId": 0,
+      "submitBattleId": 0,
+      "nextMissionId": 2213,
+      "rewardItems": [],
+      "selectItems": [],
+      "acceptConditions": [
+        {
+          "type": 9,
+          "not": 0,
+          "dataHex": "08a30012e5898de5be80e7a59ee58991e5b9bfe59cba"
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        }
+      ],
+      "submitConditions": [
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        }
+      ],
+      "type": 6,
+      "series": "",
+      "acceptMapId": 16,
+      "acceptNpcId": 1,
+      "canAccept": 1,
+      "isHelp": 0
+    }
+  },
+  {
+    "source": "frames/000329-response-14501.bin",
+    "frameSha256": "5e89811d4017a3f5d420e1b3a9accd844827922edcd86a5d91d49ebde88a05ab",
+    "offset": 10,
+    "file": "missions\\000329-2213.bin",
+    "sha256": "2bd2dec82ca60d0bb0721edf506843226fba67c024f49be6bbff30673ad10f0a",
+    "task": {
+      "id": 2213,
+      "title": "被封锁的桥",
+      "level": 0,
+      "description": "击败东边石桥上的/cff0000魔教弓兵/p和/cff0000魔教修真者/p。",
+      "acceptedText": "那帮人完全挡住了东边的桥，山下的一众侠士都上不来帮忙，我们先将这条桥打通，好让众侠士能通过。",
+      "setting": 5376,
+      "mapId": 16,
+      "npcId": 5,
+      "radarMapId": 16,
+      "radarPosition": [
+        18,
+        45
+      ],
+      "prompt": "",
+      "progressText": "尊敬的/c990000{1}/p上人，东面的桥上被魔教的人完全挡住了，山下的一众侠士们都上不来帮忙，我们先将这条桥打通吧。",
+      "completeText": "/f13嗯？！你是什么人，竟敢阻我/cff0000魔教/p大事？！",
+      "exp": 1500,
+      "money2": 0,
+      "money3": 1000,
+      "acceptJumpMap": 0,
+      "submitJumpMap": 0,
+      "acceptBattleId": 0,
+      "submitBattleId": 0,
+      "nextMissionId": 2214,
+      "rewardItems": [],
+      "selectItems": [
+        {
+          "id": 2018,
+          "quantity": 1,
+          "name": "平雪无痕护肩",
+          "icon": 116,
+          "grade": 1,
+          "type": 3
+        },
+        {
+          "id": 2118,
+          "quantity": 1,
+          "name": "松绿肩饰",
+          "icon": 215,
+          "grade": 1,
+          "type": 3
+        }
+      ],
+      "acceptConditions": [
+        {
+          "type": 9,
+          "not": 0,
+          "dataHex": "08a4000fe4bfaee79c9fe88085e6a2a6e9be99"
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        }
+      ],
+      "submitConditions": [
+        {
+          "type": 2,
+          "not": 0,
+          "dataHex": "07e6000ce9ad94e69599e7aeade6898b0100"
+        },
+        {
+          "type": 2,
+          "not": 0,
+          "dataHex": "07e7000fe9ad94e69599e4bfaee79c9fe880850100"
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        }
+      ],
+      "type": 6,
+      "series": "",
+      "acceptMapId": 16,
+      "acceptNpcId": 2,
+      "canAccept": 0,
+      "isHelp": 1
+    }
+  },
+  {
+    "source": "frames/000329-response-14501.bin",
+    "frameSha256": "5e89811d4017a3f5d420e1b3a9accd844827922edcd86a5d91d49ebde88a05ab",
+    "offset": 665,
+    "file": "missions\\000329-2215.bin",
+    "sha256": "4b9c9c2494ec41fbcaee5fe2ca34d0d5f100378973e6ef317896919478b8d464",
+    "task": {
+      "id": 2215,
+      "title": "前往神剑广场",
+      "level": 0,
+      "description": "跟梦龙和紫嫣一同前往神剑广场。",
+      "acceptedText": "魔教这次的进攻怎么看都是准备万全，根本不给我们一丝喘息的时机，掌门命我前来启动用/c00ff00天雷大阵/p，/c00ff00{1}/p上人，我们一起去神剑广场中间，找到天雷大阵的启动核心，然后发动天雷大阵，为求能有一时半刻的喘息之机吧。",
+      "setting": 5376,
+      "mapId": 16,
+      "npcId": 4,
+      "radarMapId": 16,
+      "radarPosition": [
+        10,
+        34
+      ],
+      "prompt": "",
+      "progressText": "",
+      "completeText": "魔教这次的进攻怎么看都是准备万全，根本不给我们一丝喘息的时机，掌门命我前来启动用/c00ff00天雷大阵/p，/c00ff00{1}/p上人，我们一起去神剑广场中间，找到天雷大阵的启动核心，然后发动天雷大阵，为求能有一时半刻的喘息之机吧。",
+      "exp": 500,
+      "money2": 0,
+      "money3": 500,
+      "acceptJumpMap": 0,
+      "submitJumpMap": 0,
+      "acceptBattleId": 0,
+      "submitBattleId": 0,
+      "nextMissionId": 2216,
+      "rewardItems": [],
+      "selectItems": [],
+      "acceptConditions": [
+        {
+          "type": 9,
+          "not": 0,
+          "dataHex": "08c4000ce6a1a5e5b7b2e68993e9809a"
+        }
+      ],
+      "submitConditions": [],
+      "type": 6,
+      "series": "",
+      "acceptMapId": 16,
+      "acceptNpcId": 2,
+      "canAccept": 0,
+      "isHelp": 0
+    }
+  },
+  {
+    "source": "frames/000329-response-14501.bin",
+    "frameSha256": "5e89811d4017a3f5d420e1b3a9accd844827922edcd86a5d91d49ebde88a05ab",
+    "offset": 1434,
+    "file": "missions\\000329-1181.bin",
+    "sha256": "4e8127c7390c3620a3bb4b1ca61ea936aae4d19d7051109d8b6304677cd0ae29",
+    "task": {
+      "id": 1181,
+      "title": "新手教程-技能学习",
+      "level": 0,
+      "description": "与技能训练师对话",
+      "acceptedText": "魔教的人虽然武功一般，但是却异常狡诈多谋善用以多打少，只要是稍微实力不够强大就会容易被他们围剿陷入困境。为了避免这种情况，我希望/c00ff00{1}/p你在与他们交手前，可以习得传世武功。我已与技能训练师打好照应，你去找她便可。",
+      "setting": 1024,
+      "mapId": 16,
+      "npcId": 65,
+      "radarMapId": 16,
+      "radarPosition": [
+        3,
+        43
+      ],
+      "prompt": "",
+      "progressText": "",
+      "completeText": "哦，你就是梦龙口中所说的神选之人。哼哼，让我看看你这个所谓的神选之人的悟性有多高吧~",
+      "exp": 0,
+      "money2": 0,
+      "money3": 0,
+      "acceptJumpMap": 0,
+      "submitJumpMap": 0,
+      "acceptBattleId": 0,
+      "submitBattleId": 0,
+      "nextMissionId": 2213,
+      "rewardItems": [],
+      "selectItems": [],
+      "acceptConditions": [
+        {
+          "type": 1,
+          "not": 0,
+          "dataHex": "7f"
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        }
+      ],
+      "submitConditions": [
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        }
+      ],
+      "type": 0,
+      "series": "",
+      "acceptMapId": 16,
+      "acceptNpcId": 2,
+      "canAccept": 1,
+      "isHelp": 0
+    }
+  },
+  {
+    "source": "frames/000340-response-14591.bin",
+    "frameSha256": "a1598402ff6b834cc69a1a1cc0e659a149140c11d33ad2c4cbaeea6e67afd4fc",
+    "offset": 7,
+    "file": "missions\\000340-2213.bin",
+    "sha256": "171277776c27843f769261957ba4f79c3cec3dbf1c1cee3f387a9934b4a53c79",
+    "task": {
+      "id": 2213,
+      "title": "被封锁的桥",
+      "level": 0,
+      "description": "击败东边石桥上的/cff0000魔教弓兵/p和/cff0000魔教修真者/p。",
+      "acceptedText": "那帮人完全挡住了东边的桥，山下的一众侠士都上不来帮忙，我们先将这条桥打通，好让众侠士能通过。",
+      "setting": 5376,
+      "mapId": 16,
+      "npcId": 5,
+      "radarMapId": 16,
+      "radarPosition": [
+        18,
+        45
+      ],
+      "prompt": "",
+      "progressText": "尊敬的/c990000{1}/p上人，东面的桥上被魔教的人完全挡住了，山下的一众侠士们都上不来帮忙，我们先将这条桥打通吧。",
+      "completeText": "/f13嗯？！你是什么人，竟敢阻我/cff0000魔教/p大事？！",
+      "exp": 1500,
+      "money2": 0,
+      "money3": 1000,
+      "acceptJumpMap": 0,
+      "submitJumpMap": 0,
+      "acceptBattleId": 0,
+      "submitBattleId": 0,
+      "nextMissionId": 2214,
+      "rewardItems": [],
+      "selectItems": [
+        {
+          "id": 2018,
+          "quantity": 1,
+          "name": "平雪无痕护肩",
+          "icon": 116,
+          "grade": 1,
+          "type": 3
+        },
+        {
+          "id": 2118,
+          "quantity": 1,
+          "name": "松绿肩饰",
+          "icon": 215,
+          "grade": 1,
+          "type": 3
+        }
+      ],
+      "acceptConditions": [
+        {
+          "type": 9,
+          "not": 0,
+          "dataHex": "08a4000fe4bfaee79c9fe88085e6a2a6e9be99"
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        }
+      ],
+      "submitConditions": [
+        {
+          "type": 2,
+          "not": 0,
+          "dataHex": "07e6000ce9ad94e69599e7aeade6898b0100"
+        },
+        {
+          "type": 2,
+          "not": 0,
+          "dataHex": "07e7000fe9ad94e69599e4bfaee79c9fe880850100"
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        }
+      ],
+      "type": 6,
+      "series": "",
+      "acceptMapId": 16,
+      "acceptNpcId": 2,
+      "canAccept": 1,
+      "isHelp": 1
+    }
+  },
+  {
+    "source": "frames/000360-response-14501.bin",
+    "frameSha256": "892bbb53723371deab5e4b2576aeb1f663e4915dc9f60e983ae3e1e846846143",
+    "offset": 10,
+    "file": "missions\\000360-2214.bin",
+    "sha256": "9353473d11d3682c88f7dc9fb52f24f27a8ed8593494e66ee471855cff72d5c4",
+    "task": {
+      "id": 2214,
+      "title": "击败魔教屠夫",
+      "level": 0,
+      "description": "击败/cff0000魔教屠夫/p，以便顺利打通石桥。（接任务后/c990000立即进入战斗/p）",
+      "acceptedText": "/cff0000魔教屠夫/p带领着他的一众魔教教众将石桥完全挡住，这条桥是山下的人通往神剑广场的唯一通道。",
+      "setting": 5376,
+      "mapId": 16,
+      "npcId": 5,
+      "radarMapId": 16,
+      "radarPosition": [
+        21,
+        42
+      ],
+      "prompt": "",
+      "progressText": "哼，这桥我是守定了，想打通这条桥先问过我再说！",
+      "completeText": "好强的战斗力！我败了！",
+      "exp": 800,
+      "money2": 0,
+      "money3": 800,
+      "acceptJumpMap": 0,
+      "submitJumpMap": 0,
+      "acceptBattleId": 2017,
+      "submitBattleId": 0,
+      "nextMissionId": 2244,
+      "rewardItems": [
+        {
+          "id": 30100,
+          "quantity": 1,
+          "name": "苍鹰新手宠物",
+          "icon": 53,
+          "grade": 2
+        }
+      ],
+      "selectItems": [
+        {
+          "id": 2026,
+          "quantity": 1,
+          "name": "平雪无痕护额",
+          "icon": 113,
+          "grade": 1,
+          "type": 0
+        },
+        {
+          "id": 2126,
+          "quantity": 1,
+          "name": "松绿头饰",
+          "icon": 212,
+          "grade": 1,
+          "type": 0
+        }
+      ],
+      "acceptConditions": [
+        {
+          "type": 9,
+          "not": 0,
+          "dataHex": "08a5000fe8a2abe5b081e99481e79a84e6a1a5"
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        }
+      ],
+      "submitConditions": [
+        {
+          "type": 2,
+          "not": 0,
+          "dataHex": "07ec000ce9ad94e69599e5b1a0e5a4ab0100"
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        },
+        {
+          "type": 0,
+          "not": 0,
+          "dataHex": ""
+        }
+      ],
+      "type": 6,
+      "series": "",
+      "acceptMapId": 16,
+      "acceptNpcId": 5,
+      "canAccept": 0,
+      "isHelp": 1
+    }
+  },
+  {
+    "source": "frames/000360-response-14501.bin",
+    "frameSha256": "892bbb53723371deab5e4b2576aeb1f663e4915dc9f60e983ae3e1e846846143",
+    "offset": 579,
+    "file": "missions\\000360-2244.bin",
+    "sha256": "a7a7f8dfc4f0392a0bec714fd01e2aed0b9b724ea361875a8a8ece43d7e2dc26",
+    "task": {
+      "id": 2244,
+      "title": "桥已打通",
+      "level": 0,
+      "description": "与/c00ff00梦龙/p对话。",
+      "acceptedText": "桥终于都打通了，/c00ff00{1}/p好身手！",
+      "setting": 5376,
+      "mapId": 16,
+      "npcId": 2,
+      "radarMapId": 16,
+      "radarPosition": [
+        7,
+        44
+      ],
+      "prompt": "",
+      "progressText": "",
+      "completeText": "桥终于都打通了，/c00ff00{1}/p好身手！",
+      "exp": 0,
+      "money2": 0,
+      "money3": 0,
+      "acceptJumpMap": 0,
+      "submitJumpMap": 0,
+      "acceptBattleId": 0,
+      "submitBattleId": 0,
+      "nextMissionId": 2215,
+      "rewardItems": [],
+      "selectItems": [],
+      "acceptConditions": [
+        {
+          "type": 9,
+          "not": 0,
+          "dataHex": "08a60012e587bbe8b4a5e9ad94e69599e5b1a0e5a4ab"
+        }
+      ],
+      "submitConditions": [],
+      "type": 6,
+      "series": "",
+      "acceptMapId": 16,
+      "acceptNpcId": 5,
+      "canAccept": 0,
+      "isHelp": 0
+    }
+  }
+]

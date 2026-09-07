@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-09-06T01:04:43.211+00:00",
+  "kind": "ready",
+  "pid": 20764,
+  "arch": "x64",
+  "module": "flue.dll",
+  "moduleBase": "0x7ffdd4520000",
+  "hooks": {
+    "write": "0x7ffdd4a93550",
+    "read": "0x7ffdd9126990"
+  }
+}

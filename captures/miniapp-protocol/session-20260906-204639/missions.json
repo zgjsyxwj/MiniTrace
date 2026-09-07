@@ -1,0 +1,390 @@
+[
+  {
+    "sequence": 53,
+    "timestamp": "2026-09-06T12:48:17.034+00:00",
+    "direction": "request",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 14501,
+    "protocolName": "CG_TASK_GETMISSIONDATA",
+    "declaredLength": 78,
+    "actualLength": 78,
+    "sha256": "9541e39706dbcd867f1293cdbf7c5be7e4b2795989f376ca6a457699eddc240f",
+    "rawFile": "frames/000053-request-14501.bin",
+    "classification": "parsed",
+    "fields": {
+      "npcId": 66,
+      "cachedGroups": [
+        260,
+        261,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2023,
+        2024,
+        2047
+      ],
+      "cachedMonsters": [
+        21,
+        22,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2025,
+        2028,
+        2029,
+        2031,
+        2032,
+        2046,
+        2047,
+        2048,
+        2049,
+        2050
+      ]
+    },
+    "unparsedOffset": 78,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 54,
+    "timestamp": "2026-09-06T12:48:17.086+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 14501,
+    "protocolName": "CG_TASK_GETMISSIONDATA",
+    "declaredLength": 9,
+    "actualLength": 9,
+    "sha256": "4db1f55bab318c3727cd861aa1669fa601a59c514075678c138beb128be5cbb5",
+    "rawFile": "frames/000054-response-14501.bin",
+    "classification": "parsed",
+    "fields": {
+      "npcId": 66,
+      "tasks": [],
+      "monsterData": {
+        "groups": [],
+        "monsters": [],
+        "skills": [],
+        "ai": []
+      }
+    },
+    "unparsedOffset": 9,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 242,
+    "timestamp": "2026-09-06T12:52:16.288+00:00",
+    "direction": "request",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 14501,
+    "protocolName": "CG_TASK_GETMISSIONDATA",
+    "declaredLength": 78,
+    "actualLength": 78,
+    "sha256": "ef216125e10668a5bddd5c5e6e29ada94e7f333ae09456d977efec66673a3582",
+    "rawFile": "frames/000242-request-14501.bin",
+    "classification": "parsed",
+    "fields": {
+      "npcId": 51,
+      "cachedGroups": [
+        260,
+        261,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2023,
+        2024,
+        2047
+      ],
+      "cachedMonsters": [
+        21,
+        22,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2025,
+        2028,
+        2029,
+        2031,
+        2032,
+        2046,
+        2047,
+        2048,
+        2049,
+        2050
+      ]
+    },
+    "unparsedOffset": 78,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 243,
+    "timestamp": "2026-09-06T12:52:16.334+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 14501,
+    "protocolName": "CG_TASK_GETMISSIONDATA",
+    "declaredLength": 9,
+    "actualLength": 9,
+    "sha256": "f8d0b4c49b8c02c1d1e28a3d323fbc893e4311441dbf785e9b1e7f291740db8c",
+    "rawFile": "frames/000243-response-14501.bin",
+    "classification": "parsed",
+    "fields": {
+      "npcId": 51,
+      "tasks": [],
+      "monsterData": {
+        "groups": [],
+        "monsters": [],
+        "skills": [],
+        "ai": []
+      }
+    },
+    "unparsedOffset": 9,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 259,
+    "timestamp": "2026-09-06T12:52:29.405+00:00",
+    "direction": "request",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 14501,
+    "protocolName": "CG_TASK_GETMISSIONDATA",
+    "declaredLength": 78,
+    "actualLength": 78,
+    "sha256": "f9bbfa3a1c6585766a0420a492c14d8ef5419e85b4888e9662a60c7a78d371b9",
+    "rawFile": "frames/000259-request-14501.bin",
+    "classification": "parsed",
+    "fields": {
+      "npcId": 5,
+      "cachedGroups": [
+        260,
+        261,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2023,
+        2024,
+        2047
+      ],
+      "cachedMonsters": [
+        21,
+        22,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2025,
+        2028,
+        2029,
+        2031,
+        2032,
+        2046,
+        2047,
+        2048,
+        2049,
+        2050
+      ]
+    },
+    "unparsedOffset": 78,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 261,
+    "timestamp": "2026-09-06T12:52:29.448+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 14501,
+    "protocolName": "CG_TASK_GETMISSIONDATA",
+    "declaredLength": 806,
+    "actualLength": 806,
+    "sha256": "7ef7b6f2d7de44f70076f212b7fc20c31db6b8e51a13b99d99f79fc66279c0dd",
+    "rawFile": "frames/000261-response-14501.bin",
+    "classification": "parsed",
+    "fields": {
+      "npcId": 5,
+      "tasks": [
+        {
+          "id": 2214,
+          "title": "击败魔教屠夫",
+          "level": 0,
+          "description": "击败/cff0000魔教屠夫/p，以便顺利打通石桥。（接任务后/c990000立即进入战斗/p）",
+          "acceptedText": "/cff0000魔教屠夫/p带领着他的一众魔教教众将石桥完全挡住，这条桥是山下的人通往神剑广场的唯一通道。",
+          "setting": 5376,
+          "mapId": 16,
+          "npcId": 5,
+          "radarMapId": 16,
+          "radarPosition": [
+            21,
+            42
+          ],
+          "prompt": "",
+          "progressText": "哼，这桥我是守定了，想打通这条桥先问过我再说！",
+          "completeText": "好强的战斗力！我败了！",
+          "exp": 800,
+          "money2": 0,
+          "money3": 800,
+          "acceptJumpMap": 0,
+          "submitJumpMap": 0,
+          "acceptBattleId": 2017,
+          "submitBattleId": 0,
+          "nextMissionId": 2244,
+          "rewardItems": [
+            {
+              "id": 30100,
+              "quantity": 1,
+              "name": "苍鹰新手宠物",
+              "icon": 53,
+              "grade": 2
+            }
+          ],
+          "selectItems": [
+            {
+              "id": 2026,
+              "quantity": 1,
+              "name": "平雪无痕护额",
+              "icon": 113,
+              "grade": 1,
+              "type": 0
+            },
+            {
+              "id": 2126,
+              "quantity": 1,
+              "name": "松绿头饰",
+              "icon": 212,
+              "grade": 1,
+              "type": 0
+            }
+          ],
+          "acceptConditions": [
+            {
+              "type": 9,
+              "not": 0,
+              "dataHex": "08a5000fe8a2abe5b081e99481e79a84e6a1a5"
+            },
+            {
+              "type": 0,
+              "not": 0,
+              "dataHex": ""
+            },
+            {
+              "type": 0,
+              "not": 0,
+              "dataHex": ""
+            }
+          ],
+          "submitConditions": [
+            {
+              "type": 2,
+              "not": 0,
+              "dataHex": "07ec000ce9ad94e69599e5b1a0e5a4ab0100"
+            },
+            {
+              "type": 0,
+              "not": 0,
+              "dataHex": ""
+            },
+            {
+              "type": 0,
+              "not": 0,
+              "dataHex": ""
+            }
+          ],
+          "type": 6,
+          "series": "",
+          "acceptMapId": 16,
+          "acceptNpcId": 5,
+          "canAccept": 0,
+          "isHelp": 1
+        },
+        {
+          "id": 2244,
+          "title": "桥已打通",
+          "level": 0,
+          "description": "与/c00ff00梦龙/p对话。",
+          "acceptedText": "桥终于都打通了，/c00ff00{1}/p好身手！",
+          "setting": 5376,
+          "mapId": 16,
+          "npcId": 2,
+          "radarMapId": 16,
+          "radarPosition": [
+            7,
+            44
+          ],
+          "prompt": "",
+          "progressText": "",
+          "completeText": "桥终于都打通了，/c00ff00{1}/p好身手！",
+          "exp": 0,
+          "money2": 0,
+          "money3": 0,
+          "acceptJumpMap": 0,
+          "submitJumpMap": 0,
+          "acceptBattleId": 0,
+          "submitBattleId": 0,
+          "nextMissionId": 2215,
+          "rewardItems": [],
+          "selectItems": [],
+          "acceptConditions": [
+            {
+              "type": 9,
+              "not": 0,
+              "dataHex": "08a60012e587bbe8b4a5e9ad94e69599e5b1a0e5a4ab"
+            }
+          ],
+          "submitConditions": [],
+          "type": 6,
+          "series": "",
+          "acceptMapId": 16,
+          "acceptNpcId": 5,
+          "canAccept": 0,
+          "isHelp": 0
+        }
+      ],
+      "monsterData": {
+        "groups": [],
+        "monsters": [],
+        "skills": [],
+        "ai": []
+      }
+    },
+    "unparsedOffset": 806,
+    "unparsedHex": ""
+  }
+]

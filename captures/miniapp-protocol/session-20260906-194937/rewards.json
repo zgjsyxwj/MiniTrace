@@ -1,0 +1,2507 @@
+[
+  {
+    "sequence": 27,
+    "mapId": null,
+    "source": "frames/000027-response-14503.bin",
+    "sha256": "3c6422b73ba7ca0f1512611c6102a63b289d1e66778cb208d835058167477a01",
+    "messageType": 14503,
+    "requestSource": "frames/000025-request-14503.bin",
+    "requestSha256": "e68da03c12ac2493350171e8b027b3fb96e9cc68abb500c19a12f199bde90153",
+    "request": {
+      "npcId": 22,
+      "missionId": 1121,
+      "selection": -1
+    },
+    "response": {
+      "result": 0,
+      "npcStatus": [
+        {
+          "npcId": 22,
+          "sign": 0
+        }
+      ],
+      "reward": {
+        "finishMission": true,
+        "costMoney1": 0,
+        "costMoney2": 0,
+        "costMoney3": 0,
+        "gainMoney2": 0,
+        "gainMoney3": 0,
+        "level": {
+          "exp": 0,
+          "gainLevel": 0,
+          "exp2": 0,
+          "gainLevel2": 0
+        },
+        "hasPetReward": false,
+        "removedItems": [],
+        "items": [],
+        "refreshCity": false,
+        "hasCountryReward": false
+      }
+    }
+  },
+  {
+    "sequence": 62,
+    "mapId": 4,
+    "source": "frames/000062-response-14503.bin",
+    "sha256": "784722c74b7d8578bf18dfc5644275bdd887aef44daa53b758db9de74499da67",
+    "messageType": 14503,
+    "requestSource": "frames/000060-request-14503.bin",
+    "requestSha256": "313a17d2b300975f0d2b14526d4794cb6e82435845cd209784c47175ca4d9a1d",
+    "request": {
+      "npcId": 88,
+      "missionId": 1124,
+      "selection": -1
+    },
+    "response": {
+      "result": 0,
+      "npcStatus": [
+        {
+          "npcId": 88,
+          "sign": 0
+        }
+      ],
+      "reward": {
+        "finishMission": true,
+        "costMoney1": 0,
+        "costMoney2": 0,
+        "costMoney3": 0,
+        "gainMoney2": 0,
+        "gainMoney3": 0,
+        "level": {
+          "exp": 0,
+          "gainLevel": 0,
+          "exp2": 0,
+          "gainLevel2": 0
+        },
+        "hasPetReward": false,
+        "removedItems": [],
+        "items": [
+          {
+            "mode": 1,
+            "quantity": 1,
+            "expectedSlotPos": 31,
+            "item": {
+              "quantity": 1,
+              "petProvideExp": 0,
+              "durability": 0,
+              "attachDone": 0,
+              "attachPower": 0,
+              "attachValue": 0,
+              "slotPos": 31,
+              "status": 0,
+              "type": 28,
+              "id": 40067,
+              "name": "新手大礼包",
+              "bagIcon": 7,
+              "info": "在背包中使用，将获取丰厚奖励。",
+              "grade": 0,
+              "autoBinding": 1,
+              "stackNum": 99,
+              "decomCHest": false,
+              "reqLv": 0,
+              "ownTime": 0,
+              "durMax": 0,
+              "price": 100,
+              "round": 0,
+              "area": -1,
+              "power1": 100,
+              "powerValue1": 101,
+              "power2": 103,
+              "powerValue2": 3,
+              "vipLevelReq": 0,
+              "needShowRate": false
+            }
+          }
+        ],
+        "refreshCity": false,
+        "hasCountryReward": false
+      }
+    }
+  },
+  {
+    "sequence": 68,
+    "mapId": 4,
+    "source": "frames/000068-response-14503.bin",
+    "sha256": "7cea0d31019ce4927beda772fc8f3522fc5f9b5ff3dacaf0c2e2b28d725707d1",
+    "messageType": 14503,
+    "requestSource": "frames/000065-request-14503.bin",
+    "requestSha256": "ed5a9affa799d8e15190047b8b7bf78789b83dae6901ffe3503c0a6f8376cec9",
+    "request": {
+      "npcId": 51,
+      "missionId": 2199,
+      "selection": -1
+    },
+    "response": {
+      "result": 0,
+      "npcStatus": [],
+      "reward": {
+        "finishMission": true,
+        "costMoney1": 0,
+        "costMoney2": 0,
+        "costMoney3": 0,
+        "gainMoney2": 0,
+        "gainMoney3": 100,
+        "level": {
+          "exp": 100,
+          "gainLevel": 0,
+          "exp2": 0,
+          "gainLevel2": 0
+        },
+        "hasPetReward": false,
+        "removedItems": [],
+        "items": [],
+        "refreshCity": false,
+        "hasCountryReward": false
+      }
+    }
+  },
+  {
+    "sequence": 70,
+    "mapId": 4,
+    "source": "frames/000070-response-14502.bin",
+    "sha256": "39112da00002d0a349162758de54809fa71a8b46b388dc54026853eb62713b22",
+    "messageType": 14502,
+    "requestSource": "frames/000069-request-14502.bin",
+    "requestSha256": "a991e3f881c99df834a46125d200889834775cb7cd5619049f10dd8dbf67f50a",
+    "request": {
+      "npcId": 51,
+      "missionId": 2201
+    },
+    "response": {
+      "result": 0,
+      "npcStatus": [
+        {
+          "npcId": 2,
+          "sign": 1
+        },
+        {
+          "npcId": 51,
+          "sign": 0
+        }
+      ],
+      "directSubmit": false
+    }
+  },
+  {
+    "sequence": 85,
+    "mapId": 4,
+    "source": "frames/000085-response-14503.bin",
+    "sha256": "ccd49c651b1ecdbde189872ed54d081d2213001425d2cba90a3001f88ab8c8a2",
+    "messageType": 14503,
+    "requestSource": "frames/000077-request-14503.bin",
+    "requestSha256": "fc6132bdf7a52719b27fd93c96741e94ff7cd62cdaef71f52d36304485dea060",
+    "request": {
+      "npcId": 2,
+      "missionId": 2201,
+      "selection": -1
+    },
+    "response": {
+      "result": 0,
+      "npcStatus": [
+        {
+          "npcId": 2,
+          "sign": 3
+        }
+      ],
+      "reward": {
+        "finishMission": true,
+        "costMoney1": 0,
+        "costMoney2": 0,
+        "costMoney3": 0,
+        "gainMoney2": 0,
+        "gainMoney3": 100,
+        "level": {
+          "exp": 100,
+          "gainLevel": 1,
+          "currentExp": 60,
+          "expMax": 800,
+          "sp": 20,
+          "cp": 3,
+          "exp2": 0,
+          "gainLevel2": 0
+        },
+        "hasPetReward": false,
+        "removedItems": [],
+        "items": [],
+        "refreshCity": false,
+        "hasCountryReward": false
+      }
+    }
+  },
+  {
+    "sequence": 88,
+    "mapId": 4,
+    "source": "frames/000088-response-14502.bin",
+    "sha256": "7d5ce057c380147552ca5eadb53cf5e6e6b9b6e05b909be42cef7aa1fe862eeb",
+    "messageType": 14502,
+    "requestSource": "frames/000087-request-14502.bin",
+    "requestSha256": "d4d59fd649154bae56030b135628f001f8c46a277ab7d576c711d9bb5a31b1ac",
+    "request": {
+      "npcId": 2,
+      "missionId": 2202
+    },
+    "response": {
+      "result": 0,
+      "npcStatus": [
+        {
+          "npcId": 2,
+          "sign": 2
+        }
+      ],
+      "directSubmit": false
+    }
+  },
+  {
+    "sequence": 102,
+    "mapId": 4,
+    "source": "frames/000102-response-12502.bin",
+    "sha256": "ea3e0ed6c43d7c75ff961afe4b4e0c9b043e775e910303e7a1855eb6cb7050cd",
+    "messageType": 12502,
+    "requestSource": "frames/000099-request-12502.bin",
+    "requestSha256": "21ae101e82afa4b25c069232bc8d12d54565f7c4e3a5d2c7c0f0c5d2818c6148",
+    "request": {
+      "startHP": 244,
+      "startMP": 174,
+      "endHP": 244,
+      "endMP": 154,
+      "seed": 3,
+      "monsterGroupId": 2012,
+      "hasPet": false,
+      "buddyCount": 0,
+      "roundCount": 2,
+      "plans": [
+        {
+          "offset": 30,
+          "length": 4,
+          "action": 2,
+          "targetPosition": 2,
+          "skillId": 731
+        },
+        {
+          "offset": 37,
+          "length": 4,
+          "action": 2,
+          "targetPosition": 7,
+          "skillId": 731
+        }
+      ],
+      "serializationPadding": {
+        "offset": 41,
+        "hex": "00000000",
+        "source": "original ByteArray allocation; exactRebuild verified"
+      }
+    },
+    "response": {
+      "result": 2,
+      "reward": {
+        "money3": 2,
+        "level": {
+          "exp": 4,
+          "gainLevel": 0,
+          "exp2": 0,
+          "gainLevel2": 0
+        },
+        "bagFull": false,
+        "hasPetReward": false,
+        "kills": [
+          {
+            "monsterId": 2016,
+            "quantity": 2
+          }
+        ],
+        "hasEscortReward": false,
+        "items": [],
+        "npcStatus": [
+          {
+            "npcId": 2,
+            "sign": 1
+          }
+        ],
+        "powerValid": false,
+        "expiredMercenaries": [],
+        "changeMap": false,
+        "countryPowerValid": false
+      }
+    }
+  },
+  {
+    "sequence": 111,
+    "mapId": 4,
+    "source": "frames/000111-response-14503.bin",
+    "sha256": "74b190243c9b65027ee20518d72973727f6b3e02646b0f612717eb53842e8e00",
+    "messageType": 14503,
+    "requestSource": "frames/000108-request-14503.bin",
+    "requestSha256": "8b1209d50184a15930acb91ff9d4acd9d59dcdf096c01cc128f917fc977238be",
+    "request": {
+      "npcId": 2,
+      "missionId": 2202,
+      "selection": 2101
+    },
+    "response": {
+      "result": 0,
+      "npcStatus": [
+        {
+          "npcId": 2,
+          "sign": 3
+        }
+      ],
+      "reward": {
+        "finishMission": true,
+        "costMoney1": 0,
+        "costMoney2": 0,
+        "costMoney3": 0,
+        "gainMoney2": 0,
+        "gainMoney3": 400,
+        "level": {
+          "exp": 300,
+          "gainLevel": 0,
+          "exp2": 0,
+          "gainLevel2": 0
+        },
+        "hasPetReward": false,
+        "removedItems": [],
+        "items": [
+          {
+            "mode": 1,
+            "quantity": 1,
+            "expectedSlotPos": 32,
+            "item": {
+              "quantity": 1,
+              "petProvideExp": 0,
+              "durability": 130,
+              "attachDone": 0,
+              "attachPower": 0,
+              "attachValue": 0,
+              "slotPos": 32,
+              "status": 0,
+              "type": 1,
+              "id": 2101,
+              "name": "云卿锦袍",
+              "bagIcon": 213,
+              "info": "适合/c00FF00修真者/p的装备,不可分解",
+              "grade": 0,
+              "autoBinding": 0,
+              "stackNum": 1,
+              "decomCHest": false,
+              "icon": 6082,
+              "ownTime": 0,
+              "durMax": 130,
+              "price": 250,
+              "attachCount": 0,
+              "itemSet": 0,
+              "reqLv": 3,
+              "reqStr": 0,
+              "reqCon": 1,
+              "reqAgi": 0,
+              "reqIlt": 0,
+              "reqWis": 6,
+              "def_str": 40,
+              "def_agi": 40,
+              "def_mag": 84,
+              "powers": [
+                [
+                  70,
+                  18
+                ],
+                [
+                  13,
+                  18
+                ],
+                [
+                  0,
+                  0
+                ]
+              ],
+              "skill": null,
+              "combinUpSkills": [],
+              "skillDesc": "",
+              "bindPowers": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0
+                ]
+              ],
+              "ascensionStar": 0,
+              "star": 0,
+              "vipLevelReq": 0,
+              "enchantPowers": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0
+                ]
+              ],
+              "enchantLevel": 0,
+              "cssLeftChannel": false,
+              "cssRightChannel": false,
+              "cssLeftHasItem": false,
+              "cssRightHasItem": false,
+              "cssLeftPowerPer": 0,
+              "cssRightPowerPer": 0,
+              "isUpgradeItem": false,
+              "upgradeAscensionStar": 0,
+              "upgradeStar": 0
+            }
+          }
+        ],
+        "refreshCity": false,
+        "hasCountryReward": false
+      }
+    }
+  },
+  {
+    "sequence": 113,
+    "mapId": 4,
+    "source": "frames/000113-response-14502.bin",
+    "sha256": "88b85d531a5786bb3ce378c054db72ac3388f69475be8dfda6563ea989712ee2",
+    "messageType": 14502,
+    "requestSource": "frames/000112-request-14502.bin",
+    "requestSha256": "8315be3facef30e3fec1d0add8447d620f166f941abd45537d44ada16b2ff6cd",
+    "request": {
+      "npcId": 2,
+      "missionId": 2203
+    },
+    "response": {
+      "result": 0,
+      "npcStatus": [
+        {
+          "npcId": 2,
+          "sign": 0
+        },
+        {
+          "npcId": 5,
+          "sign": 1
+        }
+      ],
+      "directSubmit": false
+    }
+  },
+  {
+    "sequence": 123,
+    "mapId": 4,
+    "source": "frames/000123-response-14503.bin",
+    "sha256": "282ba1dd6be991069239d28d09a0499264a18c3a4ff35ef8ff28934754541503",
+    "messageType": 14503,
+    "requestSource": "frames/000120-request-14503.bin",
+    "requestSha256": "23c86ab9eeea9450bde53940ad2e22940f665a8989916397cae95250b8a63078",
+    "request": {
+      "npcId": 5,
+      "missionId": 2203,
+      "selection": -1
+    },
+    "response": {
+      "result": 0,
+      "npcStatus": [
+        {
+          "npcId": 5,
+          "sign": 3
+        }
+      ],
+      "reward": {
+        "finishMission": true,
+        "costMoney1": 0,
+        "costMoney2": 0,
+        "costMoney3": 0,
+        "gainMoney2": 0,
+        "gainMoney3": 100,
+        "level": {
+          "exp": 100,
+          "gainLevel": 0,
+          "exp2": 0,
+          "gainLevel2": 0
+        },
+        "hasPetReward": false,
+        "removedItems": [],
+        "items": [],
+        "refreshCity": false,
+        "hasCountryReward": false
+      }
+    }
+  },
+  {
+    "sequence": 125,
+    "mapId": 4,
+    "source": "frames/000125-response-14502.bin",
+    "sha256": "8a04eafb4a38bd4243303b5e4f50c32b6e8109790d126b8b7732355fb37ae93e",
+    "messageType": 14502,
+    "requestSource": "frames/000124-request-14502.bin",
+    "requestSha256": "d9fababc4d7c0bcb925bcd93deff5d4dbe06367b648e46c4bcd2b894ea1e5369",
+    "request": {
+      "npcId": 5,
+      "missionId": 2204
+    },
+    "response": {
+      "result": 0,
+      "npcStatus": [
+        {
+          "npcId": 5,
+          "sign": 2
+        }
+      ],
+      "directSubmit": false
+    }
+  },
+  {
+    "sequence": 138,
+    "mapId": 4,
+    "source": "frames/000138-response-12502.bin",
+    "sha256": "a9fcf91fbbde5784e90a4cc7cf1bc0c139c23692cd7f54b3acd56234a4d79d3f",
+    "messageType": 12502,
+    "requestSource": "frames/000135-request-12502.bin",
+    "requestSha256": "6724d5cbf5f3b912995f21494317a7030a014e7430bc622f014e1b370f100149",
+    "request": {
+      "startHP": 244,
+      "startMP": 174,
+      "endHP": 244,
+      "endMP": 154,
+      "seed": 4,
+      "monsterGroupId": 2013,
+      "hasPet": false,
+      "buddyCount": 0,
+      "roundCount": 2,
+      "plans": [
+        {
+          "offset": 30,
+          "length": 4,
+          "action": 2,
+          "targetPosition": 5,
+          "skillId": 731
+        },
+        {
+          "offset": 37,
+          "length": 4,
+          "action": 2,
+          "targetPosition": 6,
+          "skillId": 731
+        }
+      ],
+      "serializationPadding": {
+        "offset": 41,
+        "hex": "00000000",
+        "source": "original ByteArray allocation; exactRebuild verified"
+      }
+    },
+    "response": {
+      "result": 2,
+      "reward": {
+        "money3": 2,
+        "level": {
+          "exp": 8,
+          "gainLevel": 0,
+          "exp2": 0,
+          "gainLevel2": 0
+        },
+        "bagFull": false,
+        "hasPetReward": false,
+        "kills": [
+          {
+            "monsterId": 2017,
+            "quantity": 2
+          }
+        ],
+        "hasEscortReward": false,
+        "items": [],
+        "npcStatus": [
+          {
+            "npcId": 5,
+            "sign": 1
+          }
+        ],
+        "powerValid": false,
+        "expiredMercenaries": [],
+        "changeMap": false,
+        "countryPowerValid": false
+      }
+    }
+  },
+  {
+    "sequence": 149,
+    "mapId": 4,
+    "source": "frames/000149-response-14503.bin",
+    "sha256": "24a50b66bcf51ca2adfcfdd784b8c26ff5fbc77875b8c2c7c0456b2caa5fb1f9",
+    "messageType": 14503,
+    "requestSource": "frames/000143-request-14503.bin",
+    "requestSha256": "99bb56f4d76f3d0017f901aa22c4d955bb0b680591f974b3ab9a35971ad722ab",
+    "request": {
+      "npcId": 5,
+      "missionId": 2204,
+      "selection": 2125
+    },
+    "response": {
+      "result": 0,
+      "npcStatus": [
+        {
+          "npcId": 5,
+          "sign": 3
+        }
+      ],
+      "reward": {
+        "finishMission": true,
+        "costMoney1": 0,
+        "costMoney2": 0,
+        "costMoney3": 0,
+        "gainMoney2": 0,
+        "gainMoney3": 1000,
+        "level": {
+          "exp": 1000,
+          "gainLevel": 1,
+          "currentExp": 672,
+          "expMax": 1200,
+          "sp": 30,
+          "cp": 3,
+          "exp2": 0,
+          "gainLevel2": 0
+        },
+        "hasPetReward": false,
+        "removedItems": [],
+        "items": [
+          {
+            "mode": 1,
+            "quantity": 1,
+            "expectedSlotPos": 33,
+            "item": {
+              "quantity": 1,
+              "petProvideExp": 0,
+              "durability": 130,
+              "attachDone": 0,
+              "attachPower": 0,
+              "attachValue": 0,
+              "slotPos": 33,
+              "status": 0,
+              "type": 0,
+              "id": 2125,
+              "name": "云卿头饰",
+              "bagIcon": 212,
+              "info": "适合/c00FF00修真者/p的装备,不可分解",
+              "grade": 0,
+              "autoBinding": 0,
+              "stackNum": 1,
+              "decomCHest": false,
+              "icon": 10012,
+              "ownTime": 0,
+              "durMax": 130,
+              "price": 250,
+              "attachCount": 0,
+              "itemSet": 0,
+              "reqLv": 3,
+              "reqStr": 0,
+              "reqCon": 1,
+              "reqAgi": 0,
+              "reqIlt": 0,
+              "reqWis": 6,
+              "def_str": 20,
+              "def_agi": 20,
+              "def_mag": 43,
+              "powers": [
+                [
+                  70,
+                  18
+                ],
+                [
+                  13,
+                  18
+                ],
+                [
+                  0,
+                  0
+                ]
+              ],
+              "skill": null,
+              "combinUpSkills": [],
+              "skillDesc": "",
+              "bindPowers": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0
+                ]
+              ],
+              "ascensionStar": 0,
+              "star": 0,
+              "vipLevelReq": 0,
+              "enchantPowers": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0
+                ]
+              ],
+              "enchantLevel": 0,
+              "cssLeftChannel": false,
+              "cssRightChannel": false,
+              "cssLeftHasItem": false,
+              "cssRightHasItem": false,
+              "cssLeftPowerPer": 0,
+              "cssRightPowerPer": 0,
+              "isUpgradeItem": false,
+              "upgradeAscensionStar": 0,
+              "upgradeStar": 0
+            }
+          }
+        ],
+        "refreshCity": false,
+        "hasCountryReward": false
+      }
+    }
+  },
+  {
+    "sequence": 153,
+    "mapId": 4,
+    "source": "frames/000153-response-14502.bin",
+    "sha256": "544a7b8d40718f0911e9c87268eb695e5310ef53582c0da20891cea5ac3fca5d",
+    "messageType": 14502,
+    "requestSource": "frames/000152-request-14502.bin",
+    "requestSha256": "4c2cdf33b32abb3aefb7ca6b8e696df9ad240d9fb09601b9314f8730ac8d1cc6",
+    "request": {
+      "npcId": 5,
+      "missionId": 2205
+    },
+    "response": {
+      "result": 0,
+      "npcStatus": [
+        {
+          "npcId": 5,
+          "sign": 0
+        },
+        {
+          "npcId": 10,
+          "sign": 1
+        }
+      ],
+      "directSubmit": false
+    }
+  },
+  {
+    "sequence": 162,
+    "mapId": 4,
+    "source": "frames/000162-response-14503.bin",
+    "sha256": "3937aefef928dadf27fb07812ba8cd01c872dd8ffde71c85309ec9ecd39b4e8c",
+    "messageType": 14503,
+    "requestSource": "frames/000159-request-14503.bin",
+    "requestSha256": "fe5bbd219eb58b293af3abf21dc1c400e2816077bc3d8661f9f7807170b5e8ad",
+    "request": {
+      "npcId": 10,
+      "missionId": 2205,
+      "selection": -1
+    },
+    "response": {
+      "result": 0,
+      "npcStatus": [
+        {
+          "npcId": 10,
+          "sign": 3
+        }
+      ],
+      "reward": {
+        "finishMission": true,
+        "costMoney1": 0,
+        "costMoney2": 0,
+        "costMoney3": 0,
+        "gainMoney2": 0,
+        "gainMoney3": 500,
+        "level": {
+          "exp": 500,
+          "gainLevel": 0,
+          "exp2": 0,
+          "gainLevel2": 0
+        },
+        "hasPetReward": false,
+        "removedItems": [],
+        "items": [],
+        "refreshCity": false,
+        "hasCountryReward": false
+      }
+    }
+  },
+  {
+    "sequence": 164,
+    "mapId": 4,
+    "source": "frames/000164-response-14502.bin",
+    "sha256": "9355ac73297635f0872f20a80b2d23af6e8d266d86836e1d65939bb92253884e",
+    "messageType": 14502,
+    "requestSource": "frames/000163-request-14502.bin",
+    "requestSha256": "a40abd9bbb7c5384c96550ab8082ee7475b5867a383f5380d6a37acf1872cca7",
+    "request": {
+      "npcId": 10,
+      "missionId": 2206
+    },
+    "response": {
+      "result": 0,
+      "npcStatus": [
+        {
+          "npcId": 10,
+          "sign": 0
+        },
+        {
+          "npcId": 11,
+          "sign": 1
+        }
+      ],
+      "directSubmit": false
+    }
+  },
+  {
+    "sequence": 181,
+    "mapId": 4,
+    "source": "frames/000181-response-14503.bin",
+    "sha256": "b65fa6f0be600360c03b85c191a5870ee88b7e05b84416f35f02ec45dc0bc132",
+    "messageType": 14503,
+    "requestSource": "frames/000172-request-14503.bin",
+    "requestSha256": "fc0620563c547f766d849b9ae98505a0b8fb70aafb813cadd7a093631d86b436",
+    "request": {
+      "npcId": 11,
+      "missionId": 2206,
+      "selection": -1
+    },
+    "response": {
+      "result": 0,
+      "npcStatus": [
+        {
+          "npcId": 11,
+          "sign": 3
+        }
+      ],
+      "reward": {
+        "finishMission": true,
+        "costMoney1": 0,
+        "costMoney2": 0,
+        "costMoney3": 0,
+        "gainMoney2": 0,
+        "gainMoney3": 250,
+        "level": {
+          "exp": 250,
+          "gainLevel": 1,
+          "currentExp": 222,
+          "expMax": 1600,
+          "sp": 40,
+          "cp": 3,
+          "exp2": 0,
+          "gainLevel2": 0
+        },
+        "hasPetReward": false,
+        "removedItems": [],
+        "items": [],
+        "refreshCity": false,
+        "hasCountryReward": false
+      }
+    }
+  },
+  {
+    "sequence": 185,
+    "mapId": 4,
+    "source": "frames/000185-response-14502.bin",
+    "sha256": "b22f8ce503559bfbc00cc4649f87f11133eef7efd1b63de5a4e8a3e01a0faf55",
+    "messageType": 14502,
+    "requestSource": "frames/000184-request-14502.bin",
+    "requestSha256": "14263246ae3791d88737fdf75148c08ffbbb2df1cbf47680d5ec19f7299031af",
+    "request": {
+      "npcId": 11,
+      "missionId": 2207
+    },
+    "response": {
+      "result": 0,
+      "npcStatus": [
+        {
+          "npcId": 11,
+          "sign": 2
+        }
+      ],
+      "directSubmit": false
+    }
+  },
+  {
+    "sequence": 197,
+    "mapId": 4,
+    "source": "frames/000197-response-12502.bin",
+    "sha256": "f48a48721103a5379e0e03504fcd1b60c5d3290ea7b2531319b1aa6af63c2c59",
+    "messageType": 12502,
+    "requestSource": "frames/000193-request-12502.bin",
+    "requestSha256": "86b52f3a2c772471223de29e3a0438553ee87b19a97612079f48d14aa28a7ced",
+    "request": {
+      "startHP": 324,
+      "startMP": 194,
+      "endHP": 324,
+      "endMP": 174,
+      "seed": 5,
+      "monsterGroupId": 2014,
+      "hasPet": false,
+      "buddyCount": 0,
+      "roundCount": 2,
+      "plans": [
+        {
+          "offset": 30,
+          "length": 4,
+          "action": 2,
+          "targetPosition": 4,
+          "skillId": 731
+        },
+        {
+          "offset": 37,
+          "length": 4,
+          "action": 2,
+          "targetPosition": 4,
+          "skillId": 731
+        }
+      ],
+      "serializationPadding": {
+        "offset": 41,
+        "hex": "00000000",
+        "source": "original ByteArray allocation; exactRebuild verified"
+      }
+    },
+    "response": {
+      "result": 2,
+      "reward": {
+        "money3": 11,
+        "level": {
+          "exp": 30,
+          "gainLevel": 0,
+          "exp2": 0,
+          "gainLevel2": 0
+        },
+        "bagFull": false,
+        "hasPetReward": false,
+        "kills": [
+          {
+            "monsterId": 2018,
+            "quantity": 1
+          }
+        ],
+        "hasEscortReward": false,
+        "items": [],
+        "npcStatus": [
+          {
+            "npcId": 11,
+            "sign": 1
+          }
+        ],
+        "powerValid": false,
+        "expiredMercenaries": [],
+        "changeMap": false,
+        "countryPowerValid": false
+      }
+    }
+  },
+  {
+    "sequence": 206,
+    "mapId": 4,
+    "source": "frames/000206-response-14503.bin",
+    "sha256": "d5b3f6ea293de2553e70f903eea6d88183fd735200606326b7532f18c9b9d839",
+    "messageType": 14503,
+    "requestSource": "frames/000203-request-14503.bin",
+    "requestSha256": "1465dd447cc277f3a99b272036c1a35bbf1eafab0e4f51927010efa8896b9a1b",
+    "request": {
+      "npcId": 11,
+      "missionId": 2207,
+      "selection": 2117
+    },
+    "response": {
+      "result": 0,
+      "npcStatus": [
+        {
+          "npcId": 11,
+          "sign": 3
+        }
+      ],
+      "reward": {
+        "finishMission": true,
+        "costMoney1": 0,
+        "costMoney2": 0,
+        "costMoney3": 0,
+        "gainMoney2": 0,
+        "gainMoney3": 550,
+        "level": {
+          "exp": 1250,
+          "gainLevel": 0,
+          "exp2": 0,
+          "gainLevel2": 0
+        },
+        "hasPetReward": false,
+        "removedItems": [],
+        "items": [
+          {
+            "mode": 1,
+            "quantity": 1,
+            "expectedSlotPos": 34,
+            "item": {
+              "quantity": 1,
+              "petProvideExp": 0,
+              "durability": 150,
+              "attachDone": 0,
+              "attachPower": 0,
+              "attachValue": 0,
+              "slotPos": 34,
+              "status": 0,
+              "type": 13,
+              "id": 20303,
+              "name": "紫电剑",
+              "bagIcon": 8011,
+              "info": "不可分解",
+              "grade": 1,
+              "autoBinding": 0,
+              "stackNum": 1,
+              "decomCHest": false,
+              "icon": 8011,
+              "ownTime": 0,
+              "durMax": 150,
+              "price": 500,
+              "attachCount": 20,
+              "itemSet": 0,
+              "reqLv": 5,
+              "reqStr": 0,
+              "reqCon": 0,
+              "reqAgi": 0,
+              "reqIlt": 0,
+              "reqWis": 0,
+              "def_str": 0,
+              "def_agi": 0,
+              "def_mag": 0,
+              "powers": [
+                [
+                  53,
+                  31
+                ],
+                [
+                  55,
+                  4
+                ],
+                [
+                  0,
+                  0
+                ]
+              ],
+              "skill": null,
+              "combinUpSkills": [],
+              "skillDesc": "",
+              "bindPowers": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0
+                ]
+              ],
+              "atkType": 2,
+              "atk_time": 1,
+              "atkMin": 9,
+              "atkMax": 53,
+              "ascensionStar": 40,
+              "star": 0,
+              "hitrate": -50,
+              "vipLevelReq": 0,
+              "enchantPowers": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0
+                ]
+              ],
+              "enchantLevel": 0,
+              "cssLeftChannel": false,
+              "cssRightChannel": false,
+              "cssLeftHasItem": false,
+              "cssRightHasItem": false,
+              "cssLeftPowerPer": 0,
+              "cssRightPowerPer": 0,
+              "isUpgradeItem": false,
+              "upgradeAscensionStar": 0,
+              "upgradeStar": 0
+            }
+          },
+          {
+            "mode": 1,
+            "quantity": 1,
+            "expectedSlotPos": 35,
+            "item": {
+              "quantity": 1,
+              "petProvideExp": 0,
+              "durability": 150,
+              "attachDone": 0,
+              "attachPower": 0,
+              "attachValue": 0,
+              "slotPos": 35,
+              "status": 0,
+              "type": 19,
+              "id": 20003,
+              "name": "宽宏之杖",
+              "bagIcon": 8397,
+              "info": "不可分解",
+              "grade": 1,
+              "autoBinding": 0,
+              "stackNum": 1,
+              "decomCHest": false,
+              "icon": 8397,
+              "ownTime": 0,
+              "durMax": 150,
+              "price": 500,
+              "attachCount": 20,
+              "itemSet": 0,
+              "reqLv": 5,
+              "reqStr": 0,
+              "reqCon": 0,
+              "reqAgi": 0,
+              "reqIlt": 0,
+              "reqWis": 0,
+              "def_str": 0,
+              "def_agi": 0,
+              "def_mag": 0,
+              "powers": [
+                [
+                  56,
+                  20
+                ],
+                [
+                  13,
+                  20
+                ],
+                [
+                  0,
+                  0
+                ]
+              ],
+              "skill": null,
+              "combinUpSkills": [],
+              "skillDesc": "",
+              "bindPowers": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0
+                ]
+              ],
+              "atkType": 4,
+              "atk_time": 0,
+              "atkMin": 24,
+              "atkMax": 35,
+              "ascensionStar": 40,
+              "star": 0,
+              "hitrate": 0,
+              "vipLevelReq": 0,
+              "enchantPowers": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0
+                ]
+              ],
+              "enchantLevel": 0,
+              "cssLeftChannel": false,
+              "cssRightChannel": false,
+              "cssLeftHasItem": false,
+              "cssRightHasItem": false,
+              "cssLeftPowerPer": 0,
+              "cssRightPowerPer": 0,
+              "isUpgradeItem": false,
+              "upgradeAscensionStar": 0,
+              "upgradeStar": 0
+            }
+          },
+          {
+            "mode": 1,
+            "quantity": 1,
+            "expectedSlotPos": 36,
+            "item": {
+              "quantity": 1,
+              "petProvideExp": 0,
+              "durability": 130,
+              "attachDone": 0,
+              "attachPower": 0,
+              "attachValue": 0,
+              "slotPos": 36,
+              "status": 0,
+              "type": 3,
+              "id": 2117,
+              "name": "云卿肩饰",
+              "bagIcon": 215,
+              "info": "适合/c00FF00修真者/p的装备,不可分解",
+              "grade": 0,
+              "autoBinding": 0,
+              "stackNum": 1,
+              "decomCHest": false,
+              "icon": 4052,
+              "ownTime": 0,
+              "durMax": 130,
+              "price": 250,
+              "attachCount": 0,
+              "itemSet": 0,
+              "reqLv": 3,
+              "reqStr": 0,
+              "reqCon": 1,
+              "reqAgi": 0,
+              "reqIlt": 0,
+              "reqWis": 6,
+              "def_str": 20,
+              "def_agi": 20,
+              "def_mag": 43,
+              "powers": [
+                [
+                  70,
+                  18
+                ],
+                [
+                  13,
+                  18
+                ],
+                [
+                  0,
+                  0
+                ]
+              ],
+              "skill": null,
+              "combinUpSkills": [],
+              "skillDesc": "",
+              "bindPowers": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0
+                ]
+              ],
+              "ascensionStar": 0,
+              "star": 0,
+              "vipLevelReq": 0,
+              "enchantPowers": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0
+                ]
+              ],
+              "enchantLevel": 0,
+              "cssLeftChannel": false,
+              "cssRightChannel": false,
+              "cssLeftHasItem": false,
+              "cssRightHasItem": false,
+              "cssLeftPowerPer": 0,
+              "cssRightPowerPer": 0,
+              "isUpgradeItem": false,
+              "upgradeAscensionStar": 0,
+              "upgradeStar": 0
+            }
+          }
+        ],
+        "refreshCity": false,
+        "hasCountryReward": false
+      }
+    }
+  },
+  {
+    "sequence": 212,
+    "mapId": 4,
+    "source": "frames/000212-response-14502.bin",
+    "sha256": "c096912d1e194f73f5dc62fb16064b485bbca35efe8213342866dc7729a67032",
+    "messageType": 14502,
+    "requestSource": "frames/000211-request-14502.bin",
+    "requestSha256": "90a346f92813dcfb64a74f707d7bad1cd49f7d7db1b8b51337f82affed3ab4f5",
+    "request": {
+      "npcId": 11,
+      "missionId": 2243
+    },
+    "response": {
+      "result": 0,
+      "npcStatus": [
+        {
+          "npcId": 16,
+          "sign": 1
+        },
+        {
+          "npcId": 11,
+          "sign": 0
+        }
+      ],
+      "directSubmit": false
+    }
+  },
+  {
+    "sequence": 221,
+    "mapId": 4,
+    "source": "frames/000221-response-14503.bin",
+    "sha256": "d1f2b47619fb116083962987a741013bd82467a6f6031db870a338270edfd013",
+    "messageType": 14503,
+    "requestSource": "frames/000218-request-14503.bin",
+    "requestSha256": "721c49fca7608ce6263c5351392688cf1ca13238c102772b89cde0a92775b35d",
+    "request": {
+      "npcId": 16,
+      "missionId": 2243,
+      "selection": -1
+    },
+    "response": {
+      "result": 0,
+      "npcStatus": [
+        {
+          "npcId": 16,
+          "sign": 3
+        }
+      ],
+      "reward": {
+        "finishMission": true,
+        "costMoney1": 0,
+        "costMoney2": 0,
+        "costMoney3": 0,
+        "gainMoney2": 0,
+        "gainMoney3": 0,
+        "level": {
+          "exp": 0,
+          "gainLevel": 0,
+          "exp2": 0,
+          "gainLevel2": 0
+        },
+        "hasPetReward": false,
+        "removedItems": [],
+        "items": [],
+        "refreshCity": false,
+        "hasCountryReward": false
+      }
+    }
+  },
+  {
+    "sequence": 223,
+    "mapId": 4,
+    "source": "frames/000223-response-14502.bin",
+    "sha256": "da1dec79f0f042d689af1f5c906d05102249809ba13e7b6a2fe098b84afc833a",
+    "messageType": 14502,
+    "requestSource": "frames/000222-request-14502.bin",
+    "requestSha256": "e0139fa4a3699ee1b9c803c75b101eedf08ec860ca588036fd818f2f62e0bf63",
+    "request": {
+      "npcId": 16,
+      "missionId": 2208
+    },
+    "response": {
+      "result": 0,
+      "npcStatus": [
+        {
+          "npcId": 16,
+          "sign": 0
+        },
+        {
+          "npcId": 13,
+          "sign": 1
+        }
+      ],
+      "directSubmit": false
+    }
+  },
+  {
+    "sequence": 235,
+    "mapId": 4,
+    "source": "frames/000235-response-14503.bin",
+    "sha256": "d113a6755744d9a83898da39beeb26ca9e210c353a730291acdfab46a498b695",
+    "messageType": 14503,
+    "requestSource": "frames/000228-request-14503.bin",
+    "requestSha256": "615ff8a220fdcd472d1a874fde8e815010c456b3611e54245fcd4e4c5229c33b",
+    "request": {
+      "npcId": 13,
+      "missionId": 2208,
+      "selection": -1
+    },
+    "response": {
+      "result": 0,
+      "npcStatus": [
+        {
+          "npcId": 13,
+          "sign": 3
+        }
+      ],
+      "reward": {
+        "finishMission": true,
+        "costMoney1": 0,
+        "costMoney2": 0,
+        "costMoney3": 0,
+        "gainMoney2": 0,
+        "gainMoney3": 500,
+        "level": {
+          "exp": 1000,
+          "gainLevel": 1,
+          "currentExp": 902,
+          "expMax": 2200,
+          "sp": 50,
+          "cp": 3,
+          "exp2": 0,
+          "gainLevel2": 0
+        },
+        "hasPetReward": false,
+        "removedItems": [],
+        "items": [
+          {
+            "mode": 1,
+            "quantity": 1,
+            "expectedSlotPos": 37,
+            "item": {
+              "quantity": 1,
+              "petProvideExp": 0,
+              "durability": 150,
+              "attachDone": 0,
+              "attachPower": 0,
+              "attachValue": 0,
+              "slotPos": 37,
+              "status": 0,
+              "type": 21,
+              "id": 20103,
+              "name": "银色轻弩",
+              "bagIcon": 8517,
+              "info": "不可分解",
+              "grade": 1,
+              "autoBinding": 0,
+              "stackNum": 1,
+              "decomCHest": false,
+              "icon": 8517,
+              "ownTime": 0,
+              "durMax": 150,
+              "price": 500,
+              "attachCount": 20,
+              "itemSet": 0,
+              "reqLv": 5,
+              "reqStr": 0,
+              "reqCon": 0,
+              "reqAgi": 5,
+              "reqIlt": 0,
+              "reqWis": 0,
+              "def_str": 0,
+              "def_agi": 0,
+              "def_mag": 0,
+              "powers": [
+                [
+                  53,
+                  60
+                ],
+                [
+                  13,
+                  10
+                ],
+                [
+                  173,
+                  15
+                ]
+              ],
+              "skill": null,
+              "combinUpSkills": [],
+              "skillDesc": "",
+              "bindPowers": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0
+                ]
+              ],
+              "atkType": 3,
+              "atk_time": 1,
+              "atkMin": 20,
+              "atkMax": 45,
+              "ascensionStar": 40,
+              "star": 0,
+              "hitrate": -50,
+              "vipLevelReq": 0,
+              "enchantPowers": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0
+                ]
+              ],
+              "enchantLevel": 0,
+              "cssLeftChannel": false,
+              "cssRightChannel": false,
+              "cssLeftHasItem": false,
+              "cssRightHasItem": false,
+              "cssLeftPowerPer": 0,
+              "cssRightPowerPer": 0,
+              "isUpgradeItem": false,
+              "upgradeAscensionStar": 0,
+              "upgradeStar": 0
+            }
+          }
+        ],
+        "refreshCity": false,
+        "hasCountryReward": false
+      }
+    }
+  },
+  {
+    "sequence": 239,
+    "mapId": 4,
+    "source": "frames/000239-response-14502.bin",
+    "sha256": "fea0cb3a820c76c7643adfeccd9724d1f597454fd64c4260f35ce7751da91200",
+    "messageType": 14502,
+    "requestSource": "frames/000238-request-14502.bin",
+    "requestSha256": "88059d6e55004db00624b1d7b8e2734c4f01344283fb032bc492ba786cdfcad5",
+    "request": {
+      "npcId": 13,
+      "missionId": 2209
+    },
+    "response": {
+      "result": 0,
+      "npcStatus": [
+        {
+          "npcId": 13,
+          "sign": 2
+        }
+      ],
+      "directSubmit": false
+    }
+  },
+  {
+    "sequence": 253,
+    "mapId": 4,
+    "source": "frames/000253-response-12502.bin",
+    "sha256": "d9baf1e1f68835b39fc6fa3e8c84e5816c6a04c477369e21557f808042fb8363",
+    "messageType": 12502,
+    "requestSource": "frames/000250-request-12502.bin",
+    "requestSha256": "a5eda05de64b4d94fdf1892ca767c398fe35000298d8992a9fceb330a9a41c6f",
+    "request": {
+      "startHP": 364,
+      "startMP": 204,
+      "endHP": 364,
+      "endMP": 184,
+      "seed": 6,
+      "monsterGroupId": 2015,
+      "hasPet": false,
+      "buddyCount": 0,
+      "roundCount": 2,
+      "plans": [
+        {
+          "offset": 30,
+          "length": 4,
+          "action": 2,
+          "targetPosition": 2,
+          "skillId": 731
+        },
+        {
+          "offset": 37,
+          "length": 4,
+          "action": 2,
+          "targetPosition": 4,
+          "skillId": 731
+        }
+      ],
+      "serializationPadding": {
+        "offset": 41,
+        "hex": "00000000",
+        "source": "original ByteArray allocation; exactRebuild verified"
+      }
+    },
+    "response": {
+      "result": 2,
+      "reward": {
+        "money3": 3,
+        "level": {
+          "exp": 12,
+          "gainLevel": 0,
+          "exp2": 0,
+          "gainLevel2": 0
+        },
+        "bagFull": false,
+        "hasPetReward": false,
+        "kills": [
+          {
+            "monsterId": 2020,
+            "quantity": 3
+          }
+        ],
+        "hasEscortReward": false,
+        "items": [],
+        "npcStatus": [
+          {
+            "npcId": 13,
+            "sign": 1
+          }
+        ],
+        "powerValid": false,
+        "expiredMercenaries": [],
+        "changeMap": false,
+        "countryPowerValid": false
+      }
+    }
+  },
+  {
+    "sequence": 261,
+    "mapId": 4,
+    "source": "frames/000261-response-14503.bin",
+    "sha256": "16876e78400b0c8ffcfd095be4a6d3d805ee8b1c1a5503e445766c4d15823f79",
+    "messageType": 14503,
+    "requestSource": "frames/000258-request-14503.bin",
+    "requestSha256": "28a061e57aa509e83a9098ff3b4c2c2b69485e59ae43fb70414bdb08e4f093f2",
+    "request": {
+      "npcId": 13,
+      "missionId": 2209,
+      "selection": 20004
+    },
+    "response": {
+      "result": 0,
+      "npcStatus": [
+        {
+          "npcId": 13,
+          "sign": 3
+        }
+      ],
+      "reward": {
+        "finishMission": true,
+        "costMoney1": 0,
+        "costMoney2": 0,
+        "costMoney3": 0,
+        "gainMoney2": 0,
+        "gainMoney3": 500,
+        "level": {
+          "exp": 500,
+          "gainLevel": 0,
+          "exp2": 0,
+          "gainLevel2": 0
+        },
+        "hasPetReward": false,
+        "removedItems": [],
+        "items": [
+          {
+            "mode": 1,
+            "quantity": 1,
+            "expectedSlotPos": 38,
+            "item": {
+              "quantity": 1,
+              "petProvideExp": 0,
+              "durability": 130,
+              "attachDone": 0,
+              "attachPower": 0,
+              "attachValue": 0,
+              "slotPos": 38,
+              "status": 0,
+              "type": 2,
+              "id": 2009,
+              "name": "萍踪护腿",
+              "bagIcon": 115,
+              "info": "适合/c00FF00侠客/p的装备,不可分解",
+              "grade": 0,
+              "autoBinding": 0,
+              "stackNum": 1,
+              "decomCHest": false,
+              "icon": 7049,
+              "ownTime": 0,
+              "durMax": 130,
+              "price": 250,
+              "attachCount": 0,
+              "itemSet": 0,
+              "reqLv": 3,
+              "reqStr": 0,
+              "reqCon": 2,
+              "reqAgi": 5,
+              "reqIlt": 0,
+              "reqWis": 0,
+              "def_str": 60,
+              "def_agi": 70,
+              "def_mag": 60,
+              "powers": [
+                [
+                  11,
+                  25
+                ],
+                [
+                  13,
+                  18
+                ],
+                [
+                  0,
+                  0
+                ]
+              ],
+              "skill": null,
+              "combinUpSkills": [],
+              "skillDesc": "",
+              "bindPowers": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0
+                ]
+              ],
+              "ascensionStar": 0,
+              "star": 0,
+              "vipLevelReq": 0,
+              "enchantPowers": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0
+                ]
+              ],
+              "enchantLevel": 0,
+              "cssLeftChannel": false,
+              "cssRightChannel": false,
+              "cssLeftHasItem": false,
+              "cssRightHasItem": false,
+              "cssLeftPowerPer": 0,
+              "cssRightPowerPer": 0,
+              "isUpgradeItem": false,
+              "upgradeAscensionStar": 0,
+              "upgradeStar": 0
+            }
+          },
+          {
+            "mode": 1,
+            "quantity": 1,
+            "expectedSlotPos": 39,
+            "item": {
+              "quantity": 1,
+              "petProvideExp": 0,
+              "durability": 130,
+              "attachDone": 0,
+              "attachPower": 0,
+              "attachValue": 0,
+              "slotPos": 39,
+              "status": 0,
+              "type": 2,
+              "id": 2109,
+              "name": "云卿锦裤",
+              "bagIcon": 214,
+              "info": "适合/c00FF00修真者/p的装备,不可分解",
+              "grade": 0,
+              "autoBinding": 0,
+              "stackNum": 1,
+              "decomCHest": false,
+              "icon": 7418,
+              "ownTime": 0,
+              "durMax": 130,
+              "price": 250,
+              "attachCount": 0,
+              "itemSet": 0,
+              "reqLv": 3,
+              "reqStr": 0,
+              "reqCon": 1,
+              "reqAgi": 0,
+              "reqIlt": 0,
+              "reqWis": 6,
+              "def_str": 40,
+              "def_agi": 40,
+              "def_mag": 84,
+              "powers": [
+                [
+                  70,
+                  18
+                ],
+                [
+                  13,
+                  18
+                ],
+                [
+                  0,
+                  0
+                ]
+              ],
+              "skill": null,
+              "combinUpSkills": [],
+              "skillDesc": "",
+              "bindPowers": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0
+                ]
+              ],
+              "ascensionStar": 0,
+              "star": 0,
+              "vipLevelReq": 0,
+              "enchantPowers": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0
+                ]
+              ],
+              "enchantLevel": 0,
+              "cssLeftChannel": false,
+              "cssRightChannel": false,
+              "cssLeftHasItem": false,
+              "cssRightHasItem": false,
+              "cssLeftPowerPer": 0,
+              "cssRightPowerPer": 0,
+              "isUpgradeItem": false,
+              "upgradeAscensionStar": 0,
+              "upgradeStar": 0
+            }
+          },
+          {
+            "mode": 1,
+            "quantity": 1,
+            "expectedSlotPos": 40,
+            "item": {
+              "quantity": 1,
+              "petProvideExp": 0,
+              "durability": 170,
+              "attachDone": 0,
+              "attachPower": 0,
+              "attachValue": 0,
+              "slotPos": 40,
+              "status": 0,
+              "type": 19,
+              "id": 20004,
+              "name": "统御法杖",
+              "bagIcon": 8401,
+              "info": "不可分解",
+              "grade": 2,
+              "autoBinding": 0,
+              "stackNum": 1,
+              "decomCHest": false,
+              "icon": 8401,
+              "ownTime": 0,
+              "durMax": 170,
+              "price": 750,
+              "attachCount": 20,
+              "itemSet": 0,
+              "reqLv": 5,
+              "reqStr": 0,
+              "reqCon": 0,
+              "reqAgi": 0,
+              "reqIlt": 5,
+              "reqWis": 3,
+              "def_str": 0,
+              "def_agi": 0,
+              "def_mag": 0,
+              "powers": [
+                [
+                  56,
+                  21
+                ],
+                [
+                  13,
+                  25
+                ],
+                [
+                  0,
+                  0
+                ]
+              ],
+              "skill": null,
+              "combinUpSkills": [],
+              "skillDesc": "",
+              "bindPowers": [
+                [
+                  78,
+                  25
+                ],
+                [
+                  60,
+                  15
+                ]
+              ],
+              "atkType": 4,
+              "atk_time": 0,
+              "atkMin": 25,
+              "atkMax": 37,
+              "ascensionStar": 40,
+              "star": 0,
+              "hitrate": 0,
+              "vipLevelReq": 0,
+              "enchantPowers": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0
+                ]
+              ],
+              "enchantLevel": 0,
+              "cssLeftChannel": false,
+              "cssRightChannel": false,
+              "cssLeftHasItem": false,
+              "cssRightHasItem": false,
+              "cssLeftPowerPer": 0,
+              "cssRightPowerPer": 0,
+              "isUpgradeItem": false,
+              "upgradeAscensionStar": 0,
+              "upgradeStar": 0
+            }
+          }
+        ],
+        "refreshCity": false,
+        "hasCountryReward": false
+      }
+    }
+  },
+  {
+    "sequence": 276,
+    "mapId": 4,
+    "source": "frames/000276-response-14502.bin",
+    "sha256": "b1b61adadfad47769b38f49d0aeeed40c3b585c176c52d54c5f57ab07086c655",
+    "messageType": 14502,
+    "requestSource": "frames/000275-request-14502.bin",
+    "requestSha256": "6184d354ac9d5902d6d5b735c622f92bb4bce6c448a31a0d293ea1c6115e5117",
+    "request": {
+      "npcId": 13,
+      "missionId": 2210
+    },
+    "response": {
+      "result": 0,
+      "npcStatus": [
+        {
+          "npcId": 16,
+          "sign": 2
+        },
+        {
+          "npcId": 13,
+          "sign": 0
+        }
+      ],
+      "directSubmit": false
+    }
+  },
+  {
+    "sequence": 293,
+    "mapId": 4,
+    "source": "frames/000293-response-12502.bin",
+    "sha256": "6541880958a67579bf87c0392618d1a61d1ae17067449ce301a1476336b21c34",
+    "messageType": 12502,
+    "requestSource": "frames/000290-request-12502.bin",
+    "requestSha256": "bdf679937f1e44b0256af32141d95fa54396557c6dba5239c4672555b7c2e3ef",
+    "request": {
+      "startHP": 364,
+      "startMP": 204,
+      "endHP": 364,
+      "endMP": 175,
+      "seed": 7,
+      "monsterGroupId": 2016,
+      "hasPet": false,
+      "buddyCount": 0,
+      "roundCount": 2,
+      "plans": [
+        {
+          "offset": 30,
+          "length": 4,
+          "action": 2,
+          "targetPosition": 7,
+          "skillId": 731
+        },
+        {
+          "offset": 37,
+          "length": 4,
+          "action": 2,
+          "targetPosition": 4,
+          "skillId": 731
+        }
+      ],
+      "serializationPadding": {
+        "offset": 41,
+        "hex": "00000000",
+        "source": "original ByteArray allocation; exactRebuild verified"
+      }
+    },
+    "response": {
+      "result": 2,
+      "reward": {
+        "money3": 3,
+        "level": {
+          "exp": 12,
+          "gainLevel": 0,
+          "exp2": 0,
+          "gainLevel2": 0
+        },
+        "bagFull": false,
+        "hasPetReward": false,
+        "kills": [
+          {
+            "monsterId": 2021,
+            "quantity": 3
+          }
+        ],
+        "hasEscortReward": false,
+        "items": [],
+        "npcStatus": [
+          {
+            "npcId": 16,
+            "sign": 1
+          }
+        ],
+        "powerValid": false,
+        "expiredMercenaries": [],
+        "changeMap": false,
+        "countryPowerValid": false
+      }
+    }
+  },
+  {
+    "sequence": 302,
+    "mapId": 4,
+    "source": "frames/000302-response-14503.bin",
+    "sha256": "1b1de5d03d59df01f61df4347c2902aa169a8497ba30a99d28a76f462cb4dcdc",
+    "messageType": 14503,
+    "requestSource": "frames/000299-request-14503.bin",
+    "requestSha256": "41ccc34e5dc356c136234d45e68d4840cd8ed578f0de5459d40d4eff116f4323",
+    "request": {
+      "npcId": 16,
+      "missionId": 2210,
+      "selection": 2102
+    },
+    "response": {
+      "result": 0,
+      "npcStatus": [
+        {
+          "npcId": 16,
+          "sign": 3
+        }
+      ],
+      "reward": {
+        "finishMission": true,
+        "costMoney1": 0,
+        "costMoney2": 0,
+        "costMoney3": 0,
+        "gainMoney2": 0,
+        "gainMoney3": 500,
+        "level": {
+          "exp": 500,
+          "gainLevel": 0,
+          "exp2": 0,
+          "gainLevel2": 0
+        },
+        "hasPetReward": false,
+        "removedItems": [],
+        "items": [
+          {
+            "mode": 1,
+            "quantity": 1,
+            "expectedSlotPos": 41,
+            "item": {
+              "quantity": 1,
+              "petProvideExp": 0,
+              "durability": 150,
+              "attachDone": 0,
+              "attachPower": 0,
+              "attachValue": 0,
+              "slotPos": 41,
+              "status": 0,
+              "type": 1,
+              "id": 2102,
+              "name": "松绿锦袍",
+              "bagIcon": 213,
+              "info": "适合/c00FF00修真者/p的装备,不可分解",
+              "grade": 1,
+              "autoBinding": 0,
+              "stackNum": 1,
+              "decomCHest": false,
+              "icon": 6075,
+              "ownTime": 0,
+              "durMax": 150,
+              "price": 500,
+              "attachCount": 20,
+              "itemSet": 74,
+              "reqLv": 5,
+              "reqStr": 0,
+              "reqCon": 1,
+              "reqAgi": 0,
+              "reqIlt": 0,
+              "reqWis": 8,
+              "def_str": 44,
+              "def_agi": 44,
+              "def_mag": 91,
+              "powers": [
+                [
+                  70,
+                  19
+                ],
+                [
+                  13,
+                  19
+                ],
+                [
+                  0,
+                  0
+                ]
+              ],
+              "skill": null,
+              "combinUpSkills": [],
+              "skillDesc": "",
+              "bindPowers": [
+                [
+                  5,
+                  1
+                ],
+                [
+                  0,
+                  0
+                ]
+              ],
+              "ascensionStar": 40,
+              "star": 0,
+              "vipLevelReq": 0,
+              "enchantPowers": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0
+                ]
+              ],
+              "enchantLevel": 0,
+              "cssLeftChannel": false,
+              "cssRightChannel": false,
+              "cssLeftHasItem": false,
+              "cssRightHasItem": false,
+              "cssLeftPowerPer": 0,
+              "cssRightPowerPer": 0,
+              "isUpgradeItem": false,
+              "upgradeAscensionStar": 0,
+              "upgradeStar": 0
+            }
+          }
+        ],
+        "refreshCity": false,
+        "hasCountryReward": false
+      }
+    }
+  },
+  {
+    "sequence": 309,
+    "mapId": 4,
+    "source": "frames/000309-response-14502.bin",
+    "sha256": "05e596d0d41c752e0deebca6d4a95302594c16a138fa79fd0a3dd4da0b8c4a96",
+    "messageType": 14502,
+    "requestSource": "frames/000308-request-14502.bin",
+    "requestSha256": "01bfe4abef852252af6df0fc9a00eb96a64851f9180efea3efc8096703d83b5e",
+    "request": {
+      "npcId": 16,
+      "missionId": 2211
+    },
+    "response": {
+      "result": 0,
+      "npcStatus": [
+        {
+          "npcId": 16,
+          "sign": 0
+        }
+      ],
+      "directSubmit": false
+    }
+  },
+  {
+    "sequence": 325,
+    "mapId": 16,
+    "source": "frames/000325-response-14503.bin",
+    "sha256": "664a7ff8cead45ec1277933c1535a652e9e4e9e613bbf921515ca5556eb839b2",
+    "messageType": 14503,
+    "requestSource": "frames/000321-request-14503.bin",
+    "requestSha256": "bf4b7d4a93fe78d83fa3572728c5c73a5e1a24f738f64fdc3852eeba1ee6d77f",
+    "request": {
+      "npcId": 1,
+      "missionId": 2211,
+      "selection": -1
+    },
+    "response": {
+      "result": 0,
+      "npcStatus": [
+        {
+          "npcId": 1,
+          "sign": 3
+        }
+      ],
+      "reward": {
+        "finishMission": true,
+        "costMoney1": 0,
+        "costMoney2": 0,
+        "costMoney3": 0,
+        "gainMoney2": 0,
+        "gainMoney3": 200,
+        "level": {
+          "exp": 200,
+          "gainLevel": 0,
+          "exp2": 0,
+          "gainLevel2": 0
+        },
+        "hasPetReward": false,
+        "removedItems": [],
+        "items": [],
+        "refreshCity": false,
+        "hasCountryReward": false
+      }
+    }
+  },
+  {
+    "sequence": 327,
+    "mapId": 16,
+    "source": "frames/000327-response-14502.bin",
+    "sha256": "764d65defecc3d79a7d2c7be806620940c5fedff15c0d0f35e059eda3ff9e911",
+    "messageType": 14502,
+    "requestSource": "frames/000326-request-14502.bin",
+    "requestSha256": "e6d313e1301944267b3f28e9dabeb957d731466690bee18a2d71e6d3f73d9917",
+    "request": {
+      "npcId": 1,
+      "missionId": 2212
+    },
+    "response": {
+      "result": 0,
+      "npcStatus": [
+        {
+          "npcId": 1,
+          "sign": 0
+        },
+        {
+          "npcId": 2,
+          "sign": 1
+        }
+      ],
+      "directSubmit": false
+    }
+  },
+  {
+    "sequence": 342,
+    "mapId": 16,
+    "source": "frames/000342-response-14503.bin",
+    "sha256": "58309d1d29d7eae1fc323a092a1d573a41752957207b6aa366fd33377e5ad3ce",
+    "messageType": 14503,
+    "requestSource": "frames/000334-request-14503.bin",
+    "requestSha256": "d8b2474d18a967b1e133493a514b99f30b6f2bb4a7f1e324d162f4feafb582e0",
+    "request": {
+      "npcId": 2,
+      "missionId": 2212,
+      "selection": -1
+    },
+    "response": {
+      "result": 0,
+      "npcStatus": [
+        {
+          "npcId": 2,
+          "sign": 3
+        }
+      ],
+      "reward": {
+        "finishMission": true,
+        "costMoney1": 0,
+        "costMoney2": 0,
+        "costMoney3": 0,
+        "gainMoney2": 0,
+        "gainMoney3": 300,
+        "level": {
+          "exp": 300,
+          "gainLevel": 1,
+          "currentExp": 226,
+          "expMax": 2800,
+          "sp": 60,
+          "cp": 3,
+          "exp2": 0,
+          "gainLevel2": 0
+        },
+        "hasPetReward": false,
+        "removedItems": [],
+        "items": [],
+        "refreshCity": false,
+        "hasCountryReward": false
+      }
+    }
+  },
+  {
+    "sequence": 344,
+    "mapId": 16,
+    "source": "frames/000344-response-14502.bin",
+    "sha256": "aeb2e386fd48adc38224de88df0bacd2e08980735ef70bd55767f506d61f8ee5",
+    "messageType": 14502,
+    "requestSource": "frames/000343-request-14502.bin",
+    "requestSha256": "12a3e9c2ac979f7cd5d01649736e4b1152dc6b0a8b094f59a4f6d5717459dfab",
+    "request": {
+      "npcId": 2,
+      "missionId": 2213
+    },
+    "response": {
+      "result": 0,
+      "npcStatus": [
+        {
+          "npcId": 2,
+          "sign": 0
+        },
+        {
+          "npcId": 5,
+          "sign": 2
+        }
+      ],
+      "directSubmit": false
+    }
+  },
+  {
+    "sequence": 358,
+    "mapId": 16,
+    "source": "frames/000358-response-12502.bin",
+    "sha256": "b3109fe61fbadf2ab3a1dd322601dd41b0af47492801095ca29ce7b328f47570",
+    "messageType": 12502,
+    "requestSource": "frames/000355-request-12502.bin",
+    "requestSha256": "d54c3b176984d381210e5c8188b4f244c765b3e8e7628afad8b766bc01ed3389",
+    "request": {
+      "startHP": 404,
+      "startMP": 260,
+      "endHP": 404,
+      "endMP": 250,
+      "seed": 8,
+      "monsterGroupId": 2019,
+      "hasPet": false,
+      "buddyCount": 0,
+      "roundCount": 1,
+      "plans": [
+        {
+          "offset": 30,
+          "length": 4,
+          "action": 2,
+          "targetPosition": 5,
+          "skillId": 731
+        }
+      ],
+      "serializationPadding": {
+        "offset": 34,
+        "hex": "00000000",
+        "source": "original ByteArray allocation; exactRebuild verified"
+      }
+    },
+    "response": {
+      "result": 2,
+      "reward": {
+        "money3": 11,
+        "level": {
+          "exp": 30,
+          "gainLevel": 0,
+          "exp2": 0,
+          "gainLevel2": 0
+        },
+        "bagFull": false,
+        "hasPetReward": false,
+        "kills": [
+          {
+            "monsterId": 2022,
+            "quantity": 1
+          },
+          {
+            "monsterId": 2023,
+            "quantity": 1
+          }
+        ],
+        "hasEscortReward": false,
+        "items": [],
+        "npcStatus": [
+          {
+            "npcId": 5,
+            "sign": 1
+          }
+        ],
+        "powerValid": false,
+        "expiredMercenaries": [],
+        "changeMap": false,
+        "countryPowerValid": false
+      }
+    }
+  },
+  {
+    "sequence": 373,
+    "mapId": 16,
+    "source": "frames/000373-response-12502.bin",
+    "sha256": "26395427ad42eb014d9b2b5da5c57227d59fb72c44224d2c789fbe1643de2e70",
+    "messageType": 12502,
+    "requestSource": "frames/000370-request-12502.bin",
+    "requestSha256": "8def871e2556bbb5c7ca2e8c9171634235f04fe7769cf554c48a87bb7a8c8736",
+    "request": {
+      "startHP": 404,
+      "startMP": 260,
+      "endHP": 404,
+      "endMP": 240,
+      "seed": 9,
+      "monsterGroupId": 2019,
+      "hasPet": false,
+      "buddyCount": 0,
+      "roundCount": 2,
+      "plans": [
+        {
+          "offset": 30,
+          "length": 4,
+          "action": 2,
+          "targetPosition": 3,
+          "skillId": 731
+        },
+        {
+          "offset": 37,
+          "length": 4,
+          "action": 2,
+          "targetPosition": 5,
+          "skillId": 731
+        }
+      ],
+      "serializationPadding": {
+        "offset": 41,
+        "hex": "00000000",
+        "source": "original ByteArray allocation; exactRebuild verified"
+      }
+    },
+    "response": {
+      "result": 2,
+      "reward": {
+        "money3": 11,
+        "level": {
+          "exp": 30,
+          "gainLevel": 0,
+          "exp2": 0,
+          "gainLevel2": 0
+        },
+        "bagFull": false,
+        "hasPetReward": false,
+        "kills": [
+          {
+            "monsterId": 2022,
+            "quantity": 1
+          },
+          {
+            "monsterId": 2023,
+            "quantity": 1
+          }
+        ],
+        "hasEscortReward": false,
+        "items": [],
+        "npcStatus": [],
+        "powerValid": false,
+        "expiredMercenaries": [],
+        "changeMap": false,
+        "countryPowerValid": false
+      }
+    }
+  }
+]

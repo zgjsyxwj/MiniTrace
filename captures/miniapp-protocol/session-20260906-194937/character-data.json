@@ -1,0 +1,3308 @@
+[
+  {
+    "sequence": 7,
+    "timestamp": "2026-09-06T11:50:00.614+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 10509,
+    "protocolName": "CG_SCENE_SHOW_TEXT",
+    "declaredLength": 100,
+    "actualLength": 100,
+    "sha256": "210ecf3fec11af65626b5f3c37720b1779969abdc60fac027610fb0c8782bde0",
+    "rawFile": "frames/000007-response-10509.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "displayMode": 4,
+      "text": "竞技场将在20:00分开放，欢迎大家前往竞技场同台较量。打败对手可获取竞技积分兑换丰富奖励！"
+    },
+    "unparsedOffset": 100,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 19,
+    "timestamp": "2026-09-06T11:50:36.748+00:00",
+    "direction": "request",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 12019,
+    "protocolName": "CG_BAG_REPAIR",
+    "declaredLength": 6,
+    "actualLength": 6,
+    "sha256": "c98d4a25203170103b034d3cb0465951154e017ad733642cf69c110fa0c0faa5",
+    "rawFile": "frames/000019-request-12019.bin",
+    "previousIdenticalFrame": "captures\\miniapp-protocol\\session-20260906-174356\\frames\\000013-request-12019.bin",
+    "classification": "parsed",
+    "fields": {
+      "slotPos": -1
+    },
+    "unparsedOffset": 6,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 20,
+    "timestamp": "2026-09-06T11:50:36.799+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 25013,
+    "protocolName": null,
+    "declaredLength": 50,
+    "actualLength": 50,
+    "sha256": "9856a0377c7e651a1d56dbc204f969d769d3c6ec40e3a8c54033c2a289aca2ec",
+    "rawFile": "frames/000020-response-25013.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "schema": "s2c_ResUpdate",
+      "data": {
+        "info": [
+          {
+            "type": -1,
+            "num": 0
+          },
+          {
+            "type": -2,
+            "num": 0
+          },
+          {
+            "type": -3,
+            "num": 792
+          }
+        ]
+      }
+    },
+    "unparsedOffset": 50,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 21,
+    "timestamp": "2026-09-06T11:50:36.810+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 12049,
+    "protocolName": "CG_ACTOR_COMBATPOWER",
+    "declaredLength": 32,
+    "actualLength": 32,
+    "sha256": "219b6741ec8d3a2ac33c0ffa1fb023a7a4b96c3dc0b94d01bc3c17a2fddb8133",
+    "rawFile": "frames/000021-response-12049.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "combatPower": 3899,
+      "ignore_back": 0,
+      "ignore_magic_back": 0,
+      "ignore_block": 0,
+      "ignore_insight": 0,
+      "ignore_wil": 0,
+      "ignore_touch": 0
+    },
+    "unparsedOffset": 32,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 22,
+    "timestamp": "2026-09-06T11:50:36.820+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 12019,
+    "protocolName": "CG_BAG_REPAIR",
+    "declaredLength": 9,
+    "actualLength": 9,
+    "sha256": "f992c554db02b16012a634afbcbeec8d217e811b70978b1b10a6429d11408630",
+    "rawFile": "frames/000022-response-12019.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "result": 1,
+      "money3": 792
+    },
+    "unparsedOffset": 9,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 66,
+    "timestamp": "2026-09-06T11:52:22.534+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 25013,
+    "protocolName": null,
+    "declaredLength": 50,
+    "actualLength": 50,
+    "sha256": "c15fb1037934a9fe61f6cdc4485bbe95a3598aee2f57a6e2d536e55cf08709da",
+    "rawFile": "frames/000066-response-25013.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "schema": "s2c_ResUpdate",
+      "data": {
+        "info": [
+          {
+            "type": -1,
+            "num": 0
+          },
+          {
+            "type": -2,
+            "num": 0
+          },
+          {
+            "type": -3,
+            "num": 892
+          }
+        ]
+      }
+    },
+    "unparsedOffset": 50,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 78,
+    "timestamp": "2026-09-06T11:52:24.720+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 11014,
+    "protocolName": "CG_MAIL_NOTIFY",
+    "declaredLength": 19,
+    "actualLength": 19,
+    "sha256": "61bafd8272d02d97ba5d66a54c6c79e90fffec081e7708eb1227f9616d8f1e62",
+    "rawFile": "frames/000078-response-11014.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "mailId": 2046802216416386836,
+      "text": "系统"
+    },
+    "unparsedOffset": 19,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 79,
+    "timestamp": "2026-09-06T11:52:24.728+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 11114,
+    "protocolName": "CG_SEND_FINISH_MISSION_LEARN_SKILL",
+    "declaredLength": 5,
+    "actualLength": 5,
+    "sha256": "5a2319827570dc1d04bfab5fc4e96f9fd5265b3205a161d0c012ba19fcac99df",
+    "rawFile": "frames/000079-response-11114.bin",
+    "previousIdenticalFrame": "captures\\miniapp-protocol\\session-20260906-174356\\frames\\000037-response-11114.bin",
+    "classification": "unconfirmed",
+    "fields": {},
+    "unparsedOffset": 4,
+    "unparsedHex": "02"
+  },
+  {
+    "sequence": 80,
+    "timestamp": "2026-09-06T11:52:24.736+00:00",
+    "direction": "request",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 11002,
+    "protocolName": "CG_MAIL_STATISTICS",
+    "declaredLength": 4,
+    "actualLength": 4,
+    "sha256": "fe805b533d13a0297e4344f82f457080733e05f64c57f7b6fc90ac0f715d5acd",
+    "rawFile": "frames/000080-request-11002.bin",
+    "previousIdenticalFrame": "captures\\miniapp-protocol\\session-20260906-174356\\frames\\000036-request-11002.bin",
+    "classification": "parsed",
+    "fields": {},
+    "unparsedOffset": 4,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 82,
+    "timestamp": "2026-09-06T11:52:24.749+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 25013,
+    "protocolName": null,
+    "declaredLength": 50,
+    "actualLength": 50,
+    "sha256": "c15eea0a66ecb005e17104223f9d59e1fbd0349cd3c8e15c55a9a2bdc171c8df",
+    "rawFile": "frames/000082-response-25013.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "schema": "s2c_ResUpdate",
+      "data": {
+        "info": [
+          {
+            "type": -1,
+            "num": 0
+          },
+          {
+            "type": -2,
+            "num": 0
+          },
+          {
+            "type": -3,
+            "num": 992
+          }
+        ]
+      }
+    },
+    "unparsedOffset": 50,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 84,
+    "timestamp": "2026-09-06T11:52:24.769+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 12049,
+    "protocolName": "CG_ACTOR_COMBATPOWER",
+    "declaredLength": 32,
+    "actualLength": 32,
+    "sha256": "e41cd725c9ffe3684aea9c709b74b751a0bf91c56ba4d76e68358b4178e4c506",
+    "rawFile": "frames/000084-response-12049.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "combatPower": 3942,
+      "ignore_back": 0,
+      "ignore_magic_back": 0,
+      "ignore_block": 0,
+      "ignore_insight": 0,
+      "ignore_wil": 0,
+      "ignore_touch": 0
+    },
+    "unparsedOffset": 32,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 86,
+    "timestamp": "2026-09-06T11:52:24.789+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 11002,
+    "protocolName": "CG_MAIL_STATISTICS",
+    "declaredLength": 52,
+    "actualLength": 52,
+    "sha256": "233d3e49cd0f4b07e0fbd1b1e08d893d8512f25bcfef065f7eb972c69502772c",
+    "rawFile": "frames/000086-response-11002.bin",
+    "previousIdenticalFrame": "captures\\miniapp-protocol\\session-20260906-174356\\frames\\000043-response-11002.bin",
+    "classification": "parsed",
+    "fields": {
+      "mailCounts": [
+        {
+          "type": 32,
+          "read": 0,
+          "unRead": 0
+        },
+        {
+          "type": 8,
+          "read": 0,
+          "unRead": 0
+        },
+        {
+          "type": 4,
+          "read": 0,
+          "unRead": 0
+        },
+        {
+          "type": 2,
+          "read": 1,
+          "unRead": 0
+        },
+        {
+          "type": -5,
+          "read": 0,
+          "unRead": 0
+        },
+        {
+          "type": -4,
+          "read": 0,
+          "unRead": 0
+        },
+        {
+          "type": 1,
+          "read": 0,
+          "unRead": 0
+        },
+        {
+          "type": 64,
+          "read": 0,
+          "unRead": 0
+        }
+      ]
+    },
+    "unparsedOffset": 52,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 93,
+    "timestamp": "2026-09-06T11:52:27.339+00:00",
+    "direction": "request",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 20300,
+    "protocolName": null,
+    "declaredLength": 6,
+    "actualLength": 6,
+    "sha256": "373a904d6c05494e531e524dd227e2dc2a8080c6f3e632d1d6472c5d721cd7b6",
+    "rawFile": "frames/000093-request-20300.bin",
+    "previousIdenticalFrame": "captures\\miniapp-protocol\\session-20260906-065158\\frames\\000033-request-20300.bin",
+    "classification": "parsed",
+    "fields": {
+      "schema": "C2SBuddy",
+      "data": {
+        "fight": [],
+        "skillId": [],
+        "cmd": 10
+      }
+    },
+    "unparsedOffset": 6,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 96,
+    "timestamp": "2026-09-06T11:52:27.381+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 20301,
+    "protocolName": null,
+    "declaredLength": 6,
+    "actualLength": 6,
+    "sha256": "b04d76a72782438c78df898850c8000c27f75b04d2810c78c90ae4c07208f42e",
+    "rawFile": "frames/000096-response-20301.bin",
+    "previousIdenticalFrame": "captures\\miniapp-protocol\\session-20260906-065158\\frames\\000035-response-20301.bin",
+    "classification": "parsed",
+    "fields": {
+      "schema": "S2CBuddy",
+      "data": {
+        "data": [],
+        "fight": [],
+        "item": [],
+        "cmd": 10
+      }
+    },
+    "unparsedOffset": 6,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 100,
+    "timestamp": "2026-09-06T11:52:30.280+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 25013,
+    "protocolName": null,
+    "declaredLength": 50,
+    "actualLength": 50,
+    "sha256": "83c700b171ad386ae64725b5ec0fd07115e743c78a9384722e35bb317aff29db",
+    "rawFile": "frames/000100-response-25013.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "schema": "s2c_ResUpdate",
+      "data": {
+        "info": [
+          {
+            "type": -1,
+            "num": 0
+          },
+          {
+            "type": -2,
+            "num": 0
+          },
+          {
+            "type": -3,
+            "num": 994
+          }
+        ]
+      }
+    },
+    "unparsedOffset": 50,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 109,
+    "timestamp": "2026-09-06T11:52:33.352+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 25013,
+    "protocolName": null,
+    "declaredLength": 50,
+    "actualLength": 50,
+    "sha256": "3dd5b18cc7160f7b3453fd4a53ce9d070b4584d79ee2e05c70d1aa464bf2fa87",
+    "rawFile": "frames/000109-response-25013.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "schema": "s2c_ResUpdate",
+      "data": {
+        "info": [
+          {
+            "type": -1,
+            "num": 0
+          },
+          {
+            "type": -2,
+            "num": 0
+          },
+          {
+            "type": -3,
+            "num": 1394
+          }
+        ]
+      }
+    },
+    "unparsedOffset": 50,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 121,
+    "timestamp": "2026-09-06T11:52:36.726+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 25013,
+    "protocolName": null,
+    "declaredLength": 50,
+    "actualLength": 50,
+    "sha256": "f559fb3e03757bf4cb9be25edeaa7b9de93beb85bd02f89a0366a4e32df4d988",
+    "rawFile": "frames/000121-response-25013.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "schema": "s2c_ResUpdate",
+      "data": {
+        "info": [
+          {
+            "type": -1,
+            "num": 0
+          },
+          {
+            "type": -2,
+            "num": 0
+          },
+          {
+            "type": -3,
+            "num": 1494
+          }
+        ]
+      }
+    },
+    "unparsedOffset": 50,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 130,
+    "timestamp": "2026-09-06T11:52:39.048+00:00",
+    "direction": "request",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 20300,
+    "protocolName": null,
+    "declaredLength": 6,
+    "actualLength": 6,
+    "sha256": "373a904d6c05494e531e524dd227e2dc2a8080c6f3e632d1d6472c5d721cd7b6",
+    "rawFile": "frames/000130-request-20300.bin",
+    "previousIdenticalFrame": "captures\\miniapp-protocol\\session-20260906-065158\\frames\\000033-request-20300.bin",
+    "classification": "parsed",
+    "fields": {
+      "schema": "C2SBuddy",
+      "data": {
+        "fight": [],
+        "skillId": [],
+        "cmd": 10
+      }
+    },
+    "unparsedOffset": 6,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 133,
+    "timestamp": "2026-09-06T11:52:39.085+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 20301,
+    "protocolName": null,
+    "declaredLength": 6,
+    "actualLength": 6,
+    "sha256": "b04d76a72782438c78df898850c8000c27f75b04d2810c78c90ae4c07208f42e",
+    "rawFile": "frames/000133-response-20301.bin",
+    "previousIdenticalFrame": "captures\\miniapp-protocol\\session-20260906-065158\\frames\\000035-response-20301.bin",
+    "classification": "parsed",
+    "fields": {
+      "schema": "S2CBuddy",
+      "data": {
+        "data": [],
+        "fight": [],
+        "item": [],
+        "cmd": 10
+      }
+    },
+    "unparsedOffset": 6,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 136,
+    "timestamp": "2026-09-06T11:52:40.787+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 25013,
+    "protocolName": null,
+    "declaredLength": 50,
+    "actualLength": 50,
+    "sha256": "0bee093e9ae6c0a145f8b2469d793a57b13d30214d96d99b54f18bfbcef678bd",
+    "rawFile": "frames/000136-response-25013.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "schema": "s2c_ResUpdate",
+      "data": {
+        "info": [
+          {
+            "type": -1,
+            "num": 0
+          },
+          {
+            "type": -2,
+            "num": 0
+          },
+          {
+            "type": -3,
+            "num": 1496
+          }
+        ]
+      }
+    },
+    "unparsedOffset": 50,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 144,
+    "timestamp": "2026-09-06T11:52:43.160+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 11014,
+    "protocolName": "CG_MAIL_NOTIFY",
+    "declaredLength": 19,
+    "actualLength": 19,
+    "sha256": "1e8cbad922b137bb074dddd69553a5b62b9b5bd996adb1d4f09933a294585375",
+    "rawFile": "frames/000144-response-11014.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "mailId": 2679461512253424627,
+      "text": "系统"
+    },
+    "unparsedOffset": 19,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 145,
+    "timestamp": "2026-09-06T11:52:43.169+00:00",
+    "direction": "request",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 11002,
+    "protocolName": "CG_MAIL_STATISTICS",
+    "declaredLength": 4,
+    "actualLength": 4,
+    "sha256": "fe805b533d13a0297e4344f82f457080733e05f64c57f7b6fc90ac0f715d5acd",
+    "rawFile": "frames/000145-request-11002.bin",
+    "previousIdenticalFrame": "captures\\miniapp-protocol\\session-20260906-174356\\frames\\000036-request-11002.bin",
+    "classification": "parsed",
+    "fields": {},
+    "unparsedOffset": 4,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 146,
+    "timestamp": "2026-09-06T11:52:43.169+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 25013,
+    "protocolName": null,
+    "declaredLength": 50,
+    "actualLength": 50,
+    "sha256": "992736f62d36efc779d168a2205217845c71d0b9d6279e7abd5dcd7a8fe510a1",
+    "rawFile": "frames/000146-response-25013.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "schema": "s2c_ResUpdate",
+      "data": {
+        "info": [
+          {
+            "type": -1,
+            "num": 0
+          },
+          {
+            "type": -2,
+            "num": 0
+          },
+          {
+            "type": -3,
+            "num": 2496
+          }
+        ]
+      }
+    },
+    "unparsedOffset": 50,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 148,
+    "timestamp": "2026-09-06T11:52:43.189+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 12049,
+    "protocolName": "CG_ACTOR_COMBATPOWER",
+    "declaredLength": 32,
+    "actualLength": 32,
+    "sha256": "e3b0f6bcd65d181cd6c467c550e310b9a6fd30359bce11bbb2e5f7b5818a7670",
+    "rawFile": "frames/000148-response-12049.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "combatPower": 3985,
+      "ignore_back": 0,
+      "ignore_magic_back": 0,
+      "ignore_block": 0,
+      "ignore_insight": 0,
+      "ignore_wil": 0,
+      "ignore_touch": 0
+    },
+    "unparsedOffset": 32,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 150,
+    "timestamp": "2026-09-06T11:52:43.220+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 11002,
+    "protocolName": "CG_MAIL_STATISTICS",
+    "declaredLength": 52,
+    "actualLength": 52,
+    "sha256": "b432d8df928d48006addac1d7871efd4dd34bb404665e441bf205917aaa6b14e",
+    "rawFile": "frames/000150-response-11002.bin",
+    "previousIdenticalFrame": "captures\\miniapp-protocol\\session-20260906-174356\\frames\\000106-response-11002.bin",
+    "classification": "parsed",
+    "fields": {
+      "mailCounts": [
+        {
+          "type": 32,
+          "read": 0,
+          "unRead": 0
+        },
+        {
+          "type": 8,
+          "read": 0,
+          "unRead": 0
+        },
+        {
+          "type": 4,
+          "read": 0,
+          "unRead": 0
+        },
+        {
+          "type": 2,
+          "read": 2,
+          "unRead": 0
+        },
+        {
+          "type": -5,
+          "read": 0,
+          "unRead": 0
+        },
+        {
+          "type": -4,
+          "read": 0,
+          "unRead": 0
+        },
+        {
+          "type": 1,
+          "read": 0,
+          "unRead": 0
+        },
+        {
+          "type": 64,
+          "read": 0,
+          "unRead": 0
+        }
+      ]
+    },
+    "unparsedOffset": 52,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 160,
+    "timestamp": "2026-09-06T11:52:46.637+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 25013,
+    "protocolName": null,
+    "declaredLength": 50,
+    "actualLength": 50,
+    "sha256": "eeb6898ea5de6dd3bb3c184a88a6e92ba207fa2e9fe3d423b52f185e3ad46526",
+    "rawFile": "frames/000160-response-25013.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "schema": "s2c_ResUpdate",
+      "data": {
+        "info": [
+          {
+            "type": -1,
+            "num": 0
+          },
+          {
+            "type": -2,
+            "num": 0
+          },
+          {
+            "type": -3,
+            "num": 2996
+          }
+        ]
+      }
+    },
+    "unparsedOffset": 50,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 173,
+    "timestamp": "2026-09-06T11:52:49.973+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 11114,
+    "protocolName": "CG_SEND_FINISH_MISSION_LEARN_SKILL",
+    "declaredLength": 82,
+    "actualLength": 82,
+    "sha256": "9b9fc4b186d3b93e1909b0c7cda804af917ed5c784b452b6abde5bcf7380b34e",
+    "rawFile": "frames/000173-response-11114.bin",
+    "previousIdenticalFrame": null,
+    "classification": "partial",
+    "fields": {
+      "embeddedSkill": {
+        "offset": 12,
+        "data": {
+          "id": 731,
+          "level": 2,
+          "name": "天雷空破",
+          "type": 3,
+          "info": "",
+          "skillWeapon": 0,
+          "powers": [
+            [
+              86,
+              150
+            ],
+            [
+              82,
+              20
+            ],
+            [
+              154,
+              20
+            ]
+          ],
+          "skillAtkType": 4,
+          "area": 11,
+          "round": 0,
+          "atk_time": 1,
+          "useMP": 25,
+          "useHP": 0,
+          "anime1": 1,
+          "anime2": 1305,
+          "anime3": 0,
+          "position": 0,
+          "statusBit1": 0,
+          "statusBit2": 0,
+          "statusBit3": 0,
+          "isLearnByBook": false
+        },
+        "endOffset": 61
+      },
+      "boundaryStatus": "inferred embedded skill; outer prefix/tail unconfirmed"
+    },
+    "unparsedOffset": 4,
+    "unparsedHex": "060101330000004602db02000004592996f77a7a783403000000000056009600520014009a0014040b00010019000001051900000000000000000a00000000000003e802010a0000000000000000"
+  },
+  {
+    "sequence": 174,
+    "timestamp": "2026-09-06T11:52:49.983+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 11014,
+    "protocolName": "CG_MAIL_NOTIFY",
+    "declaredLength": 19,
+    "actualLength": 19,
+    "sha256": "22868b046d499102b5ade2bf0ce5830649885cc69b2405c3be23bb56f16e0aa8",
+    "rawFile": "frames/000174-response-11014.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "mailId": 3963573067794000047,
+      "text": "系统"
+    },
+    "unparsedOffset": 19,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 175,
+    "timestamp": "2026-09-06T11:52:49.991+00:00",
+    "direction": "request",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 11002,
+    "protocolName": "CG_MAIL_STATISTICS",
+    "declaredLength": 4,
+    "actualLength": 4,
+    "sha256": "fe805b533d13a0297e4344f82f457080733e05f64c57f7b6fc90ac0f715d5acd",
+    "rawFile": "frames/000175-request-11002.bin",
+    "previousIdenticalFrame": "captures\\miniapp-protocol\\session-20260906-174356\\frames\\000036-request-11002.bin",
+    "classification": "parsed",
+    "fields": {},
+    "unparsedOffset": 4,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 176,
+    "timestamp": "2026-09-06T11:52:49.993+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 11014,
+    "protocolName": "CG_MAIL_NOTIFY",
+    "declaredLength": 19,
+    "actualLength": 19,
+    "sha256": "2e5ac3a73effa2dba04f34a905819a19ac916a375333e6e09758c7203b5eb898",
+    "rawFile": "frames/000176-response-11014.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "mailId": 2992022052796702217,
+      "text": "系统"
+    },
+    "unparsedOffset": 19,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 177,
+    "timestamp": "2026-09-06T11:52:50.003+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 25013,
+    "protocolName": null,
+    "declaredLength": 50,
+    "actualLength": 50,
+    "sha256": "ed517bfed0724f21adb516033f16e884100070eaf3aab4dd3b77a5082fa6d21b",
+    "rawFile": "frames/000177-response-25013.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "schema": "s2c_ResUpdate",
+      "data": {
+        "info": [
+          {
+            "type": -1,
+            "num": 0
+          },
+          {
+            "type": -2,
+            "num": 0
+          },
+          {
+            "type": -3,
+            "num": 3246
+          }
+        ]
+      }
+    },
+    "unparsedOffset": 50,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 178,
+    "timestamp": "2026-09-06T11:52:50.007+00:00",
+    "direction": "request",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 11002,
+    "protocolName": "CG_MAIL_STATISTICS",
+    "declaredLength": 4,
+    "actualLength": 4,
+    "sha256": "fe805b533d13a0297e4344f82f457080733e05f64c57f7b6fc90ac0f715d5acd",
+    "rawFile": "frames/000178-request-11002.bin",
+    "previousIdenticalFrame": "captures\\miniapp-protocol\\session-20260906-174356\\frames\\000036-request-11002.bin",
+    "classification": "parsed",
+    "fields": {},
+    "unparsedOffset": 4,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 180,
+    "timestamp": "2026-09-06T11:52:50.023+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 12049,
+    "protocolName": "CG_ACTOR_COMBATPOWER",
+    "declaredLength": 32,
+    "actualLength": 32,
+    "sha256": "81beaea078e34444e17b6ead8c36ba7a8fe63b8a972c662da7d5fe372b207835",
+    "rawFile": "frames/000180-response-12049.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "combatPower": 4028,
+      "ignore_back": 0,
+      "ignore_magic_back": 0,
+      "ignore_block": 0,
+      "ignore_insight": 0,
+      "ignore_wil": 0,
+      "ignore_touch": 0
+    },
+    "unparsedOffset": 32,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 182,
+    "timestamp": "2026-09-06T11:52:50.043+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 11002,
+    "protocolName": "CG_MAIL_STATISTICS",
+    "declaredLength": 52,
+    "actualLength": 52,
+    "sha256": "f472f5bb2807358ab0b6b62ca82a3ecccbafa20bab0443e279813657ca45880f",
+    "rawFile": "frames/000182-response-11002.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "mailCounts": [
+        {
+          "type": 32,
+          "read": 0,
+          "unRead": 0
+        },
+        {
+          "type": 8,
+          "read": 0,
+          "unRead": 0
+        },
+        {
+          "type": 4,
+          "read": 0,
+          "unRead": 0
+        },
+        {
+          "type": 2,
+          "read": 4,
+          "unRead": 0
+        },
+        {
+          "type": -5,
+          "read": 0,
+          "unRead": 0
+        },
+        {
+          "type": -4,
+          "read": 0,
+          "unRead": 0
+        },
+        {
+          "type": 1,
+          "read": 0,
+          "unRead": 0
+        },
+        {
+          "type": 64,
+          "read": 0,
+          "unRead": 0
+        }
+      ]
+    },
+    "unparsedOffset": 52,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 183,
+    "timestamp": "2026-09-06T11:52:50.053+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 11002,
+    "protocolName": "CG_MAIL_STATISTICS",
+    "declaredLength": 52,
+    "actualLength": 52,
+    "sha256": "f472f5bb2807358ab0b6b62ca82a3ecccbafa20bab0443e279813657ca45880f",
+    "rawFile": "frames/000183-response-11002.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "mailCounts": [
+        {
+          "type": 32,
+          "read": 0,
+          "unRead": 0
+        },
+        {
+          "type": 8,
+          "read": 0,
+          "unRead": 0
+        },
+        {
+          "type": 4,
+          "read": 0,
+          "unRead": 0
+        },
+        {
+          "type": 2,
+          "read": 4,
+          "unRead": 0
+        },
+        {
+          "type": -5,
+          "read": 0,
+          "unRead": 0
+        },
+        {
+          "type": -4,
+          "read": 0,
+          "unRead": 0
+        },
+        {
+          "type": 1,
+          "read": 0,
+          "unRead": 0
+        },
+        {
+          "type": 64,
+          "read": 0,
+          "unRead": 0
+        }
+      ]
+    },
+    "unparsedOffset": 52,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 186,
+    "timestamp": "2026-09-06T11:52:50.943+00:00",
+    "direction": "request",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 20300,
+    "protocolName": null,
+    "declaredLength": 6,
+    "actualLength": 6,
+    "sha256": "373a904d6c05494e531e524dd227e2dc2a8080c6f3e632d1d6472c5d721cd7b6",
+    "rawFile": "frames/000186-request-20300.bin",
+    "previousIdenticalFrame": "captures\\miniapp-protocol\\session-20260906-065158\\frames\\000033-request-20300.bin",
+    "classification": "parsed",
+    "fields": {
+      "schema": "C2SBuddy",
+      "data": {
+        "fight": [],
+        "skillId": [],
+        "cmd": 10
+      }
+    },
+    "unparsedOffset": 6,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 189,
+    "timestamp": "2026-09-06T11:52:50.990+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 20301,
+    "protocolName": null,
+    "declaredLength": 6,
+    "actualLength": 6,
+    "sha256": "b04d76a72782438c78df898850c8000c27f75b04d2810c78c90ae4c07208f42e",
+    "rawFile": "frames/000189-response-20301.bin",
+    "previousIdenticalFrame": "captures\\miniapp-protocol\\session-20260906-065158\\frames\\000035-response-20301.bin",
+    "classification": "parsed",
+    "fields": {
+      "schema": "S2CBuddy",
+      "data": {
+        "data": [],
+        "fight": [],
+        "item": [],
+        "cmd": 10
+      }
+    },
+    "unparsedOffset": 6,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 195,
+    "timestamp": "2026-09-06T11:52:53.013+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 25013,
+    "protocolName": null,
+    "declaredLength": 50,
+    "actualLength": 50,
+    "sha256": "d43d30fdcf8428f942ff4801aa41e24422493036730303af7f950d077c8cb6d9",
+    "rawFile": "frames/000195-response-25013.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "schema": "s2c_ResUpdate",
+      "data": {
+        "info": [
+          {
+            "type": -1,
+            "num": 0
+          },
+          {
+            "type": -2,
+            "num": 0
+          },
+          {
+            "type": -3,
+            "num": 3257
+          }
+        ]
+      }
+    },
+    "unparsedOffset": 50,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 204,
+    "timestamp": "2026-09-06T11:52:58.803+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 25013,
+    "protocolName": null,
+    "declaredLength": 50,
+    "actualLength": 50,
+    "sha256": "33fc7733be5da8cb7ae518437100e441dfb6c706030534a26c4547d3a7b3bee0",
+    "rawFile": "frames/000204-response-25013.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "schema": "s2c_ResUpdate",
+      "data": {
+        "info": [
+          {
+            "type": -1,
+            "num": 0
+          },
+          {
+            "type": -2,
+            "num": 0
+          },
+          {
+            "type": -3,
+            "num": 3807
+          }
+        ]
+      }
+    },
+    "unparsedOffset": 50,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 229,
+    "timestamp": "2026-09-06T11:53:08.174+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 11014,
+    "protocolName": "CG_MAIL_NOTIFY",
+    "declaredLength": 19,
+    "actualLength": 19,
+    "sha256": "513913c8195eeea1f32193910ada710b300955428c353d494af1910f120b8ec4",
+    "rawFile": "frames/000229-response-11014.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "mailId": 1455988410652370693,
+      "text": "系统"
+    },
+    "unparsedOffset": 19,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 231,
+    "timestamp": "2026-09-06T11:53:08.190+00:00",
+    "direction": "request",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 11002,
+    "protocolName": "CG_MAIL_STATISTICS",
+    "declaredLength": 4,
+    "actualLength": 4,
+    "sha256": "fe805b533d13a0297e4344f82f457080733e05f64c57f7b6fc90ac0f715d5acd",
+    "rawFile": "frames/000231-request-11002.bin",
+    "previousIdenticalFrame": "captures\\miniapp-protocol\\session-20260906-174356\\frames\\000036-request-11002.bin",
+    "classification": "parsed",
+    "fields": {},
+    "unparsedOffset": 4,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 232,
+    "timestamp": "2026-09-06T11:53:08.194+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 25013,
+    "protocolName": null,
+    "declaredLength": 50,
+    "actualLength": 50,
+    "sha256": "a49dedc0bd6f97ab178ce8c017256c1e8b4d51758c6464b690bc2a11e1bfa7c2",
+    "rawFile": "frames/000232-response-25013.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "schema": "s2c_ResUpdate",
+      "data": {
+        "info": [
+          {
+            "type": -1,
+            "num": 0
+          },
+          {
+            "type": -2,
+            "num": 0
+          },
+          {
+            "type": -3,
+            "num": 4307
+          }
+        ]
+      }
+    },
+    "unparsedOffset": 50,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 234,
+    "timestamp": "2026-09-06T11:53:08.214+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 12049,
+    "protocolName": "CG_ACTOR_COMBATPOWER",
+    "declaredLength": 32,
+    "actualLength": 32,
+    "sha256": "149ec35a5ca30eb175f8fe27ab67957e0593ec00b52814b888b473564f47d15d",
+    "rawFile": "frames/000234-response-12049.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "combatPower": 4071,
+      "ignore_back": 0,
+      "ignore_magic_back": 0,
+      "ignore_block": 0,
+      "ignore_insight": 0,
+      "ignore_wil": 0,
+      "ignore_touch": 0
+    },
+    "unparsedOffset": 32,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 236,
+    "timestamp": "2026-09-06T11:53:08.234+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 11002,
+    "protocolName": "CG_MAIL_STATISTICS",
+    "declaredLength": 52,
+    "actualLength": 52,
+    "sha256": "6775c24a886eb0c715af23bc145117d54a49781cb750756a2ce63b81a9b9e222",
+    "rawFile": "frames/000236-response-11002.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "mailCounts": [
+        {
+          "type": 32,
+          "read": 0,
+          "unRead": 0
+        },
+        {
+          "type": 8,
+          "read": 0,
+          "unRead": 0
+        },
+        {
+          "type": 4,
+          "read": 0,
+          "unRead": 0
+        },
+        {
+          "type": 2,
+          "read": 5,
+          "unRead": 0
+        },
+        {
+          "type": -5,
+          "read": 0,
+          "unRead": 0
+        },
+        {
+          "type": -4,
+          "read": 0,
+          "unRead": 0
+        },
+        {
+          "type": 1,
+          "read": 0,
+          "unRead": 0
+        },
+        {
+          "type": 64,
+          "read": 0,
+          "unRead": 0
+        }
+      ]
+    },
+    "unparsedOffset": 52,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 245,
+    "timestamp": "2026-09-06T11:53:11.493+00:00",
+    "direction": "request",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 20300,
+    "protocolName": null,
+    "declaredLength": 6,
+    "actualLength": 6,
+    "sha256": "373a904d6c05494e531e524dd227e2dc2a8080c6f3e632d1d6472c5d721cd7b6",
+    "rawFile": "frames/000245-request-20300.bin",
+    "previousIdenticalFrame": "captures\\miniapp-protocol\\session-20260906-065158\\frames\\000033-request-20300.bin",
+    "classification": "parsed",
+    "fields": {
+      "schema": "C2SBuddy",
+      "data": {
+        "fight": [],
+        "skillId": [],
+        "cmd": 10
+      }
+    },
+    "unparsedOffset": 6,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 248,
+    "timestamp": "2026-09-06T11:53:11.537+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 20301,
+    "protocolName": null,
+    "declaredLength": 6,
+    "actualLength": 6,
+    "sha256": "b04d76a72782438c78df898850c8000c27f75b04d2810c78c90ae4c07208f42e",
+    "rawFile": "frames/000248-response-20301.bin",
+    "previousIdenticalFrame": "captures\\miniapp-protocol\\session-20260906-065158\\frames\\000035-response-20301.bin",
+    "classification": "parsed",
+    "fields": {
+      "schema": "S2CBuddy",
+      "data": {
+        "data": [],
+        "fight": [],
+        "item": [],
+        "cmd": 10
+      }
+    },
+    "unparsedOffset": 6,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 251,
+    "timestamp": "2026-09-06T11:53:13.239+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 25013,
+    "protocolName": null,
+    "declaredLength": 50,
+    "actualLength": 50,
+    "sha256": "f67672aab896bb0b629597618e56c682c0a3a48ba2ceec8b74a2cc20b9bfdd91",
+    "rawFile": "frames/000251-response-25013.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "schema": "s2c_ResUpdate",
+      "data": {
+        "info": [
+          {
+            "type": -1,
+            "num": 0
+          },
+          {
+            "type": -2,
+            "num": 0
+          },
+          {
+            "type": -3,
+            "num": 4310
+          }
+        ]
+      }
+    },
+    "unparsedOffset": 50,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 259,
+    "timestamp": "2026-09-06T11:53:15.012+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 25013,
+    "protocolName": null,
+    "declaredLength": 50,
+    "actualLength": 50,
+    "sha256": "69256887463ddae19c6ebe945da50c53ce7ef8fe1775b27188562c8464244185",
+    "rawFile": "frames/000259-response-25013.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "schema": "s2c_ResUpdate",
+      "data": {
+        "info": [
+          {
+            "type": -1,
+            "num": 0
+          },
+          {
+            "type": -2,
+            "num": 0
+          },
+          {
+            "type": -3,
+            "num": 4810
+          }
+        ]
+      }
+    },
+    "unparsedOffset": 50,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 263,
+    "timestamp": "2026-09-06T11:53:16.342+00:00",
+    "direction": "request",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 12001,
+    "protocolName": "CG_ACTOR_PLAYERBAG",
+    "declaredLength": 15,
+    "actualLength": 15,
+    "sha256": "6bbe58efe98fa5bbff07929177f5df200b12d172be36f44008746dee1cb355d1",
+    "rawFile": "frames/000263-request-12001.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "bagMode": 9,
+      "operation": 1,
+      "slotPos": 38,
+      "quantity": 1,
+      "equipPosition": -1,
+      "confirm": false,
+      "itemType": 2
+    },
+    "unparsedOffset": 15,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 264,
+    "timestamp": "2026-09-06T11:53:16.392+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 32109,
+    "protocolName": null,
+    "declaredLength": 357,
+    "actualLength": 357,
+    "sha256": "68e6de8b687b0d8f4e5977ce200b8d8701601d237ee424c19b96af4e5ba4e8b7",
+    "rawFile": "frames/000264-response-32109.bin",
+    "previousIdenticalFrame": "captures\\miniapp-protocol\\session-20260906-090442\\frames\\000010-response-32109.bin",
+    "classification": "parsed",
+    "fields": {
+      "schema": "s2c_HandBookPowerInfo",
+      "data": {
+        "infos": [
+          {
+            "info": [
+              {
+                "type": 34,
+                "power": 175,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 35,
+                "power": 191,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 37,
+                "power": 0,
+                "powerValue": 0,
+                "effect": false
+              },
+              {
+                "type": 39,
+                "power": 0,
+                "powerValue": 0,
+                "effect": false
+              },
+              {
+                "type": 13,
+                "power": 133,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 14,
+                "power": 133,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 15,
+                "power": 134,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 16,
+                "power": 134,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 18,
+                "power": 135,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 19,
+                "power": 137,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 20,
+                "power": 136,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 21,
+                "power": 139,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 22,
+                "power": 139,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 23,
+                "power": 139,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 24,
+                "power": 140,
+                "powerValue": 1,
+                "effect": false
+              }
+            ],
+            "group": 1
+          },
+          {
+            "info": [
+              {
+                "type": 0,
+                "power": 68,
+                "powerValue": 25,
+                "effect": false
+              },
+              {
+                "type": 1,
+                "power": 11,
+                "powerValue": 100,
+                "effect": false
+              },
+              {
+                "type": 2,
+                "power": 70,
+                "powerValue": 100,
+                "effect": false
+              },
+              {
+                "type": 3,
+                "power": 71,
+                "powerValue": 25,
+                "effect": false
+              },
+              {
+                "type": 4,
+                "power": 67,
+                "powerValue": 25,
+                "effect": false
+              },
+              {
+                "type": 5,
+                "power": 72,
+                "powerValue": 25,
+                "effect": false
+              },
+              {
+                "type": 6,
+                "power": 55,
+                "powerValue": 25,
+                "effect": false
+              },
+              {
+                "type": 7,
+                "power": 53,
+                "powerValue": 25,
+                "effect": false
+              },
+              {
+                "type": 8,
+                "power": 172,
+                "powerValue": 25,
+                "effect": false
+              },
+              {
+                "type": 9,
+                "power": 173,
+                "powerValue": 25,
+                "effect": false
+              },
+              {
+                "type": 10,
+                "power": 64,
+                "powerValue": 25,
+                "effect": false
+              },
+              {
+                "type": 12,
+                "power": 65,
+                "powerValue": 25,
+                "effect": false
+              }
+            ],
+            "group": 2
+          },
+          {
+            "info": [
+              {
+                "type": 7,
+                "power": 95,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 8,
+                "power": 92,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 41,
+                "power": 89,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 9,
+                "power": 94,
+                "powerValue": 1,
+                "effect": false
+              }
+            ],
+            "group": 3
+          },
+          {
+            "info": [
+              {
+                "type": 11,
+                "power": 142,
+                "powerValue": 1,
+                "effect": false
+              }
+            ],
+            "group": 11
+          }
+        ]
+      }
+    },
+    "unparsedOffset": 357,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 265,
+    "timestamp": "2026-09-06T11:53:16.402+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 12001,
+    "protocolName": "CG_ACTOR_PLAYERBAG",
+    "declaredLength": 18,
+    "actualLength": 18,
+    "sha256": "046796ad4cef2743830d1d94c8364b46897362404b9c4da6739ca80c8e8340a9",
+    "rawFile": "frames/000265-response-12001.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "bagMode": 9,
+      "itemSetData": [],
+      "skillData": {
+        "updates": [],
+        "autoSkillIds": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "activeSkillId": 731
+      }
+    },
+    "unparsedOffset": 18,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 266,
+    "timestamp": "2026-09-06T11:53:16.412+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 12049,
+    "protocolName": "CG_ACTOR_COMBATPOWER",
+    "declaredLength": 32,
+    "actualLength": 32,
+    "sha256": "7de1b063c1f3d24f15fca0ba6fe4262b3c4391f16181ffa42119d32d3a2e9445",
+    "rawFile": "frames/000266-response-12049.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "combatPower": 4130,
+      "ignore_back": 0,
+      "ignore_magic_back": 0,
+      "ignore_block": 0,
+      "ignore_insight": 0,
+      "ignore_wil": 0,
+      "ignore_touch": 0
+    },
+    "unparsedOffset": 32,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 267,
+    "timestamp": "2026-09-06T11:53:16.844+00:00",
+    "direction": "request",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 12001,
+    "protocolName": "CG_ACTOR_PLAYERBAG",
+    "declaredLength": 15,
+    "actualLength": 15,
+    "sha256": "34b637a44bd83214fcc53d67c7227ac4883c4d3c9626faabb91838514ad885a7",
+    "rawFile": "frames/000267-request-12001.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "bagMode": 9,
+      "operation": 1,
+      "slotPos": 39,
+      "quantity": 1,
+      "equipPosition": -1,
+      "confirm": false,
+      "itemType": 2
+    },
+    "unparsedOffset": 15,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 268,
+    "timestamp": "2026-09-06T11:53:16.885+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 32109,
+    "protocolName": null,
+    "declaredLength": 357,
+    "actualLength": 357,
+    "sha256": "68e6de8b687b0d8f4e5977ce200b8d8701601d237ee424c19b96af4e5ba4e8b7",
+    "rawFile": "frames/000268-response-32109.bin",
+    "previousIdenticalFrame": "captures\\miniapp-protocol\\session-20260906-090442\\frames\\000010-response-32109.bin",
+    "classification": "parsed",
+    "fields": {
+      "schema": "s2c_HandBookPowerInfo",
+      "data": {
+        "infos": [
+          {
+            "info": [
+              {
+                "type": 34,
+                "power": 175,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 35,
+                "power": 191,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 37,
+                "power": 0,
+                "powerValue": 0,
+                "effect": false
+              },
+              {
+                "type": 39,
+                "power": 0,
+                "powerValue": 0,
+                "effect": false
+              },
+              {
+                "type": 13,
+                "power": 133,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 14,
+                "power": 133,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 15,
+                "power": 134,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 16,
+                "power": 134,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 18,
+                "power": 135,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 19,
+                "power": 137,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 20,
+                "power": 136,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 21,
+                "power": 139,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 22,
+                "power": 139,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 23,
+                "power": 139,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 24,
+                "power": 140,
+                "powerValue": 1,
+                "effect": false
+              }
+            ],
+            "group": 1
+          },
+          {
+            "info": [
+              {
+                "type": 0,
+                "power": 68,
+                "powerValue": 25,
+                "effect": false
+              },
+              {
+                "type": 1,
+                "power": 11,
+                "powerValue": 100,
+                "effect": false
+              },
+              {
+                "type": 2,
+                "power": 70,
+                "powerValue": 100,
+                "effect": false
+              },
+              {
+                "type": 3,
+                "power": 71,
+                "powerValue": 25,
+                "effect": false
+              },
+              {
+                "type": 4,
+                "power": 67,
+                "powerValue": 25,
+                "effect": false
+              },
+              {
+                "type": 5,
+                "power": 72,
+                "powerValue": 25,
+                "effect": false
+              },
+              {
+                "type": 6,
+                "power": 55,
+                "powerValue": 25,
+                "effect": false
+              },
+              {
+                "type": 7,
+                "power": 53,
+                "powerValue": 25,
+                "effect": false
+              },
+              {
+                "type": 8,
+                "power": 172,
+                "powerValue": 25,
+                "effect": false
+              },
+              {
+                "type": 9,
+                "power": 173,
+                "powerValue": 25,
+                "effect": false
+              },
+              {
+                "type": 10,
+                "power": 64,
+                "powerValue": 25,
+                "effect": false
+              },
+              {
+                "type": 12,
+                "power": 65,
+                "powerValue": 25,
+                "effect": false
+              }
+            ],
+            "group": 2
+          },
+          {
+            "info": [
+              {
+                "type": 7,
+                "power": 95,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 8,
+                "power": 92,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 41,
+                "power": 89,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 9,
+                "power": 94,
+                "powerValue": 1,
+                "effect": false
+              }
+            ],
+            "group": 3
+          },
+          {
+            "info": [
+              {
+                "type": 11,
+                "power": 142,
+                "powerValue": 1,
+                "effect": false
+              }
+            ],
+            "group": 11
+          }
+        ]
+      }
+    },
+    "unparsedOffset": 357,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 269,
+    "timestamp": "2026-09-06T11:53:16.895+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 12001,
+    "protocolName": "CG_ACTOR_PLAYERBAG",
+    "declaredLength": 18,
+    "actualLength": 18,
+    "sha256": "046796ad4cef2743830d1d94c8364b46897362404b9c4da6739ca80c8e8340a9",
+    "rawFile": "frames/000269-response-12001.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "bagMode": 9,
+      "itemSetData": [],
+      "skillData": {
+        "updates": [],
+        "autoSkillIds": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "activeSkillId": 731
+      }
+    },
+    "unparsedOffset": 18,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 270,
+    "timestamp": "2026-09-06T11:53:16.911+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 12049,
+    "protocolName": "CG_ACTOR_COMBATPOWER",
+    "declaredLength": 32,
+    "actualLength": 32,
+    "sha256": "68be574a21ce02456e31f207e73293d7191eff1f4c769f54b99376b8f7a8ac96",
+    "rawFile": "frames/000270-response-12049.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "combatPower": 4122,
+      "ignore_back": 0,
+      "ignore_magic_back": 0,
+      "ignore_block": 0,
+      "ignore_insight": 0,
+      "ignore_wil": 0,
+      "ignore_touch": 0
+    },
+    "unparsedOffset": 32,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 271,
+    "timestamp": "2026-09-06T11:53:17.332+00:00",
+    "direction": "request",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 12001,
+    "protocolName": "CG_ACTOR_PLAYERBAG",
+    "declaredLength": 15,
+    "actualLength": 15,
+    "sha256": "4827910d4a1ec442d0553ac2f14c7b945133b002b34da0489654bafe07fd96fc",
+    "rawFile": "frames/000271-request-12001.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "bagMode": 9,
+      "operation": 1,
+      "slotPos": 40,
+      "quantity": 1,
+      "equipPosition": -1,
+      "confirm": false,
+      "itemType": 19
+    },
+    "unparsedOffset": 15,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 272,
+    "timestamp": "2026-09-06T11:53:17.378+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 32109,
+    "protocolName": null,
+    "declaredLength": 357,
+    "actualLength": 357,
+    "sha256": "68e6de8b687b0d8f4e5977ce200b8d8701601d237ee424c19b96af4e5ba4e8b7",
+    "rawFile": "frames/000272-response-32109.bin",
+    "previousIdenticalFrame": "captures\\miniapp-protocol\\session-20260906-090442\\frames\\000010-response-32109.bin",
+    "classification": "parsed",
+    "fields": {
+      "schema": "s2c_HandBookPowerInfo",
+      "data": {
+        "infos": [
+          {
+            "info": [
+              {
+                "type": 34,
+                "power": 175,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 35,
+                "power": 191,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 37,
+                "power": 0,
+                "powerValue": 0,
+                "effect": false
+              },
+              {
+                "type": 39,
+                "power": 0,
+                "powerValue": 0,
+                "effect": false
+              },
+              {
+                "type": 13,
+                "power": 133,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 14,
+                "power": 133,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 15,
+                "power": 134,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 16,
+                "power": 134,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 18,
+                "power": 135,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 19,
+                "power": 137,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 20,
+                "power": 136,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 21,
+                "power": 139,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 22,
+                "power": 139,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 23,
+                "power": 139,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 24,
+                "power": 140,
+                "powerValue": 1,
+                "effect": false
+              }
+            ],
+            "group": 1
+          },
+          {
+            "info": [
+              {
+                "type": 0,
+                "power": 68,
+                "powerValue": 25,
+                "effect": false
+              },
+              {
+                "type": 1,
+                "power": 11,
+                "powerValue": 100,
+                "effect": false
+              },
+              {
+                "type": 2,
+                "power": 70,
+                "powerValue": 100,
+                "effect": false
+              },
+              {
+                "type": 3,
+                "power": 71,
+                "powerValue": 25,
+                "effect": false
+              },
+              {
+                "type": 4,
+                "power": 67,
+                "powerValue": 25,
+                "effect": false
+              },
+              {
+                "type": 5,
+                "power": 72,
+                "powerValue": 25,
+                "effect": false
+              },
+              {
+                "type": 6,
+                "power": 55,
+                "powerValue": 25,
+                "effect": false
+              },
+              {
+                "type": 7,
+                "power": 53,
+                "powerValue": 25,
+                "effect": false
+              },
+              {
+                "type": 8,
+                "power": 172,
+                "powerValue": 25,
+                "effect": false
+              },
+              {
+                "type": 9,
+                "power": 173,
+                "powerValue": 25,
+                "effect": false
+              },
+              {
+                "type": 10,
+                "power": 64,
+                "powerValue": 25,
+                "effect": false
+              },
+              {
+                "type": 12,
+                "power": 65,
+                "powerValue": 25,
+                "effect": false
+              }
+            ],
+            "group": 2
+          },
+          {
+            "info": [
+              {
+                "type": 7,
+                "power": 95,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 8,
+                "power": 92,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 41,
+                "power": 89,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 9,
+                "power": 94,
+                "powerValue": 1,
+                "effect": false
+              }
+            ],
+            "group": 3
+          },
+          {
+            "info": [
+              {
+                "type": 11,
+                "power": 142,
+                "powerValue": 1,
+                "effect": false
+              }
+            ],
+            "group": 11
+          }
+        ]
+      }
+    },
+    "unparsedOffset": 357,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 273,
+    "timestamp": "2026-09-06T11:53:17.389+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 12001,
+    "protocolName": "CG_ACTOR_PLAYERBAG",
+    "declaredLength": 18,
+    "actualLength": 18,
+    "sha256": "046796ad4cef2743830d1d94c8364b46897362404b9c4da6739ca80c8e8340a9",
+    "rawFile": "frames/000273-response-12001.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "bagMode": 9,
+      "itemSetData": [],
+      "skillData": {
+        "updates": [],
+        "autoSkillIds": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "activeSkillId": 731
+      }
+    },
+    "unparsedOffset": 18,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 274,
+    "timestamp": "2026-09-06T11:53:17.400+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 12049,
+    "protocolName": "CG_ACTOR_COMBATPOWER",
+    "declaredLength": 32,
+    "actualLength": 32,
+    "sha256": "3caea702c0d04ac9e721acc6088db67bb004cadc71f9c9b2c5b0753df16ec34b",
+    "rawFile": "frames/000274-response-12049.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "combatPower": 4176,
+      "ignore_back": 0,
+      "ignore_magic_back": 0,
+      "ignore_block": 0,
+      "ignore_insight": 0,
+      "ignore_wil": 0,
+      "ignore_touch": 0
+    },
+    "unparsedOffset": 32,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 281,
+    "timestamp": "2026-09-06T11:53:21.068+00:00",
+    "direction": "request",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 20300,
+    "protocolName": null,
+    "declaredLength": 6,
+    "actualLength": 6,
+    "sha256": "373a904d6c05494e531e524dd227e2dc2a8080c6f3e632d1d6472c5d721cd7b6",
+    "rawFile": "frames/000281-request-20300.bin",
+    "previousIdenticalFrame": "captures\\miniapp-protocol\\session-20260906-065158\\frames\\000033-request-20300.bin",
+    "classification": "parsed",
+    "fields": {
+      "schema": "C2SBuddy",
+      "data": {
+        "fight": [],
+        "skillId": [],
+        "cmd": 10
+      }
+    },
+    "unparsedOffset": 6,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 284,
+    "timestamp": "2026-09-06T11:53:21.114+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 20301,
+    "protocolName": null,
+    "declaredLength": 6,
+    "actualLength": 6,
+    "sha256": "b04d76a72782438c78df898850c8000c27f75b04d2810c78c90ae4c07208f42e",
+    "rawFile": "frames/000284-response-20301.bin",
+    "previousIdenticalFrame": "captures\\miniapp-protocol\\session-20260906-065158\\frames\\000035-response-20301.bin",
+    "classification": "parsed",
+    "fields": {
+      "schema": "S2CBuddy",
+      "data": {
+        "data": [],
+        "fight": [],
+        "item": [],
+        "cmd": 10
+      }
+    },
+    "unparsedOffset": 6,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 291,
+    "timestamp": "2026-09-06T11:53:22.634+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 25013,
+    "protocolName": null,
+    "declaredLength": 50,
+    "actualLength": 50,
+    "sha256": "f40863efabc6f21fdd0eaf09cb5c7cf88eb9df7201385fc4b941d87f4553a28c",
+    "rawFile": "frames/000291-response-25013.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "schema": "s2c_ResUpdate",
+      "data": {
+        "info": [
+          {
+            "type": -1,
+            "num": 0
+          },
+          {
+            "type": -2,
+            "num": 0
+          },
+          {
+            "type": -3,
+            "num": 4813
+          }
+        ]
+      }
+    },
+    "unparsedOffset": 50,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 300,
+    "timestamp": "2026-09-06T11:53:25.588+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 25013,
+    "protocolName": null,
+    "declaredLength": 50,
+    "actualLength": 50,
+    "sha256": "1e1fa4c6f07de4df83e2cd4a3e8bb061ed3b644090ce8f7d04c14fc323989161",
+    "rawFile": "frames/000300-response-25013.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "schema": "s2c_ResUpdate",
+      "data": {
+        "info": [
+          {
+            "type": -1,
+            "num": 0
+          },
+          {
+            "type": -2,
+            "num": 0
+          },
+          {
+            "type": -3,
+            "num": 5313
+          }
+        ]
+      }
+    },
+    "unparsedOffset": 50,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 304,
+    "timestamp": "2026-09-06T11:53:26.640+00:00",
+    "direction": "request",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 12001,
+    "protocolName": "CG_ACTOR_PLAYERBAG",
+    "declaredLength": 15,
+    "actualLength": 15,
+    "sha256": "4d8859cce2589382540ca26b26c249466ec5e8948981a017ecb6dbbdd09b1bc6",
+    "rawFile": "frames/000304-request-12001.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "bagMode": 9,
+      "operation": 1,
+      "slotPos": 41,
+      "quantity": 1,
+      "equipPosition": -1,
+      "confirm": false,
+      "itemType": 1
+    },
+    "unparsedOffset": 15,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 305,
+    "timestamp": "2026-09-06T11:53:26.686+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 32109,
+    "protocolName": null,
+    "declaredLength": 357,
+    "actualLength": 357,
+    "sha256": "68e6de8b687b0d8f4e5977ce200b8d8701601d237ee424c19b96af4e5ba4e8b7",
+    "rawFile": "frames/000305-response-32109.bin",
+    "previousIdenticalFrame": "captures\\miniapp-protocol\\session-20260906-090442\\frames\\000010-response-32109.bin",
+    "classification": "parsed",
+    "fields": {
+      "schema": "s2c_HandBookPowerInfo",
+      "data": {
+        "infos": [
+          {
+            "info": [
+              {
+                "type": 34,
+                "power": 175,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 35,
+                "power": 191,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 37,
+                "power": 0,
+                "powerValue": 0,
+                "effect": false
+              },
+              {
+                "type": 39,
+                "power": 0,
+                "powerValue": 0,
+                "effect": false
+              },
+              {
+                "type": 13,
+                "power": 133,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 14,
+                "power": 133,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 15,
+                "power": 134,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 16,
+                "power": 134,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 18,
+                "power": 135,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 19,
+                "power": 137,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 20,
+                "power": 136,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 21,
+                "power": 139,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 22,
+                "power": 139,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 23,
+                "power": 139,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 24,
+                "power": 140,
+                "powerValue": 1,
+                "effect": false
+              }
+            ],
+            "group": 1
+          },
+          {
+            "info": [
+              {
+                "type": 0,
+                "power": 68,
+                "powerValue": 25,
+                "effect": false
+              },
+              {
+                "type": 1,
+                "power": 11,
+                "powerValue": 100,
+                "effect": false
+              },
+              {
+                "type": 2,
+                "power": 70,
+                "powerValue": 100,
+                "effect": false
+              },
+              {
+                "type": 3,
+                "power": 71,
+                "powerValue": 25,
+                "effect": false
+              },
+              {
+                "type": 4,
+                "power": 67,
+                "powerValue": 25,
+                "effect": false
+              },
+              {
+                "type": 5,
+                "power": 72,
+                "powerValue": 25,
+                "effect": false
+              },
+              {
+                "type": 6,
+                "power": 55,
+                "powerValue": 25,
+                "effect": false
+              },
+              {
+                "type": 7,
+                "power": 53,
+                "powerValue": 25,
+                "effect": false
+              },
+              {
+                "type": 8,
+                "power": 172,
+                "powerValue": 25,
+                "effect": false
+              },
+              {
+                "type": 9,
+                "power": 173,
+                "powerValue": 25,
+                "effect": false
+              },
+              {
+                "type": 10,
+                "power": 64,
+                "powerValue": 25,
+                "effect": false
+              },
+              {
+                "type": 12,
+                "power": 65,
+                "powerValue": 25,
+                "effect": false
+              }
+            ],
+            "group": 2
+          },
+          {
+            "info": [
+              {
+                "type": 7,
+                "power": 95,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 8,
+                "power": 92,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 41,
+                "power": 89,
+                "powerValue": 1,
+                "effect": false
+              },
+              {
+                "type": 9,
+                "power": 94,
+                "powerValue": 1,
+                "effect": false
+              }
+            ],
+            "group": 3
+          },
+          {
+            "info": [
+              {
+                "type": 11,
+                "power": 142,
+                "powerValue": 1,
+                "effect": false
+              }
+            ],
+            "group": 11
+          }
+        ]
+      }
+    },
+    "unparsedOffset": 357,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 306,
+    "timestamp": "2026-09-06T11:53:26.696+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 12001,
+    "protocolName": "CG_ACTOR_PLAYERBAG",
+    "declaredLength": 18,
+    "actualLength": 18,
+    "sha256": "046796ad4cef2743830d1d94c8364b46897362404b9c4da6739ca80c8e8340a9",
+    "rawFile": "frames/000306-response-12001.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "bagMode": 9,
+      "itemSetData": [],
+      "skillData": {
+        "updates": [],
+        "autoSkillIds": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "activeSkillId": 731
+      }
+    },
+    "unparsedOffset": 18,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 307,
+    "timestamp": "2026-09-06T11:53:26.707+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 12049,
+    "protocolName": "CG_ACTOR_COMBATPOWER",
+    "declaredLength": 32,
+    "actualLength": 32,
+    "sha256": "c37b8dc69981dce686033bb6bc14bdda6577541cd9db84b37eb15d2856fcef55",
+    "rawFile": "frames/000307-response-12049.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "combatPower": 4235,
+      "ignore_back": 0,
+      "ignore_magic_back": 0,
+      "ignore_block": 0,
+      "ignore_insight": 0,
+      "ignore_wil": 0,
+      "ignore_touch": 0
+    },
+    "unparsedOffset": 32,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 322,
+    "timestamp": "2026-09-06T11:53:33.623+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 11114,
+    "protocolName": "CG_SEND_FINISH_MISSION_LEARN_SKILL",
+    "declaredLength": 5,
+    "actualLength": 5,
+    "sha256": "4d52709d069a4b5ec45c620f47b06339c1ce83e1d79153ce858e7d45aae87874",
+    "rawFile": "frames/000322-response-11114.bin",
+    "previousIdenticalFrame": null,
+    "classification": "unconfirmed",
+    "fields": {},
+    "unparsedOffset": 4,
+    "unparsedHex": "13"
+  },
+  {
+    "sequence": 323,
+    "timestamp": "2026-09-06T11:53:33.633+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 25013,
+    "protocolName": null,
+    "declaredLength": 50,
+    "actualLength": 50,
+    "sha256": "889a3e5ad9303ca87ad9c3d11be189dfa2c149201e65b05961f3522a53136719",
+    "rawFile": "frames/000323-response-25013.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "schema": "s2c_ResUpdate",
+      "data": {
+        "info": [
+          {
+            "type": -1,
+            "num": 0
+          },
+          {
+            "type": -2,
+            "num": 0
+          },
+          {
+            "type": -3,
+            "num": 5513
+          }
+        ]
+      }
+    },
+    "unparsedOffset": 50,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 333,
+    "timestamp": "2026-09-06T11:53:36.931+00:00",
+    "direction": "request",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 12019,
+    "protocolName": "CG_BAG_REPAIR",
+    "declaredLength": 6,
+    "actualLength": 6,
+    "sha256": "c98d4a25203170103b034d3cb0465951154e017ad733642cf69c110fa0c0faa5",
+    "rawFile": "frames/000333-request-12019.bin",
+    "previousIdenticalFrame": "captures\\miniapp-protocol\\session-20260906-174356\\frames\\000013-request-12019.bin",
+    "classification": "parsed",
+    "fields": {
+      "slotPos": -1
+    },
+    "unparsedOffset": 6,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 335,
+    "timestamp": "2026-09-06T11:53:36.976+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 25013,
+    "protocolName": null,
+    "declaredLength": 50,
+    "actualLength": 50,
+    "sha256": "29c44722dc9e0ac8f5242349d74ef597695e8fd7b12c9c262c1eab80fcc3f946",
+    "rawFile": "frames/000335-response-25013.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "schema": "s2c_ResUpdate",
+      "data": {
+        "info": [
+          {
+            "type": -1,
+            "num": 0
+          },
+          {
+            "type": -2,
+            "num": 0
+          },
+          {
+            "type": -3,
+            "num": 5499
+          }
+        ]
+      }
+    },
+    "unparsedOffset": 50,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 336,
+    "timestamp": "2026-09-06T11:53:36.986+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 12049,
+    "protocolName": "CG_ACTOR_COMBATPOWER",
+    "declaredLength": 32,
+    "actualLength": 32,
+    "sha256": "c37b8dc69981dce686033bb6bc14bdda6577541cd9db84b37eb15d2856fcef55",
+    "rawFile": "frames/000336-response-12049.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "combatPower": 4235,
+      "ignore_back": 0,
+      "ignore_magic_back": 0,
+      "ignore_block": 0,
+      "ignore_insight": 0,
+      "ignore_wil": 0,
+      "ignore_touch": 0
+    },
+    "unparsedOffset": 32,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 337,
+    "timestamp": "2026-09-06T11:53:36.996+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 12019,
+    "protocolName": "CG_BAG_REPAIR",
+    "declaredLength": 9,
+    "actualLength": 9,
+    "sha256": "c3c4d87aa121ac172f1e35b5ea75143451892495f280bbaa09bdc54cc44e40eb",
+    "rawFile": "frames/000337-response-12019.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "result": 1,
+      "money3": 5499
+    },
+    "unparsedOffset": 9,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 339,
+    "timestamp": "2026-09-06T11:53:37.026+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 25013,
+    "protocolName": null,
+    "declaredLength": 50,
+    "actualLength": 50,
+    "sha256": "f67878d08a8036bece3ddfd5f8bd947fdd5766f09daec6781a7840252ef39bb9",
+    "rawFile": "frames/000339-response-25013.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "schema": "s2c_ResUpdate",
+      "data": {
+        "info": [
+          {
+            "type": -1,
+            "num": 0
+          },
+          {
+            "type": -2,
+            "num": 0
+          },
+          {
+            "type": -3,
+            "num": 5799
+          }
+        ]
+      }
+    },
+    "unparsedOffset": 50,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 341,
+    "timestamp": "2026-09-06T11:53:37.046+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 12049,
+    "protocolName": "CG_ACTOR_COMBATPOWER",
+    "declaredLength": 32,
+    "actualLength": 32,
+    "sha256": "125332c817f93e94c8026091091ddb997d2a8248fb4571f8ed97e46a5b5634e3",
+    "rawFile": "frames/000341-response-12049.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "combatPower": 4278,
+      "ignore_back": 0,
+      "ignore_magic_back": 0,
+      "ignore_block": 0,
+      "ignore_insight": 0,
+      "ignore_wil": 0,
+      "ignore_touch": 0
+    },
+    "unparsedOffset": 32,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 350,
+    "timestamp": "2026-09-06T11:53:41.368+00:00",
+    "direction": "request",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 20300,
+    "protocolName": null,
+    "declaredLength": 6,
+    "actualLength": 6,
+    "sha256": "373a904d6c05494e531e524dd227e2dc2a8080c6f3e632d1d6472c5d721cd7b6",
+    "rawFile": "frames/000350-request-20300.bin",
+    "previousIdenticalFrame": "captures\\miniapp-protocol\\session-20260906-065158\\frames\\000033-request-20300.bin",
+    "classification": "parsed",
+    "fields": {
+      "schema": "C2SBuddy",
+      "data": {
+        "fight": [],
+        "skillId": [],
+        "cmd": 10
+      }
+    },
+    "unparsedOffset": 6,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 353,
+    "timestamp": "2026-09-06T11:53:41.417+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 20301,
+    "protocolName": null,
+    "declaredLength": 6,
+    "actualLength": 6,
+    "sha256": "b04d76a72782438c78df898850c8000c27f75b04d2810c78c90ae4c07208f42e",
+    "rawFile": "frames/000353-response-20301.bin",
+    "previousIdenticalFrame": "captures\\miniapp-protocol\\session-20260906-065158\\frames\\000035-response-20301.bin",
+    "classification": "parsed",
+    "fields": {
+      "schema": "S2CBuddy",
+      "data": {
+        "data": [],
+        "fight": [],
+        "item": [],
+        "cmd": 10
+      }
+    },
+    "unparsedOffset": 6,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 356,
+    "timestamp": "2026-09-06T11:53:42.475+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 25013,
+    "protocolName": null,
+    "declaredLength": 50,
+    "actualLength": 50,
+    "sha256": "4d15f534ba3c060cf2ece2c7e106084da27d2f8982f38390ca678ca1ebe00c6d",
+    "rawFile": "frames/000356-response-25013.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "schema": "s2c_ResUpdate",
+      "data": {
+        "info": [
+          {
+            "type": -1,
+            "num": 0
+          },
+          {
+            "type": -2,
+            "num": 0
+          },
+          {
+            "type": -3,
+            "num": 5810
+          }
+        ]
+      }
+    },
+    "unparsedOffset": 50,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 365,
+    "timestamp": "2026-09-06T11:53:44.888+00:00",
+    "direction": "request",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 20300,
+    "protocolName": null,
+    "declaredLength": 6,
+    "actualLength": 6,
+    "sha256": "373a904d6c05494e531e524dd227e2dc2a8080c6f3e632d1d6472c5d721cd7b6",
+    "rawFile": "frames/000365-request-20300.bin",
+    "previousIdenticalFrame": "captures\\miniapp-protocol\\session-20260906-065158\\frames\\000033-request-20300.bin",
+    "classification": "parsed",
+    "fields": {
+      "schema": "C2SBuddy",
+      "data": {
+        "fight": [],
+        "skillId": [],
+        "cmd": 10
+      }
+    },
+    "unparsedOffset": 6,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 367,
+    "timestamp": "2026-09-06T11:53:44.931+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 20301,
+    "protocolName": null,
+    "declaredLength": 6,
+    "actualLength": 6,
+    "sha256": "b04d76a72782438c78df898850c8000c27f75b04d2810c78c90ae4c07208f42e",
+    "rawFile": "frames/000367-response-20301.bin",
+    "previousIdenticalFrame": "captures\\miniapp-protocol\\session-20260906-065158\\frames\\000035-response-20301.bin",
+    "classification": "parsed",
+    "fields": {
+      "schema": "S2CBuddy",
+      "data": {
+        "data": [],
+        "fight": [],
+        "item": [],
+        "cmd": 10
+      }
+    },
+    "unparsedOffset": 6,
+    "unparsedHex": ""
+  },
+  {
+    "sequence": 371,
+    "timestamp": "2026-09-06T11:53:47.438+00:00",
+    "direction": "response",
+    "connection": "0x355c000bcd48",
+    "webSocketOpcode": 2,
+    "messageType": 25013,
+    "protocolName": null,
+    "declaredLength": 50,
+    "actualLength": 50,
+    "sha256": "ee58c2d8525065e1fd4c8e4df9a82b03a84f90b15c9deb007d85db00b36d4688",
+    "rawFile": "frames/000371-response-25013.bin",
+    "previousIdenticalFrame": null,
+    "classification": "parsed",
+    "fields": {
+      "schema": "s2c_ResUpdate",
+      "data": {
+        "info": [
+          {
+            "type": -1,
+            "num": 0
+          },
+          {
+            "type": -2,
+            "num": 0
+          },
+          {
+            "type": -3,
+            "num": 5821
+          }
+        ]
+      }
+    },
+    "unparsedOffset": 50,
+    "unparsedHex": ""
+  }
+]
